@@ -401,6 +401,72 @@
             "path": "mods/chat_heads-1.2.4-fabric-26.1.jar",
             "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/ct4sHdcD/chat_heads-1.2.4-fabric-26.1.jar"
           }
+        },
+        {
+          "id": "mod.placeholder-api",
+          "name": "placeholder-api",
+          "type": "File",
+          "artifact": {
+            "size": 254376,
+            "MD5": "28349f7d56cfd8ee62e89a682fdd40c6",
+            "path": "mods/placeholder-api-3.0.0+26.1.jar",
+            "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/b3IPAHgB/placeholder-api-3.0.0%2B26.1.jar"
+          }
+        },
+        {
+          "id": "mod.cloth-config",
+          "name": "cloth-config",
+          "type": "File",
+          "artifact": {
+            "size": 1135373,
+            "MD5": "9296b69633619f5bbddf5115461f8213",
+            "path": "mods/cloth-config-26.1.154.jar",
+            "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/GFM8zh9J/cloth-config-26.1.154.jar"
+          }
+        },
+        {
+          "id": "mod.libipn",
+          "name": "libipn",
+          "type": "File",
+          "artifact": {
+            "size": 628598,
+            "MD5": "f61eb41a3637d813a3ba145850de1721",
+            "path": "mods/libIPN-fabric-26.1.2-6.8.0.jar",
+            "url": "https://cdn.modrinth.com/data/onSQdWhM/versions/6ibNbdde/libIPN-fabric-26.1.2-6.8.0.jar"
+          }
+        },
+        {
+          "id": "mod.fabric-language-kotlin",
+          "name": "fabric-language-kotlin",
+          "type": "File",
+          "artifact": {
+            "size": 8076848,
+            "MD5": "dff437aac8aae6eb76ae9db6b6ea9cb0",
+            "path": "mods/fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar",
+            "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/Pd0xrHCw/fabric-language-kotlin-1.13.12%2Bkotlin.2.4.0.jar"
+          }
+        },
+        {
+          "id": "mod.yacl",
+          "name": "yacl",
+          "type": "File",
+          "artifact": {
+            "size": 1121124,
+            "MD5": "9d76e0e7d58c2d99098d4132330db714",
+            "path": "mods/yet_another_config_lib_v3-3.9.4+26.1-fabric.jar",
+            "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/ylPbYWi9/yet_another_config_lib_v3-3.9.4%2B26.1-fabric.jar"
+          }
+        },
+        {
+          "id": "mod.searchables",
+          "name": "searchables",
+          "type": "File",
+          "artifact": {
+            "size": 79083,
+            "MD5": "eb6681748f32405edcff0176e40ab2e9",
+            "path": "mods/Searchables-fabric-26.1.2-1.0.2.jar",
+            "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/g7OQkxmL/Searchables-fabric-26.1.2-1.0.2.jar"
+          }
         }
       ]
     }
