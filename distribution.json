@@ -29,7 +29,7 @@
           },
           "subModules": [
             {
-              "id": "net.fabricmc:fabric-loader:0.19.3@json",
+              "id": "net.fabricmc.fabric-loader.0.19.3@json",
               "name": "Fabric Loader (VersionManifest)",
               "type": "VersionManifest",
               "artifact": {
