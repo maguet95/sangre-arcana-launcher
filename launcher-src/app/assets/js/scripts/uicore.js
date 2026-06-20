@@ -211,3 +211,8 @@ document.addEventListener('keydown', function (e) {
         window.toggleDevTools()
     }
 })
+// Sangre Arcana: sonido de intro al cargar (acompaña el de-blur del logo).
+document.addEventListener('DOMContentLoaded', () => {
+    const s = document.getElementById('saIntroSound')
+    if(s){ s.volume = 0.55; const p = s.play(); if(p && p.catch){ p.catch(() => {}) } }
+})
