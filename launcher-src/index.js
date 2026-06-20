@@ -104,9 +104,12 @@ ipcMain.handle(SHELL_OPCODE.TRASH_ITEM, async (event, ...args) => {
     }
 })
 
-// Disable hardware acceleration.
+// Disable hardware acceleration SOLO en Linux (evita glitches con GPU integrada).
+// Windows y macOS quedan fluidos con la aceleración activada.
 // https://electronjs.org/docs/tutorial/offscreen-rendering
-app.disableHardwareAcceleration()
+if(process.platform === 'linux'){
+    app.disableHardwareAcceleration()
+}
 
 
 const REDIRECT_URI_PREFIX = 'https://login.microsoftonline.com/common/oauth2/nativeclient?'

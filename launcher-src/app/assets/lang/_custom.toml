@@ -1,20 +1,21 @@
-# Custom Language File for Launcher Customizer
+# Archivo de idioma / branding — Sangre Arcana
+# Carga al final y sobrescribe en_US (mantener última en el orden de carga).
 
 [ejs.app]
-title = "Helios Launcher"
+title = "Sangre Arcana"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/dscalzi/HeliosLauncher"
+mediaGitHubURL = "https://github.com/maguet95/sangre-arcana-launcher"
 mediaXURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/zNWUXdt"
+mediaDiscordURL = "https://discord.gg/6cZCcFUzWP"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
-supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+sourceGithubLink = "https://github.com/maguet95/sangre-arcana-launcher"
+supportLink = "https://discord.gg/6cZCcFUzWP"
 
 [ejs.welcome]
-welcomeHeader = "WELCOME TO WESTEROSCRAFT"
-welcomeDescription = "Our mission is to recreate the universe imagined by author George RR Martin in his fantasy series, A Song of Ice and Fire.  Through the collaborative effort of thousands of community members, we have sought to create Westeros as accurately and precisely as possible within Minecraft.  The world we are creating is yours to explore.  Journey from Dorne to Castle Black, and if you aren’t afraid, beyond the Wall itself, but best not delay.  As the words of House Stark ominously warn: Winter is Coming."
-welcomeDescCTA = "You are just a few clicks away from Westeros."
+welcomeHeader = "BIENVENIDO A SANGRE ARCANA"
+welcomeDescription = "El reino de Aincrad está sellado en capas. La hermandad Sangre Arcana juró un pacto de sangre: poder a cambio de quedar atados al Reino. Solo ascienden quienes rompen los sellos y vencen a los Guardianes. Elige tu Senda, forja tu camino y reclama las alas arcanas. El launcher prepara todo por ti —mods, optimización y el mundo— para que entres con un solo clic."
+welcomeDescCTA = "Estás a solo un clic de entrar al Reino."
