@@ -271,7 +271,6 @@
           }
         },
         {
-<<<<<<< Updated upstream
           "id": "mod.distanthorizons",
           "name": "distanthorizons",
           "type": "File",
@@ -324,7 +323,9 @@
             "MD5": "251ba6e2353a3906a81cb19ead9c81d0",
             "path": "mods/lambdynamiclights-4.11.0+26.1.2.jar",
             "url": "https://cdn.modrinth.com/data/yBW8D80W/versions/NYmekdmx/lambdynamiclights-4.11.0%2B26.1.2.jar"
-=======
+          }
+        },
+        {
           "id": "mod.inventory-profiles-next",
           "name": "inventory-profiles-next",
           "type": "File",
@@ -399,7 +400,6 @@
             "MD5": "48979e2c42117a4a34262cce96b7805d",
             "path": "mods/chat_heads-1.2.4-fabric-26.1.jar",
             "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/ct4sHdcD/chat_heads-1.2.4-fabric-26.1.jar"
->>>>>>> Stashed changes
           }
         }
       ]
