@@ -34,5 +34,15 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maguet95/sangre-arcana-launcher.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "dist:win": "electron-builder --win",
+    "dist:linux": "electron-builder --linux"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
   }
 }
