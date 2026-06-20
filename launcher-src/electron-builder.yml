@@ -1,6 +1,6 @@
 appId: 'com.maguet.sangrearcana'
 productName: 'Sangre Arcana'
-artifactName: '${productName}-setup-${version}.${ext}'
+artifactName: 'SangreArcana-Setup-${version}.${ext}'
 
 copyright: 'Copyright © 2026 Maguet'
 
