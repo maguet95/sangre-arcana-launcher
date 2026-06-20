@@ -271,6 +271,7 @@
           }
         },
         {
+<<<<<<< Updated upstream
           "id": "mod.distanthorizons",
           "name": "distanthorizons",
           "type": "File",
@@ -323,6 +324,82 @@
             "MD5": "251ba6e2353a3906a81cb19ead9c81d0",
             "path": "mods/lambdynamiclights-4.11.0+26.1.2.jar",
             "url": "https://cdn.modrinth.com/data/yBW8D80W/versions/NYmekdmx/lambdynamiclights-4.11.0%2B26.1.2.jar"
+=======
+          "id": "mod.inventory-profiles-next",
+          "name": "inventory-profiles-next",
+          "type": "File",
+          "artifact": {
+            "size": 1459874,
+            "MD5": "e03cbb0a619900e62447aa21f0945b23",
+            "path": "mods/InventoryProfilesNext-fabric-26.1.2-2.3.3.jar",
+            "url": "https://cdn.modrinth.com/data/O7RBXm3n/versions/5zga5mQt/InventoryProfilesNext-fabric-26.1.2-2.3.3.jar"
+          }
+        },
+        {
+          "id": "mod.zoomify",
+          "name": "zoomify",
+          "type": "File",
+          "artifact": {
+            "size": 562063,
+            "MD5": "86aa1888b5115f3cecdfbf5a339dee60",
+            "path": "mods/zoomify-2.16.0+26.1.jar",
+            "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/3zi0VJPK/zoomify-2.16.0%2B26.1.jar"
+          }
+        },
+        {
+          "id": "mod.jade",
+          "name": "jade",
+          "type": "File",
+          "artifact": {
+            "size": 1016057,
+            "MD5": "ab2fee42a189c704919a13c205331eee",
+            "path": "mods/Jade-mc26.1-Fabric-26.1.5.jar",
+            "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/mGN16yZ2/Jade-mc26.1-Fabric-26.1.5.jar"
+          }
+        },
+        {
+          "id": "mod.appleskin",
+          "name": "appleskin",
+          "type": "File",
+          "artifact": {
+            "size": 181584,
+            "MD5": "d81adf38a8c5069380d7b1463b6b647f",
+            "path": "mods/appleskin-fabric-mc26.1.2-3.0.10.jar",
+            "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/zLlqqiTA/appleskin-fabric-mc26.1.2-3.0.10.jar"
+          }
+        },
+        {
+          "id": "mod.reeses-sodium-options",
+          "name": "reeses-sodium-options",
+          "type": "File",
+          "artifact": {
+            "size": 103481,
+            "MD5": "53feacd1108480c905f5af3b0243728c",
+            "path": "mods/reeses-sodium-options-fabric-2.0.5+mc26.1.1.jar",
+            "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/p88Tf9YM/reeses-sodium-options-fabric-2.0.5%2Bmc26.1.1.jar"
+          }
+        },
+        {
+          "id": "mod.controlling",
+          "name": "controlling",
+          "type": "File",
+          "artifact": {
+            "size": 85917,
+            "MD5": "678a33ceeeb4a00b321a7bd43000bd32",
+            "path": "mods/Controlling-fabric-26.1.2-26.1.2.4.jar",
+            "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/JO2OaaFV/Controlling-fabric-26.1.2-26.1.2.4.jar"
+          }
+        },
+        {
+          "id": "mod.chat-heads",
+          "name": "chat-heads",
+          "type": "File",
+          "artifact": {
+            "size": 91940,
+            "MD5": "48979e2c42117a4a34262cce96b7805d",
+            "path": "mods/chat_heads-1.2.4-fabric-26.1.jar",
+            "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/ct4sHdcD/chat_heads-1.2.4-fabric-26.1.jar"
+>>>>>>> Stashed changes
           }
         }
       ]
