@@ -537,6 +537,21 @@ async function dlAsync(login = true) {
 
     fullRepairModule.destroyReceiver()
 
+    // Reconciliación de mods: el launcher garantiza que la carpeta de mods
+    // coincida EXACTAMENTE con la distribución, eliminando mods huérfanos de
+    // versiones anteriores del modpack (evita crashes e incompatibilidades).
+    try {
+        const { reconcileMods } = require('./assets/js/modreconciler')
+        const reconResult = await reconcileMods(serv, ConfigManager.getInstanceDirectory())
+        if(reconResult.removed.length > 0){
+            loggerLaunchSuite.info(`Reconciliación de mods: ${reconResult.removed.length} mod(s) huérfano(s) eliminado(s): ${reconResult.removed.join(', ')}`)
+        } else {
+            loggerLaunchSuite.info('Reconciliación de mods: sin huérfanos, modpack sincronizado.')
+        }
+    } catch(err) {
+        loggerLaunchSuite.warn('Error durante la reconciliación de mods (no fatal):', err)
+    }
+
     setLaunchDetails(Lang.queryJS('landing.dlAsync.preparingToLaunch'))
 
     const mojangIndexProcessor = new MojangIndexProcessor(
