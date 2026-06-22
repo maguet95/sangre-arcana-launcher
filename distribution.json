@@ -221,6 +221,17 @@
           }
         },
         {
+          "id": "mod.endrem",
+          "name": "End Remastered — Los 12 Fragmentos Arcanos",
+          "type": "File",
+          "artifact": {
+            "size": 194407,
+            "MD5": "8773b510bf8894394c9446df1e8c307c",
+            "path": "mods/endrem-fabric-26.1-6.2.0.jar",
+            "url": "https://cdn.modrinth.com/data/ZJTGwAND/versions/XdJ5l8XO/endrem-fabric-26.1-6.2.0.jar"
+          }
+        },
+        {
           "id": "rp.klautos",
           "name": "Klautos Fantasia",
           "type": "File",
