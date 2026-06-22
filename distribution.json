@@ -397,17 +397,6 @@
           }
         },
         {
-          "id": "config.itemphysic",
-          "name": "ItemPhysic Config — float + press-to-pickup por defecto",
-          "type": "File",
-          "artifact": {
-            "size": 319,
-            "MD5": "eb3953ccf6a77bf9585dc066c661f2fe",
-            "path": "config/itemphysic.json",
-            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/itemphysic.json"
-          }
-        },
-        {
           "id": "mod.itemphysic",
           "name": "ItemPhysic — Items flotan, se recogen solo al presionar",
           "type": "File",
