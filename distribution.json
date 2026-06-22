@@ -177,14 +177,25 @@
           }
         },
         {
-          "id": "mod.jei",
-          "name": "jei",
+          "id": "mod.rei",
+          "name": "REI — Visor de recetas (lee recetas del servidor, funciona en Paper)",
           "type": "File",
           "artifact": {
-            "size": 1513607,
-            "MD5": "429bfb5fe6bfaba5a6517c150a40c341",
-            "path": "mods/jei-26.1.2-fabric-29.6.2.31.jar",
-            "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/bFs8UXPD/jei-26.1.2-fabric-29.6.2.31.jar"
+            "size": 2406734,
+            "MD5": "a7bab9371b0050d5b2b3c286005e7487",
+            "path": "mods/RoughlyEnoughItems-26.1.819.jar",
+            "url": "https://cdn.modrinth.com/data/nfn13YXA/versions/EAlqUmgQ/RoughlyEnoughItems-26.1.819.jar"
+          }
+        },
+        {
+          "id": "mod.architectury",
+          "name": "Architectury API — librería (dep de REI)",
+          "type": "File",
+          "artifact": {
+            "size": 586725,
+            "MD5": "f6a1985e87f10d496fc06c45aa6f618b",
+            "path": "mods/architectury-fabric-20.0.7.jar",
+            "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/fe6U0jSg/architectury-fabric-20.0.7.jar"
           }
         },
         {
