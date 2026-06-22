@@ -507,14 +507,25 @@
           }
         },
         {
-          "id": "rp.klautos",
-          "name": "Klautos Fantasia",
+          "id": "rp.faithful32x",
+          "name": "Faithful 32x — texturas suaves de alta resolución (no pixelado)",
           "type": "File",
           "artifact": {
-            "size": 45645350,
-            "MD5": "055e8fe725cafae8648f0bc22edb1c24",
-            "path": "resourcepacks/Klautos Fantasia v19.1 for 1.21.10-26.1.2.zip",
-            "url": "https://cdn.modrinth.com/data/wjWZXV2C/versions/3FIToAhn/Klautos%20Fantasia%20v19.1%20for%201.21.10-26.1.2.zip"
+            "size": 12013169,
+            "MD5": "b44a15a2be890f37e63b98b38f7f5af0",
+            "path": "resourcepacks/Faithful 32x - 26.1.zip",
+            "url": "https://cdn.modrinth.com/data/w0TnApzs/versions/Fj5GKJnf/Faithful%2032x%20-%2026.1.zip"
+          }
+        },
+        {
+          "id": "rp.fresh-animations",
+          "name": "Fresh Animations — animaciones de mobs vivas (estilo Perfection, usa ETF)",
+          "type": "File",
+          "artifact": {
+            "size": 645816,
+            "MD5": "1173945176e7428dd373f5194338ef34",
+            "path": "resourcepacks/FreshAnimations_v1.10.5.zip",
+            "url": "https://cdn.modrinth.com/data/50dA9Sha/versions/RGIzA5em/FreshAnimations_v1.10.5.zip"
           }
         },
         {
