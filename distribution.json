@@ -221,6 +221,28 @@
           }
         },
         {
+          "id": "mod.lootr",
+          "name": "Lootr — Cofres individuales por jugador",
+          "type": "File",
+          "artifact": {
+            "size": 1413812,
+            "MD5": "43e1825f5e0072a088115760180a4caa",
+            "path": "mods/lootr-fabric-26.1.2-1.22.37.111.jar",
+            "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/w6Bv4rMG/lootr-fabric-26.1.2-1.22.37.111.jar"
+          }
+        },
+        {
+          "id": "mod.firstperson",
+          "name": "First Person Model — Ver tu cuerpo en primera persona",
+          "type": "File",
+          "artifact": {
+            "size": 1599018,
+            "MD5": "240b528ef36630888e04c40ff0c480d7",
+            "path": "mods/firstperson-fabric-2.7.2-mc26.1.jar",
+            "url": "https://cdn.modrinth.com/data/H5XMjpHi/versions/PBg45FeB/firstperson-fabric-2.7.2-mc26.1.jar"
+          }
+        },
+        {
           "id": "mod.endrem",
           "name": "End Remastered — Los 12 Fragmentos Arcanos",
           "type": "File",
