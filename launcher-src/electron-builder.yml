@@ -1,0 +1,54 @@
+appId: 'com.maguet.sangrearcana'
+productName: 'Sangre Arcana'
+artifactName: 'SangreArcana-Setup-${version}.${ext}'
+
+copyright: 'Copyright © 2026 Maguet'
+
+asar: true
+compression: 'maximum'
+
+files:
+  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.travis.yml,.nvmrc,.eslintrc.json,build.js}'
+
+# Windows
+win:
+  target:
+    - target: 'nsis'
+      arch: 'x64'
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+
+# macOS
+mac:
+  target:
+    - target: 'dmg'
+      arch:
+        - 'x64'
+        - 'arm64'
+  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
+  category: 'public.app-category.games'
+
+# Linux
+linux:
+  target:
+    - 'AppImage'
+    - 'deb'
+  maintainer: 'Maguet'
+  vendor: 'Maguet'
+  synopsis: 'Launcher del clan Sangre Arcana'
+  description: 'Launcher modded de Minecraft para el clan Sangre Arcana'
+  category: 'Game'
+
+# Auto-update (1 clic) publicado en GitHub
+publish:
+  provider: 'github'
+  owner: 'maguet95'
+  repo: 'sangre-arcana-launcher'
+
+directories:
+  buildResources: 'build'
+  output: 'dist'

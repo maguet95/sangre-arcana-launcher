@@ -1,0 +1,359 @@
+# Sangre Arcana — Traducción completa al español + branding.
+# Se carga al final y sobrescribe en_US. Mantener placeholders {..} y HTML.
+
+[ejs.app]
+title = "Sangre Arcana"
+
+[ejs.landing]
+updateAvailableTooltip = "Actualización disponible"
+usernamePlaceholder = "Usuario"
+usernameEditButton = "Editar"
+settingsTooltip = "Ajustes"
+serverStatus = "SERVIDOR"
+serverStatusPlaceholder = "FUERA DE LÍNEA"
+mojangStatus = "ESTADO DE MOJANG"
+mojangStatusTooltipTitle = "Servicios"
+mojangStatusNETitle = "No&nbsp;esenciales"
+newsButton = "NOTICIAS"
+launchButton = "JUGAR"
+launchButtonPlaceholder = "&#8226; Ningún servidor seleccionado"
+launchDetails = "Espera un momento.."
+newsNavigationStatus = "{currentPage} de {totalPages}"
+newsErrorLoadSpan = "Buscando noticias.."
+newsErrorFailedSpan = "Error al cargar noticias"
+newsErrorRetryButton = "Reintentar"
+newsErrorNoneSpan = "Sin noticias"
+mediaGitHubURL = "https://github.com/maguet95/sangre-arcana-launcher"
+mediaXURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.gg/6cZCcFUzWP"
+
+[ejs.login]
+loginCancelText = "Cancelar"
+loginSubheader = "INICIAR SESIÓN EN MINECRAFT"
+loginEmailError = "* Valor inválido"
+loginEmailPlaceholder = "CORREO O USUARIO"
+loginPasswordError = "* Requerido"
+loginPasswordPlaceholder = "CONTRASEÑA"
+loginForgotPasswordLink = "https://minecraft.net/password/forgot/"
+loginForgotPasswordText = "¿olvidaste tu contraseña?"
+loginRememberMeText = "¿recordarme?"
+loginButtonText = "ENTRAR"
+loginNeedAccountLink = "https://minecraft.net/store/minecraft-java-edition/"
+loginNeedAccountText = "¿Necesitas una cuenta?"
+loginPasswordDisclaimer1 = "Tu contraseña se envía directo a Mojang y nunca se almacena."
+loginPasswordDisclaimer2 = "{appName} no está afiliado a Mojang AB."
+
+[ejs.loginOptions]
+loginOptionsTitle = "Opciones de inicio de sesión"
+loginWithMicrosoft = "Iniciar sesión con Microsoft"
+loginWithMojang = "Iniciar sesión con Mojang"
+cancelButton = "Cancelar"
+
+[ejs.overlay]
+serverSelectHeader = "Servidores disponibles"
+serverSelectConfirm = "Seleccionar"
+serverSelectCancel = "Cancelar"
+accountSelectHeader = "Selecciona una cuenta"
+accountSelectConfirm = "Seleccionar"
+accountSelectCancel = "Cancelar"
+
+[ejs.settings]
+navHeaderText = "Ajustes"
+navAccount = "Cuenta"
+navMinecraft = "Minecraft"
+navMods = "Mods"
+navJava = "Java"
+navLauncher = "Launcher"
+navAbout = "Acerca de"
+navUpdates = "Actualizaciones"
+navDone = "Listo"
+tabAccountHeaderText = "Ajustes de cuenta"
+tabAccountHeaderDesc = "Agrega cuentas nuevas o administra las existentes."
+microsoftAccount = "Microsoft"
+addMicrosoftAccount = "+ Agregar cuenta Microsoft"
+mojangAccount = "Mojang"
+addMojangAccount = "+ Agregar cuenta Mojang"
+minecraftTabHeaderText = "Ajustes de Minecraft"
+minecraftTabHeaderDesc = "Opciones relacionadas al inicio del juego."
+gameResolutionTitle = "Resolución del juego"
+launchFullscreenTitle = "Iniciar en pantalla completa."
+autoConnectTitle = "Conectar automáticamente al servidor al iniciar."
+launchDetachedTitle = "Iniciar el juego separado del launcher."
+launchDetachedDesc = "Si el juego no está separado, cerrar el launcher también cerrará el juego."
+tabModsHeaderText = "Ajustes de mods"
+tabModsHeaderDesc = "Activa o desactiva mods."
+switchServerButton = "Cambiar"
+requiredMods = "Mods requeridos"
+optionalMods = "Mods opcionales"
+dropinMods = "Mods agregados (drop-in)"
+addMods = "Agregar mods"
+dropinRefreshNote = "(F5 para refrescar)"
+shaderpacks = "Shaders"
+shaderpackDesc = "Activa o desactiva shaders. Nota: los shaders solo van fluidos en equipos potentes. Puedes agregar tus propios packs aquí."
+selectShaderpack = "Seleccionar shader"
+tabJavaHeaderText = "Ajustes de Java"
+tabJavaHeaderDesc = "Administra la configuración de Java (avanzado)."
+memoryTitle = "Memoria"
+maxRAM = "RAM máxima"
+minRAM = "RAM mínima"
+memoryDesc = "La RAM mínima recomendada es 3 gigabytes. Poner el mínimo y el máximo en el mismo valor puede reducir el lag."
+memoryTotalTitle = "Total"
+memoryAvailableTitle = "Disponible"
+javaExecutableTitle = "Ejecutable de Java"
+javaExecSelDialogTitle = "Seleccionar ejecutable de Java"
+javaExecSelButtonText = "Elegir archivo"
+javaExecDesc = "El ejecutable de Java se valida antes de iniciar el juego."
+javaPathDesc = "La ruta debe terminar con <strong>{pathSuffix}</strong>."
+jvmOptsTitle = "Opciones adicionales de JVM"
+jvmOptsDesc = "Opciones que se le pasan a la JVM al ejecutar. <em>-Xms</em> y <em>-Xmx</em> no deben incluirse."
+launcherTabHeaderText = "Ajustes del launcher"
+launcherTabHeaderDesc = "Opciones del launcher en sí."
+allowPrereleaseTitle = "Permitir actualizaciones pre-lanzamiento."
+allowPrereleaseDesc = "Los pre-lanzamientos incluyen funciones nuevas que pueden no estar totalmente probadas.<br>Siempre será verdadero si usas una versión pre-lanzamiento."
+dataDirectoryTitle = "Carpeta de datos"
+selectDataDirectory = "Seleccionar carpeta de datos"
+chooseFolder = "Elegir carpeta"
+dataDirectoryDesc = "Todos los archivos del juego y las instalaciones locales de Java se guardan en la carpeta de datos.<br>Las capturas y mundos se guardan en la carpeta de la instancia del servidor correspondiente."
+aboutTabHeaderText = "Acerca de"
+aboutTabHeaderDesc = "Ver información y notas de la versión actual."
+aboutTitle = "{appName}"
+stableRelease = "Versión estable"
+versionText = "Versión "
+sourceGithub = "Código (GitHub)"
+support = "Soporte"
+devToolsConsole = "Consola DevTools"
+releaseNotes = "Notas de versión"
+changelog = "Cambios"
+noReleaseNotes = "Sin notas de versión"
+viewReleaseNotes = "Ver notas de versión en GitHub"
+launcherUpdatesHeaderText = "Actualizaciones del launcher"
+launcherUpdatesHeaderDesc = "Descarga, instala y revisa las actualizaciones del launcher."
+checkForUpdates = "Buscar actualizaciones"
+whatsNew = "Novedades"
+updateReleaseNotes = "Notas de la actualización"
+sourceGithubLink = "https://github.com/maguet95/sangre-arcana-launcher"
+supportLink = "https://discord.gg/6cZCcFUzWP"
+
+[ejs.waiting]
+waitingText = "Esperando a Microsoft.."
+
+[ejs.welcome]
+welcomeHeader = "BIENVENIDO A SANGRE ARCANA"
+welcomeDescription = "El reino de Aincrad está sellado en capas. La hermandad Sangre Arcana juró un pacto de sangre: poder a cambio de quedar atados al Reino. Solo ascienden quienes rompen los sellos y vencen a los Guardianes. Elige tu Senda, forja tu camino y reclama las alas arcanas. El launcher prepara todo por ti —mods, optimización y el mundo— para que entres con un solo clic."
+welcomeDescCTA = "Estás a solo un clic de entrar al Reino."
+continueButton = "CONTINUAR"
+
+[js.discord]
+waiting = "Esperando al cliente.."
+state = "Servidor: {shortId}"
+
+[js.index]
+microsoftLoginTitle = "Inicio de sesión Microsoft"
+microsoftLogoutTitle = "Cerrar sesión Microsoft"
+
+[js.login]
+login = "ENTRAR"
+loggingIn = "ENTRANDO"
+success = "ÉXITO"
+tryAgain = "Reintentar"
+
+[js.login.error]
+invalidValue = "* Valor inválido"
+requiredValue = "* Requerido"
+
+[js.login.error.unknown]
+title = "Error desconocido al iniciar sesión"
+desc = "Ocurrió un error desconocido. Revisa la consola para más detalles."
+
+[js.landing.launch]
+pleaseWait = "Espera un momento.."
+failureTitle = "Error al iniciar"
+failureText = "Revisa la consola (CTRL + Shift + i) para más detalles."
+okay = "Entendido"
+
+[js.landing.selectedAccount]
+noAccountSelected = "Ninguna cuenta seleccionada"
+
+[js.landing.selectedServer]
+noSelection = "Ningún servidor seleccionado"
+loading = "Cargando.."
+
+[js.landing.serverStatus]
+server = "SERVIDOR"
+offline = "FUERA DE LÍNEA"
+players = "JUGADORES"
+
+[js.landing.systemScan]
+checking = "Revisando el sistema.."
+noCompatibleJava = "No se encontró una<br>instalación de Java compatible"
+installJavaMessage = "Para iniciar Minecraft necesitas una instalación de 64 bits de Java {major}. ¿Quieres que instalemos una copia?"
+installJava = "Instalar Java"
+installJavaManually = "Instalar manualmente"
+javaDownloadPrepare = "Preparando la descarga de Java.."
+javaDownloadFailureTitle = "Error al descargar Java"
+javaDownloadFailureText = "Revisa la consola (CTRL + Shift + i) para más detalles."
+javaRequired = "Se requiere Java<br>para iniciar"
+javaRequiredMessage = 'Se requiere una instalación válida x64 de Java {major} para iniciar.<br><br>Consulta nuestra <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Guía de Java</a> para instalarlo manualmente.'
+javaRequiredDismiss = "Entiendo"
+javaRequiredCancel = "Volver"
+
+[js.landing.downloadJava]
+findJdkFailure = "No se encontró una distribución de OpenJDK."
+javaDownloadCorruptedError = "El JDK descargado tiene un hash incorrecto; el archivo puede estar corrupto."
+extractingJava = "Extrayendo Java"
+javaInstalled = "¡Java instalado!"
+
+[js.landing.dlAsync]
+loadingServerInfo = "Cargando información del servidor.."
+fatalError = "Error fatal"
+unableToLoadDistributionIndex = "No se pudo cargar el índice de distribución. Revisa la consola (CTRL + Shift + i) para más detalles."
+pleaseWait = "Espera un momento.."
+errorDuringLaunchTitle = "Error al iniciar"
+seeConsoleForDetails = "Revisa la consola (CTRL + Shift + i) para más detalles."
+validatingFileIntegrity = "Validando integridad de archivos.."
+errorDuringFileVerificationTitle = "Error al verificar archivos"
+downloadingFiles = "Descargando archivos.."
+errorDuringFileDownloadTitle = "Error al descargar archivos"
+preparingToLaunch = "Preparando el inicio.."
+launchingGame = "Iniciando el juego.."
+launchWrapperNotDownloaded = "El archivo principal, LaunchWrapper, no se descargó bien. El juego no puede iniciar.<br><br>Para resolverlo, desactiva temporalmente tu antivirus e inicia el juego de nuevo.<br><br>Si puedes, <a href=\"https://github.com/maguet95/sangre-arcana-launcher/issues\">reporta el problema</a> indicando qué antivirus usas."
+doneEnjoyServer = "¡Listo! ¡Disfruta el Reino!"
+checkConsoleForDetails = "Revisa la consola (CTRL + Shift + i) para más detalles."
+
+[js.landing.news]
+checking = "Buscando noticias"
+
+[js.landing.discord]
+loading = "Cargando el juego.."
+joining = "¡Entrando a Aincrad!"
+joined = "¡Explorando el Reino!"
+
+[js.overlay]
+dismiss = "Cerrar"
+
+[js.settings.fileSelectors]
+executables = "Ejecutables"
+allFiles = "Todos los archivos"
+
+[js.settings.mstfLogin]
+errorTitle = "Algo salió mal"
+errorMessage = "Falló la autenticación con Microsoft. Inténtalo de nuevo."
+okButton = "OK"
+
+[js.settings.mstfLogout]
+errorTitle = "Algo salió mal"
+errorMessage = "Falló el cierre de sesión de Microsoft. Inténtalo de nuevo."
+okButton = "OK"
+
+[js.settings.authAccountSelect]
+selectButton = "Seleccionar cuenta"
+selectedButton = "Cuenta seleccionada &#10004;"
+
+[js.settings.authAccountLogout]
+lastAccountWarningTitle = "Advertencia<br>Esta es tu última cuenta"
+lastAccountWarningMessage = "Para usar el launcher debes tener al menos una cuenta iniciada. Tendrás que iniciar sesión de nuevo.<br><br>¿Seguro que quieres cerrar sesión?"
+confirmButton = "Estoy seguro"
+cancelButton = "Cancelar"
+
+[js.settings.authAccountPopulate]
+username = "Usuario"
+uuid = "UUID"
+selectAccount = "Seleccionar cuenta"
+selectedAccount = "Cuenta seleccionada ✓"
+logout = "Cerrar sesión"
+
+[js.settings.dropinMods]
+removeButton = "Quitar"
+deleteFailedTitle = "No se pudo eliminar<br>el mod {fullName}"
+deleteFailedMessage = "Asegúrate de que el archivo no esté en uso e inténtalo de nuevo."
+failedToggleTitle = "No se pudo activar/desactivar<br>uno o más mods"
+okButton = "Entendido"
+
+[js.settings.serverListing]
+mainServer = "Servidor principal"
+
+[js.settings.java]
+selectedJava = "Seleccionado: Java {version} ({vendor})"
+invalidSelection = "Selección inválida"
+requiresJava = "Requiere Java {major} x64."
+availableOptions = "Opciones disponibles para Java {major} (HotSpot VM)"
+
+[js.settings.about]
+preReleaseTitle = "Pre-lanzamiento"
+stableReleaseTitle = "Versión estable"
+releaseNotesFailed = "No se pudieron cargar las notas de versión."
+
+[js.settings.updates]
+newReleaseTitle = "Nueva versión disponible"
+newPreReleaseTitle = "Nuevo pre-lanzamiento disponible"
+downloadingButton = "Descargando.."
+downloadButton = 'Descargar desde GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Cierra el launcher y ejecuta el instalador para actualizar.</span>'
+latestVersionTitle = "Estás usando la última versión"
+checkForUpdatesButton = "Buscar actualizaciones"
+checkingForUpdatesButton = "Buscando actualizaciones.."
+
+[js.settings.msftLogin]
+errorTitle = "Falló el inicio con Microsoft"
+errorMessage = "No pudimos autenticar tu cuenta Microsoft. Inténtalo de nuevo."
+okButton = "OK"
+
+[js.uibinder.startup]
+fatalErrorTitle = "Error fatal: no se pudo cargar el índice de distribución"
+fatalErrorMessage = "No se pudo conectar a nuestros servidores para descargar el índice de distribución, y no había copias locales. <br><br>El índice de distribución es esencial: trae la información más reciente del servidor. El launcher no puede iniciar sin él. Verifica tu conexión a internet y vuelve a abrir la aplicación."
+closeButton = "Cerrar"
+
+[js.uibinder.validateAccount]
+failedMessageTitle = "No se pudo refrescar la sesión"
+failedMessage = "No pudimos refrescar la sesión de <strong>{account}</strong>. Selecciona otra cuenta o inicia sesión de nuevo."
+failedMessageSelectAnotherAccount = "No pudimos refrescar la sesión de <strong>{account}</strong>. Inicia sesión de nuevo."
+loginButton = "Iniciar sesión"
+selectAnotherAccountButton = "Seleccionar otra cuenta"
+
+[js.uicore.autoUpdate]
+checkingForUpdateButton = "Buscando actualizaciones..."
+installNowButton = "Instalar ahora"
+checkForUpdatesButton = "Buscar actualizaciones"
+
+[js.auth.microsoft.error]
+noProfileTitle = "Error al iniciar sesión:<br>Perfil no configurado"
+noProfileDesc = "Tu cuenta Microsoft aún no tiene un perfil de Minecraft configurado. Si compraste el juego o lo canjeaste por Xbox Game Pass recientemente, configura tu perfil en <a href=\"https://minecraft.net/\">Minecraft.net</a>.<br><br>Si aún no lo has comprado, también puedes hacerlo en <a href=\"https://minecraft.net/\">Minecraft.net</a>."
+noXboxAccountTitle = "Error al iniciar sesión:<br>Sin cuenta de Xbox"
+noXboxAccountDesc = "Tu cuenta Microsoft no tiene una cuenta de Xbox asociada."
+xblBannedTitle = "Error al iniciar sesión:<br>Xbox Live no disponible"
+xblBannedDesc = "Tu cuenta Microsoft es de un país donde Xbox Live no está disponible o está bloqueado."
+under18Title = "Error al iniciar sesión:<br>Se requiere aprobación parental"
+under18Desc = "Las cuentas de menores de 18 deben ser agregadas a una Familia por un adulto."
+unknownTitle = "Error desconocido al iniciar sesión"
+unknownDesc = "Ocurrió un error desconocido. Revisa la consola para más detalles."
+
+[js.auth.mojang.error]
+methodNotAllowedTitle = "Error interno:<br>Método no permitido"
+methodNotAllowedDesc = "Método no permitido. Por favor reporta este error."
+notFoundTitle = "Error interno:<br>No encontrado"
+notFoundDesc = "No se encontró el endpoint de autenticación. Por favor reporta este problema."
+accountMigratedTitle = "Error al iniciar sesión:<br>Cuenta migrada"
+accountMigratedDesc = "Intentaste iniciar con una cuenta migrada. Usa el correo de la cuenta como usuario."
+invalidCredentialsTitle = "Error al iniciar sesión:<br>Credenciales inválidas"
+invalidCredentialsDesc = "El correo o la contraseña son incorrectos. Inténtalo de nuevo."
+tooManyAttemptsTitle = "Error al iniciar sesión:<br>Demasiados intentos"
+tooManyAttemptsDesc = "Hubo demasiados intentos de inicio con esta cuenta. Inténtalo más tarde."
+invalidTokenTitle = "Error al iniciar sesión:<br>Token inválido"
+invalidTokenDesc = "El token de acceso proporcionado es inválido."
+tokenHasProfileTitle = "Error al iniciar sesión:<br>El token ya tiene perfil"
+tokenHasProfileDesc = "El token de acceso ya tiene un perfil asignado. La selección de perfiles aún no está implementada."
+credentialsMissingTitle = "Error al iniciar sesión:<br>Faltan credenciales"
+credentialsMissingDesc = "No se envió usuario/contraseña o la contraseña tiene menos de 3 caracteres."
+invalidSaltVersionTitle = "Error al iniciar sesión:<br>Versión de salt inválida"
+invalidSaltVersionDesc = "Versión de salt inválida."
+unsupportedMediaTypeTitle = "Error interno:<br>Tipo de medio no soportado"
+unsupportedMediaTypeDesc = "Tipo de medio no soportado. Por favor reporta este error."
+accountGoneTitle = "Error al iniciar sesión:<br>Cuenta migrada"
+accountGoneDesc = "La cuenta fue migrada a una cuenta Microsoft. Inicia sesión con Microsoft."
+unreachableTitle = "Error al iniciar sesión:<br>Inalcanzable"
+unreachableDesc = "No se pudo contactar los servidores de autenticación. Verifica que estén en línea y que tengas internet."
+gameNotPurchasedTitle = "Error al iniciar sesión:<br>Juego no comprado"
+gameNotPurchasedDesc = "La cuenta con la que intentas iniciar no ha comprado Minecraft. Puedes comprarlo en <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+unknownErrorTitle = "Error desconocido al iniciar sesión"
+unknownErrorDesc = "Ocurrió un error desconocido. Revisa la consola para más detalles."
