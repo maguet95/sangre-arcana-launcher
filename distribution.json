@@ -387,13 +387,35 @@
         },
         {
           "id": "mod.endrem",
-          "name": "End Remastered — Los 12 Fragmentos Arcanos",
+          "name": "End Remastered — Los 16 Ojos Arcanos",
           "type": "File",
           "artifact": {
             "size": 194407,
             "MD5": "8773b510bf8894394c9446df1e8c307c",
             "path": "mods/endrem-fabric-26.1-6.2.0.jar",
             "url": "https://cdn.modrinth.com/data/ZJTGwAND/versions/XdJ5l8XO/endrem-fabric-26.1-6.2.0.jar"
+          }
+        },
+        {
+          "id": "mod.natures-compass",
+          "name": "Nature's Compass — Encontrar cualquier bioma",
+          "type": "File",
+          "artifact": {
+            "size": 232610,
+            "MD5": "9f4ac64fe5745b0c149b1a79fee57598",
+            "path": "mods/NaturesCompass-26.1-2.5.1-fabric.jar",
+            "url": "https://cdn.modrinth.com/data/fPetb5Kh/versions/AlyHZXyH/NaturesCompass-26.1-2.5.1-fabric.jar"
+          }
+        },
+        {
+          "id": "mod.explorers-compass",
+          "name": "Explorer's Compass — Encontrar cualquier estructura",
+          "type": "File",
+          "artifact": {
+            "size": 176799,
+            "MD5": "f576d66dc61395d8eaf5bde5d83921ef",
+            "path": "mods/ExplorersCompass-26.1-2.5.1-fabric.jar",
+            "url": "https://cdn.modrinth.com/data/RV1qfVQ8/versions/FN4lCamU/ExplorersCompass-26.1-2.5.1-fabric.jar"
           }
         },
         {
