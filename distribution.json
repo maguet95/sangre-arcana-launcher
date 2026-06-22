@@ -232,6 +232,50 @@
           }
         },
         {
+          "id": "mod.entityculling",
+          "name": "Entity Culling — no renderiza entidades ocultas (+FPS)",
+          "type": "File",
+          "artifact": {
+            "size": 1581987,
+            "MD5": "0b0c63b494f076882dfd90d54af7517b",
+            "path": "mods/entityculling-fabric-1.10.5-mc26.1.jar",
+            "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/zAi8nQHj/entityculling-fabric-1.10.5-mc26.1.jar"
+          }
+        },
+        {
+          "id": "mod.ferritecore",
+          "name": "FerriteCore — reduce uso de RAM (clave para 8GB)",
+          "type": "File",
+          "artifact": {
+            "size": 72677,
+            "MD5": "9d96f643cfd220b75f47c94ea56ebc2a",
+            "path": "mods/ferritecore-9.0.0-fabric.jar",
+            "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar"
+          }
+        },
+        {
+          "id": "mod.moreculling",
+          "name": "MoreCulling — culling de caras ocultas (+FPS)",
+          "type": "File",
+          "artifact": {
+            "size": 361481,
+            "MD5": "aa04c3be15ca6cdb6571165a0c3af09a",
+            "path": "mods/moreculling-fabric-26.1.2-1.7.2.jar",
+            "url": "https://cdn.modrinth.com/data/51shyZVL/versions/IUqOgV5r/moreculling-fabric-26.1.2-1.7.2.jar"
+          }
+        },
+        {
+          "id": "mod.badoptimizations",
+          "name": "BadOptimizations — micro-optimizaciones (+FPS)",
+          "type": "File",
+          "artifact": {
+            "size": 61928,
+            "MD5": "2f089a3cbfd88478d5e7c4454164c42d",
+            "path": "mods/BadOptimizations-2.4.1-26.1-fabric.jar",
+            "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/gjIvugXc/BadOptimizations-2.4.1-26.1-fabric.jar"
+          }
+        },
+        {
           "id": "mod.creativecore",
           "name": "CreativeCore (dependencia AmbientSounds)",
           "type": "File",
