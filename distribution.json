@@ -29,12 +29,12 @@
           },
           "subModules": [
             {
-              "id": "net.fabricmc.fabric-loader.0.19.3@json",
+              "id": "net.fabricmc:fabric-loader:0.19.3@json",
               "name": "Fabric Loader (VersionManifest)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2782,
-                "MD5": "699f454dfae8123d93b8923d9cf5b8a9",
+                "MD5": "c773737f97b187c9a51c4946465578ac",
                 "url": "https://meta.fabricmc.net/v2/versions/loader/26.1.2/0.19.3/profile/json"
               }
             },
@@ -122,14 +122,25 @@
           }
         },
         {
-          "id": "mod.journeymap",
-          "name": "journeymap",
+          "id": "mod.xaero-minimap",
+          "name": "Xaero's Minimap",
           "type": "File",
           "artifact": {
-            "size": 4187537,
-            "MD5": "f946822683bdd8d268f7e213b22364bb",
-            "path": "mods/journeymap-fabric-26.1.2-6.0.0-beta.89.jar",
-            "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/qoepTCxE/journeymap-fabric-26.1.2-6.0.0-beta.89.jar"
+            "size": 2165222,
+            "MD5": "585b66b72f9288c0d0562e83a34380e6",
+            "path": "mods/xaerominimap-fabric-26.1.2-26.1.3.jar",
+            "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/XgipMybJ/xaerominimap-fabric-26.1.2-26.1.3.jar"
+          }
+        },
+        {
+          "id": "mod.xaero-worldmap",
+          "name": "Xaero's World Map",
+          "type": "File",
+          "artifact": {
+            "size": 1442644,
+            "MD5": "9d9e02b3a62680dc4c215a0e2da378fc",
+            "path": "mods/xaeroworldmap-fabric-26.1.2-1.41.1.jar",
+            "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/OC65q9Rm/xaeroworldmap-fabric-26.1.2-1.41.1.jar"
           }
         },
         {
@@ -221,6 +232,226 @@
           }
         },
         {
+          "id": "mod.creativecore",
+          "name": "CreativeCore (dependencia AmbientSounds)",
+          "type": "File",
+          "artifact": {
+            "size": 1415484,
+            "MD5": "086838b657abeb2f8d4f716c003b20fb",
+            "path": "mods/CreativeCore_FABRIC_v2.14.16_mc26.1.2.jar",
+            "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/atlpYjof/CreativeCore_FABRIC_v2.14.16_mc26.1.2.jar"
+          }
+        },
+        {
+          "id": "mod.ambientsounds",
+          "name": "AmbientSounds 6 — Sonido ambiente por bioma",
+          "type": "File",
+          "artifact": {
+            "size": 84827805,
+            "MD5": "e762aeb21458073c721ec7c896473cd3",
+            "path": "mods/AmbientSounds_FABRIC_v6.3.6_mc26.1.2.jar",
+            "url": "https://cdn.modrinth.com/data/fM515JnW/versions/DKPRMIAu/AmbientSounds_FABRIC_v6.3.6_mc26.1.2.jar"
+          }
+        },
+        {
+          "id": "mod.soundphysics",
+          "name": "Sound Physics Remastered — Eco y reverb 3D",
+          "type": "File",
+          "artifact": {
+            "size": 201734,
+            "MD5": "9c081a2d94035174c43c045290d5cdbe",
+            "path": "mods/sound-physics-remastered-fabric-1.5.1+26.1.2.jar",
+            "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/y3vsp51g/sound-physics-remastered-fabric-1.5.1%2B26.1.2.jar"
+          }
+        },
+        {
+          "id": "mod.footsteps",
+          "name": "Presence Footsteps — Pasos por material",
+          "type": "File",
+          "artifact": {
+            "size": 5746324,
+            "MD5": "ca18a19ab3e7aa247997cfa8e1f06571",
+            "path": "mods/PresenceFootsteps-1.13.2+26.1.jar",
+            "url": "https://cdn.modrinth.com/data/rcTfTZr3/versions/cGYasuau/PresenceFootsteps-1.13.2%2B26.1.jar"
+          }
+        },
+        {
+          "id": "mod.emf",
+          "name": "Entity Model Features — Modelos de entidades animados",
+          "type": "File",
+          "artifact": {
+            "size": 577617,
+            "MD5": "284d6a82fb26f31343793eb0f1b231ae",
+            "path": "mods/entity_model_features-3.2.4-26.1-fabric.jar",
+            "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/3AWXQABp/entity_model_features-3.2.4-26.1-fabric.jar"
+          }
+        },
+        {
+          "id": "mod.visuality",
+          "name": "Visuality — Partículas en acciones",
+          "type": "File",
+          "artifact": {
+            "size": 82146,
+            "MD5": "4c13148bdbf409eeadf43509f63b34fd",
+            "path": "mods/visuality-0.7.13+26.1.jar",
+            "url": "https://cdn.modrinth.com/data/rI0hvYcd/versions/rjaBaaYV/visuality-0.7.13%2B26.1.jar"
+          }
+        },
+        {
+          "id": "mod.fallingleaves",
+          "name": "Falling Leaves — Hojas cayendo en bosques",
+          "type": "File",
+          "artifact": {
+            "size": 182516,
+            "MD5": "933af303dfe6bca1ef38ce341fbe2160",
+            "path": "mods/fallingleaves-2.0.7+26.1.jar",
+            "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/JYRSvzQW/fallingleaves-2.0.7%2B26.1.jar"
+          }
+        },
+        {
+          "id": "mod.cavedust",
+          "name": "Cave Dust — Polvo en cuevas",
+          "type": "File",
+          "artifact": {
+            "size": 285371,
+            "MD5": "5bd0c0944023ccb51204a394fa1516b6",
+            "path": "mods/cave_dust-3.1.0.jar",
+            "url": "https://cdn.modrinth.com/data/jawg7zT1/versions/yXovoEQf/cave_dust-3.1.0.jar"
+          }
+        },
+        {
+          "id": "mod.waveycapes",
+          "name": "Wavey Capes — Capas animadas con física",
+          "type": "File",
+          "artifact": {
+            "size": 1837933,
+            "MD5": "9e91374854f2b81232f84345bb437c60",
+            "path": "mods/waveycapes-fabric-1.10.2-mc26.1.jar",
+            "url": "https://cdn.modrinth.com/data/kYuIpRLv/versions/ThliXvlR/waveycapes-fabric-1.10.2-mc26.1.jar"
+          }
+        },
+        {
+          "id": "mod.jade",
+          "name": "Jade — Info de bloques y mobs al mirar",
+          "type": "File",
+          "artifact": {
+            "size": 1016084,
+            "MD5": "42e3efd929f701b22f10e06fc68e4e6e",
+            "path": "mods/Jade-mc26.1-Fabric-26.1.6.jar",
+            "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/zu6GcgEW/Jade-mc26.1-Fabric-26.1.6.jar"
+          }
+        },
+        {
+          "id": "mod.balm",
+          "name": "Balm (dependencia Waystones)",
+          "type": "File",
+          "artifact": {
+            "size": 1062206,
+            "MD5": "b041e1c05d5f1ced355d921199aad626",
+            "path": "mods/balm-fabric-26.1.2-26.1.2.7.jar",
+            "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/3lOxOstM/balm-fabric-26.1.2-26.1.2.7.jar"
+          }
+        },
+        {
+          "id": "mod.waystones",
+          "name": "Waystones — Piedras de viaje rápido",
+          "type": "File",
+          "artifact": {
+            "size": 884352,
+            "MD5": "38f428d7b4adbb18ec74996b55784a30",
+            "path": "mods/waystones-fabric-26.1.2-26.1.2.6.jar",
+            "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/t5tm0XMT/waystones-fabric-26.1.2-26.1.2.6.jar"
+          }
+        },
+        {
+          "id": "mod.lootr",
+          "name": "Lootr — Cofres individuales por jugador",
+          "type": "File",
+          "artifact": {
+            "size": 1413812,
+            "MD5": "43e1825f5e0072a088115760180a4caa",
+            "path": "mods/lootr-fabric-26.1.2-1.22.37.111.jar",
+            "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/w6Bv4rMG/lootr-fabric-26.1.2-1.22.37.111.jar"
+          }
+        },
+        {
+          "id": "mod.firstperson",
+          "name": "First Person Model — Ver tu cuerpo en primera persona",
+          "type": "File",
+          "artifact": {
+            "size": 1599018,
+            "MD5": "240b528ef36630888e04c40ff0c480d7",
+            "path": "mods/firstperson-fabric-2.7.2-mc26.1.jar",
+            "url": "https://cdn.modrinth.com/data/H5XMjpHi/versions/PBg45FeB/firstperson-fabric-2.7.2-mc26.1.jar"
+          }
+        },
+        {
+          "id": "mod.endrem",
+          "name": "End Remastered — Los 16 Ojos Arcanos",
+          "type": "File",
+          "artifact": {
+            "size": 194407,
+            "MD5": "8773b510bf8894394c9446df1e8c307c",
+            "path": "mods/endrem-fabric-26.1-6.2.0.jar",
+            "url": "https://cdn.modrinth.com/data/ZJTGwAND/versions/XdJ5l8XO/endrem-fabric-26.1-6.2.0.jar"
+          }
+        },
+        {
+          "id": "config.itemphysic",
+          "name": "ItemPhysic Config — float + press-to-pickup por defecto",
+          "type": "File",
+          "artifact": {
+            "size": 319,
+            "MD5": "eb3953ccf6a77bf9585dc066c661f2fe",
+            "path": "config/itemphysic.json",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/itemphysic.json"
+          }
+        },
+        {
+          "id": "mod.itemphysic",
+          "name": "ItemPhysic — Items flotan, se recogen solo al presionar",
+          "type": "File",
+          "artifact": {
+            "size": 62683,
+            "MD5": "f36fda7b9bfca37e7436823f8e829f16",
+            "path": "mods/ItemPhysic_FABRIC_v1.8.15_mc26.1.2.jar",
+            "url": "https://cdn.modrinth.com/data/aT8BzaOj/versions/PjkIOfg7/ItemPhysic_FABRIC_v1.8.15_mc26.1.2.jar"
+          }
+        },
+        {
+          "id": "mod.clumps",
+          "name": "Clumps — Items y XP orbes apilados (no vuelan uno a uno)",
+          "type": "File",
+          "artifact": {
+            "size": 19956,
+            "MD5": "445f9394a0b6dce8863e1d8a6a1ad2c5",
+            "path": "mods/Clumps-fabric-26.1.2-26.1.2.1.jar",
+            "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/RXNrUIjA/Clumps-fabric-26.1.2-26.1.2.1.jar"
+          }
+        },
+        {
+          "id": "mod.natures-compass",
+          "name": "Nature's Compass — Encontrar cualquier bioma",
+          "type": "File",
+          "artifact": {
+            "size": 232610,
+            "MD5": "9f4ac64fe5745b0c149b1a79fee57598",
+            "path": "mods/NaturesCompass-26.1-2.5.1-fabric.jar",
+            "url": "https://cdn.modrinth.com/data/fPetb5Kh/versions/AlyHZXyH/NaturesCompass-26.1-2.5.1-fabric.jar"
+          }
+        },
+        {
+          "id": "mod.explorers-compass",
+          "name": "Explorer's Compass — Encontrar cualquier estructura",
+          "type": "File",
+          "artifact": {
+            "size": 176799,
+            "MD5": "f576d66dc61395d8eaf5bde5d83921ef",
+            "path": "mods/ExplorersCompass-26.1-2.5.1-fabric.jar",
+            "url": "https://cdn.modrinth.com/data/RV1qfVQ8/versions/FN4lCamU/ExplorersCompass-26.1-2.5.1-fabric.jar"
+          }
+        },
+        {
           "id": "rp.klautos",
           "name": "Klautos Fantasia",
           "type": "File",
@@ -263,199 +494,8 @@
             "path": "shaderpacks/BSL_v10.1.3.zip",
             "url": "https://cdn.modrinth.com/data/Q1vvjJYV/versions/hIibTfxn/BSL_v10.1.3.zip"
           }
-        },
-        {
-          "id": "mod.continuity",
-          "name": "continuity",
-          "type": "File",
-          "artifact": {
-            "size": 1040001,
-            "MD5": "6716943e4fc1495c826e351e03dc8398",
-            "path": "mods/continuity-3.0.1-beta.2+26.1.jar",
-            "url": "https://cdn.modrinth.com/data/1IjD5062/versions/l1mM6Ov7/continuity-3.0.1-beta.2%2B26.1.jar"
-          }
-        },
-        {
-          "id": "mod.visuality",
-          "name": "visuality",
-          "type": "File",
-          "artifact": {
-            "size": 82146,
-            "MD5": "4c13148bdbf409eeadf43509f63b34fd",
-            "path": "mods/visuality-0.7.13+26.1.jar",
-            "url": "https://cdn.modrinth.com/data/rI0hvYcd/versions/rjaBaaYV/visuality-0.7.13%2B26.1.jar"
-          }
-        },
-        {
-          "id": "mod.fallingleaves",
-          "name": "fallingleaves",
-          "type": "File",
-          "artifact": {
-            "size": 182516,
-            "MD5": "933af303dfe6bca1ef38ce341fbe2160",
-            "path": "mods/fallingleaves-2.0.7+26.1.jar",
-            "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/JYRSvzQW/fallingleaves-2.0.7%2B26.1.jar"
-          }
-        },
-        {
-          "id": "mod.lambdynamiclights",
-          "name": "lambdynamiclights",
-          "type": "File",
-          "artifact": {
-            "size": 1340945,
-            "MD5": "251ba6e2353a3906a81cb19ead9c81d0",
-            "path": "mods/lambdynamiclights-4.11.0+26.1.2.jar",
-            "url": "https://cdn.modrinth.com/data/yBW8D80W/versions/NYmekdmx/lambdynamiclights-4.11.0%2B26.1.2.jar"
-          }
-        },
-        {
-          "id": "mod.inventory-profiles-next",
-          "name": "inventory-profiles-next",
-          "type": "File",
-          "artifact": {
-            "size": 1459874,
-            "MD5": "e03cbb0a619900e62447aa21f0945b23",
-            "path": "mods/InventoryProfilesNext-fabric-26.1.2-2.3.3.jar",
-            "url": "https://cdn.modrinth.com/data/O7RBXm3n/versions/5zga5mQt/InventoryProfilesNext-fabric-26.1.2-2.3.3.jar"
-          }
-        },
-        {
-          "id": "mod.zoomify",
-          "name": "zoomify",
-          "type": "File",
-          "artifact": {
-            "size": 562063,
-            "MD5": "86aa1888b5115f3cecdfbf5a339dee60",
-            "path": "mods/zoomify-2.16.0+26.1.jar",
-            "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/3zi0VJPK/zoomify-2.16.0%2B26.1.jar"
-          }
-        },
-        {
-          "id": "mod.jade",
-          "name": "jade",
-          "type": "File",
-          "artifact": {
-            "size": 1016057,
-            "MD5": "ab2fee42a189c704919a13c205331eee",
-            "path": "mods/Jade-mc26.1-Fabric-26.1.5.jar",
-            "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/mGN16yZ2/Jade-mc26.1-Fabric-26.1.5.jar"
-          }
-        },
-        {
-          "id": "mod.appleskin",
-          "name": "appleskin",
-          "type": "File",
-          "artifact": {
-            "size": 181584,
-            "MD5": "d81adf38a8c5069380d7b1463b6b647f",
-            "path": "mods/appleskin-fabric-mc26.1.2-3.0.10.jar",
-            "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/zLlqqiTA/appleskin-fabric-mc26.1.2-3.0.10.jar"
-          }
-        },
-        {
-          "id": "mod.reeses-sodium-options",
-          "name": "reeses-sodium-options",
-          "type": "File",
-          "artifact": {
-            "size": 103481,
-            "MD5": "53feacd1108480c905f5af3b0243728c",
-            "path": "mods/reeses-sodium-options-fabric-2.0.5+mc26.1.1.jar",
-            "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/p88Tf9YM/reeses-sodium-options-fabric-2.0.5%2Bmc26.1.1.jar"
-          }
-        },
-        {
-          "id": "mod.controlling",
-          "name": "controlling",
-          "type": "File",
-          "artifact": {
-            "size": 85917,
-            "MD5": "678a33ceeeb4a00b321a7bd43000bd32",
-            "path": "mods/Controlling-fabric-26.1.2-26.1.2.4.jar",
-            "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/JO2OaaFV/Controlling-fabric-26.1.2-26.1.2.4.jar"
-          }
-        },
-        {
-          "id": "mod.chat-heads",
-          "name": "chat-heads",
-          "type": "File",
-          "artifact": {
-            "size": 91940,
-            "MD5": "48979e2c42117a4a34262cce96b7805d",
-            "path": "mods/chat_heads-1.2.4-fabric-26.1.jar",
-            "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/ct4sHdcD/chat_heads-1.2.4-fabric-26.1.jar"
-          }
-        },
-        {
-          "id": "mod.placeholder-api",
-          "name": "placeholder-api",
-          "type": "File",
-          "artifact": {
-            "size": 254376,
-            "MD5": "28349f7d56cfd8ee62e89a682fdd40c6",
-            "path": "mods/placeholder-api-3.0.0+26.1.jar",
-            "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/b3IPAHgB/placeholder-api-3.0.0%2B26.1.jar"
-          }
-        },
-        {
-          "id": "mod.cloth-config",
-          "name": "cloth-config",
-          "type": "File",
-          "artifact": {
-            "size": 1135373,
-            "MD5": "9296b69633619f5bbddf5115461f8213",
-            "path": "mods/cloth-config-26.1.154.jar",
-            "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/GFM8zh9J/cloth-config-26.1.154.jar"
-          }
-        },
-        {
-          "id": "mod.libipn",
-          "name": "libipn",
-          "type": "File",
-          "artifact": {
-            "size": 628598,
-            "MD5": "f61eb41a3637d813a3ba145850de1721",
-            "path": "mods/libIPN-fabric-26.1.2-6.8.0.jar",
-            "url": "https://cdn.modrinth.com/data/onSQdWhM/versions/6ibNbdde/libIPN-fabric-26.1.2-6.8.0.jar"
-          }
-        },
-        {
-          "id": "mod.fabric-language-kotlin",
-          "name": "fabric-language-kotlin",
-          "type": "File",
-          "artifact": {
-            "size": 8076848,
-            "MD5": "dff437aac8aae6eb76ae9db6b6ea9cb0",
-            "path": "mods/fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar",
-            "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/Pd0xrHCw/fabric-language-kotlin-1.13.12%2Bkotlin.2.4.0.jar"
-          }
-        },
-        {
-          "id": "mod.yacl",
-          "name": "yacl",
-          "type": "File",
-          "artifact": {
-            "size": 1121124,
-            "MD5": "9d76e0e7d58c2d99098d4132330db714",
-            "path": "mods/yet_another_config_lib_v3-3.9.4+26.1-fabric.jar",
-            "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/ylPbYWi9/yet_another_config_lib_v3-3.9.4%2B26.1-fabric.jar"
-          }
-        },
-        {
-          "id": "mod.searchables",
-          "name": "searchables",
-          "type": "File",
-          "artifact": {
-            "size": 79083,
-            "MD5": "eb6681748f32405edcff0176e40ab2e9",
-            "path": "mods/Searchables-fabric-26.1.2-1.0.2.jar",
-            "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/g7OQkxmL/Searchables-fabric-26.1.2-1.0.2.jar"
-          }
         }
-      ],
-      "javaOptions": {
-        "supported": ">=25.0.0 <26.0.0",
-        "suggestedMajor": 25
-      }
+      ]
     }
   ]
 }
