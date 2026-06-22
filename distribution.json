@@ -397,6 +397,72 @@
           }
         },
         {
+          "id": "mod.continuity",
+          "name": "Continuity — texturas conectadas (dep del pack Klautos)",
+          "type": "File",
+          "artifact": {
+            "size": 1040001,
+            "MD5": "6716943e4fc1495c826e351e03dc8398",
+            "path": "mods/continuity-3.0.1-beta.2+26.1.jar",
+            "url": "https://cdn.modrinth.com/data/1IjD5062/versions/l1mM6Ov7/continuity-3.0.1-beta.2%2B26.1.jar"
+          }
+        },
+        {
+          "id": "mod.not-enough-animations",
+          "name": "Not Enough Animations — animaciones (dep de First Person Model)",
+          "type": "File",
+          "artifact": {
+            "size": 1936117,
+            "MD5": "8ea2d27417a32ec69ae3182c80ec9dd0",
+            "path": "mods/notenoughanimations-fabric-1.12.4-mc26.1.jar",
+            "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/f7Jte8km/notenoughanimations-fabric-1.12.4-mc26.1.jar"
+          }
+        },
+        {
+          "id": "mod.placeholder-api",
+          "name": "Text Placeholder API — librería (dep de ModMenu)",
+          "type": "File",
+          "artifact": {
+            "size": 254376,
+            "MD5": "28349f7d56cfd8ee62e89a682fdd40c6",
+            "path": "mods/placeholder-api-3.0.0+26.1.jar",
+            "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/b3IPAHgB/placeholder-api-3.0.0%2B26.1.jar"
+          }
+        },
+        {
+          "id": "mod.cloth-config",
+          "name": "Cloth Config — librería de configuración (dep de Falling Leaves, Visuality)",
+          "type": "File",
+          "artifact": {
+            "size": 1135373,
+            "MD5": "9296b69633619f5bbddf5115461f8213",
+            "path": "mods/cloth-config-26.1.154.jar",
+            "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/GFM8zh9J/cloth-config-26.1.154.jar"
+          }
+        },
+        {
+          "id": "mod.etf",
+          "name": "Entity Texture Features — texturas de entidades (dep de EMF)",
+          "type": "File",
+          "artifact": {
+            "size": 740706,
+            "MD5": "f334249fd9d10d9e8b62c1db141a3c83",
+            "path": "mods/entity_texture_features_26.1-fabric-7.1.jar",
+            "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/pzW03Rc5/entity_texture_features_26.1-fabric-7.1.jar"
+          }
+        },
+        {
+          "id": "mod.shogi",
+          "name": "Shogi — librería (dep de Waystones)",
+          "type": "File",
+          "artifact": {
+            "size": 389051,
+            "MD5": "18ba02a582aa413ac3c40e010f9f2940",
+            "path": "mods/shogi-fabric-26.1.2-26.1.2.5.jar",
+            "url": "https://cdn.modrinth.com/data/bi4iCmsw/versions/VPMJVHxv/shogi-fabric-26.1.2-26.1.2.5.jar"
+          }
+        },
+        {
           "id": "mod.itemphysic",
           "name": "ItemPhysic — Items flotan, se recogen solo al presionar",
           "type": "File",
