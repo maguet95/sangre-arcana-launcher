@@ -122,14 +122,25 @@
           }
         },
         {
-          "id": "mod.journeymap",
-          "name": "journeymap",
+          "id": "mod.xaero-minimap",
+          "name": "Xaero's Minimap",
           "type": "File",
           "artifact": {
-            "size": 4187537,
-            "MD5": "f946822683bdd8d268f7e213b22364bb",
-            "path": "mods/journeymap-fabric-26.1.2-6.0.0-beta.89.jar",
-            "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/qoepTCxE/journeymap-fabric-26.1.2-6.0.0-beta.89.jar"
+            "size": 2165222,
+            "MD5": "585b66b72f9288c0d0562e83a34380e6",
+            "path": "mods/xaerominimap-fabric-26.1.2-26.1.3.jar",
+            "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/XgipMybJ/xaerominimap-fabric-26.1.2-26.1.3.jar"
+          }
+        },
+        {
+          "id": "mod.xaero-worldmap",
+          "name": "Xaero's World Map",
+          "type": "File",
+          "artifact": {
+            "size": 1442644,
+            "MD5": "9d9e02b3a62680dc4c215a0e2da378fc",
+            "path": "mods/xaeroworldmap-fabric-26.1.2-1.41.1.jar",
+            "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/OC65q9Rm/xaeroworldmap-fabric-26.1.2-1.41.1.jar"
           }
         },
         {
@@ -218,6 +229,138 @@
             "MD5": "d9d024459570aae118a113b2b14d0e3b",
             "path": "mods/dynamic-fps-3.11.7+minecraft-26.1.0-fabric.jar",
             "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/HV67Kt1R/dynamic-fps-3.11.7%2Bminecraft-26.1.0-fabric.jar"
+          }
+        },
+        {
+          "id": "mod.creativecore",
+          "name": "CreativeCore (dependencia AmbientSounds)",
+          "type": "File",
+          "artifact": {
+            "size": 1415484,
+            "MD5": "086838b657abeb2f8d4f716c003b20fb",
+            "path": "mods/CreativeCore_FABRIC_v2.14.16_mc26.1.2.jar",
+            "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/atlpYjof/CreativeCore_FABRIC_v2.14.16_mc26.1.2.jar"
+          }
+        },
+        {
+          "id": "mod.ambientsounds",
+          "name": "AmbientSounds 6 — Sonido ambiente por bioma",
+          "type": "File",
+          "artifact": {
+            "size": 84827805,
+            "MD5": "e762aeb21458073c721ec7c896473cd3",
+            "path": "mods/AmbientSounds_FABRIC_v6.3.6_mc26.1.2.jar",
+            "url": "https://cdn.modrinth.com/data/fM515JnW/versions/DKPRMIAu/AmbientSounds_FABRIC_v6.3.6_mc26.1.2.jar"
+          }
+        },
+        {
+          "id": "mod.soundphysics",
+          "name": "Sound Physics Remastered — Eco y reverb 3D",
+          "type": "File",
+          "artifact": {
+            "size": 201734,
+            "MD5": "9c081a2d94035174c43c045290d5cdbe",
+            "path": "mods/sound-physics-remastered-fabric-1.5.1+26.1.2.jar",
+            "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/y3vsp51g/sound-physics-remastered-fabric-1.5.1%2B26.1.2.jar"
+          }
+        },
+        {
+          "id": "mod.footsteps",
+          "name": "Presence Footsteps — Pasos por material",
+          "type": "File",
+          "artifact": {
+            "size": 5746324,
+            "MD5": "ca18a19ab3e7aa247997cfa8e1f06571",
+            "path": "mods/PresenceFootsteps-1.13.2+26.1.jar",
+            "url": "https://cdn.modrinth.com/data/rcTfTZr3/versions/cGYasuau/PresenceFootsteps-1.13.2%2B26.1.jar"
+          }
+        },
+        {
+          "id": "mod.emf",
+          "name": "Entity Model Features — Modelos de entidades animados",
+          "type": "File",
+          "artifact": {
+            "size": 577617,
+            "MD5": "284d6a82fb26f31343793eb0f1b231ae",
+            "path": "mods/entity_model_features-3.2.4-26.1-fabric.jar",
+            "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/3AWXQABp/entity_model_features-3.2.4-26.1-fabric.jar"
+          }
+        },
+        {
+          "id": "mod.visuality",
+          "name": "Visuality — Partículas en acciones",
+          "type": "File",
+          "artifact": {
+            "size": 82146,
+            "MD5": "4c13148bdbf409eeadf43509f63b34fd",
+            "path": "mods/visuality-0.7.13+26.1.jar",
+            "url": "https://cdn.modrinth.com/data/rI0hvYcd/versions/rjaBaaYV/visuality-0.7.13%2B26.1.jar"
+          }
+        },
+        {
+          "id": "mod.fallingleaves",
+          "name": "Falling Leaves — Hojas cayendo en bosques",
+          "type": "File",
+          "artifact": {
+            "size": 182516,
+            "MD5": "933af303dfe6bca1ef38ce341fbe2160",
+            "path": "mods/fallingleaves-2.0.7+26.1.jar",
+            "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/JYRSvzQW/fallingleaves-2.0.7%2B26.1.jar"
+          }
+        },
+        {
+          "id": "mod.cavedust",
+          "name": "Cave Dust — Polvo en cuevas",
+          "type": "File",
+          "artifact": {
+            "size": 285371,
+            "MD5": "5bd0c0944023ccb51204a394fa1516b6",
+            "path": "mods/cave_dust-3.1.0.jar",
+            "url": "https://cdn.modrinth.com/data/jawg7zT1/versions/yXovoEQf/cave_dust-3.1.0.jar"
+          }
+        },
+        {
+          "id": "mod.waveycapes",
+          "name": "Wavey Capes — Capas animadas con física",
+          "type": "File",
+          "artifact": {
+            "size": 1837933,
+            "MD5": "9e91374854f2b81232f84345bb437c60",
+            "path": "mods/waveycapes-fabric-1.10.2-mc26.1.jar",
+            "url": "https://cdn.modrinth.com/data/kYuIpRLv/versions/ThliXvlR/waveycapes-fabric-1.10.2-mc26.1.jar"
+          }
+        },
+        {
+          "id": "mod.jade",
+          "name": "Jade — Info de bloques y mobs al mirar",
+          "type": "File",
+          "artifact": {
+            "size": 1016084,
+            "MD5": "42e3efd929f701b22f10e06fc68e4e6e",
+            "path": "mods/Jade-mc26.1-Fabric-26.1.6.jar",
+            "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/zu6GcgEW/Jade-mc26.1-Fabric-26.1.6.jar"
+          }
+        },
+        {
+          "id": "mod.balm",
+          "name": "Balm (dependencia Waystones)",
+          "type": "File",
+          "artifact": {
+            "size": 1062206,
+            "MD5": "b041e1c05d5f1ced355d921199aad626",
+            "path": "mods/balm-fabric-26.1.2-26.1.2.7.jar",
+            "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/3lOxOstM/balm-fabric-26.1.2-26.1.2.7.jar"
+          }
+        },
+        {
+          "id": "mod.waystones",
+          "name": "Waystones — Piedras de viaje rápido",
+          "type": "File",
+          "artifact": {
+            "size": 884352,
+            "MD5": "38f428d7b4adbb18ec74996b55784a30",
+            "path": "mods/waystones-fabric-26.1.2-26.1.2.6.jar",
+            "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/t5tm0XMT/waystones-fabric-26.1.2-26.1.2.6.jar"
           }
         },
         {
