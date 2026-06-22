@@ -397,6 +397,17 @@
           }
         },
         {
+          "id": "mod.itemphysic",
+          "name": "ItemPhysic — Items caen con física, se recogen solo al presionar",
+          "type": "File",
+          "artifact": {
+            "size": 62683,
+            "MD5": "f36fda7b9bfca37e7436823f8e829f16",
+            "path": "mods/ItemPhysic_FABRIC_v1.8.15_mc26.1.2.jar",
+            "url": "https://cdn.modrinth.com/data/aT8BzaOj/versions/PjkIOfg7/ItemPhysic_FABRIC_v1.8.15_mc26.1.2.jar"
+          }
+        },
+        {
           "id": "mod.clumps",
           "name": "Clumps — Items y XP orbes apilados (no vuelan uno a uno)",
           "type": "File",
