@@ -552,6 +552,18 @@ async function dlAsync(login = true) {
         loggerLaunchSuite.warn('Error durante la reconciliación de mods (no fatal):', err)
     }
 
+    // Auto-activación de resource packs: el launcher activa los texture packs
+    // de la distribución en options.txt para que el jugador no haga nada.
+    try {
+        const { applyResourcePacks } = require('./assets/js/resourcepackmanager')
+        const rpResult = await applyResourcePacks(serv, ConfigManager.getInstanceDirectory())
+        if(rpResult.applied.length > 0){
+            loggerLaunchSuite.info(`Resource packs activados automáticamente: ${rpResult.applied.join(', ')}`)
+        }
+    } catch(err) {
+        loggerLaunchSuite.warn('Error activando resource packs (no fatal):', err)
+    }
+
     setLaunchDetails(Lang.queryJS('landing.dlAsync.preparingToLaunch'))
 
     const mojangIndexProcessor = new MojangIndexProcessor(
