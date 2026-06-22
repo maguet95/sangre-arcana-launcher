@@ -397,6 +397,17 @@
           }
         },
         {
+          "id": "mod.clumps",
+          "name": "Clumps — Items y XP orbes apilados (no vuelan uno a uno)",
+          "type": "File",
+          "artifact": {
+            "size": 19956,
+            "MD5": "445f9394a0b6dce8863e1d8a6a1ad2c5",
+            "path": "mods/Clumps-fabric-26.1.2-26.1.2.1.jar",
+            "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/RXNrUIjA/Clumps-fabric-26.1.2-26.1.2.1.jar"
+          }
+        },
+        {
           "id": "mod.natures-compass",
           "name": "Nature's Compass — Encontrar cualquier bioma",
           "type": "File",
