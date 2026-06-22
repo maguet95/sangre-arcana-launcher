@@ -1,0 +1,16 @@
+{
+  "general": {
+    "vanillaFlowBehavior": true,
+    "fallSounds": true,
+    "swimmingItems": true,
+    "burningItems": true
+  },
+  "pickup": {
+    "customPickup": true,
+    "pickupNormally": false,
+    "pickupWhenSneaking": false,
+    "walkOverRange": 0.0,
+    "maximumPickupRange": 1.5,
+    "alwaysPickup": []
+  }
+}
