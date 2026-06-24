@@ -17,6 +17,10 @@
       "minecraftVersion": "26.1.2",
       "mainServer": true,
       "autoconnect": true,
+      "ram": {
+        "recommended": 4096,
+        "minimum": 2048
+      },
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.19.3",
