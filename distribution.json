@@ -280,6 +280,17 @@
           }
         },
         {
+          "id": "mod.distant-horizons",
+          "name": "Distant Horizons — Vista amplia (LODs) sin perder FPS",
+          "type": "File",
+          "artifact": {
+            "size": 30169200,
+            "MD5": "f80501bf38b6f3358449ed684be0b816",
+            "path": "mods/DistantHorizons-3.1.2-b-26.1.2-fabric-neoforge.jar",
+            "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/SLJu35DT/DistantHorizons-3.1.2-b-26.1.2-fabric-neoforge.jar"
+          }
+        },
+        {
           "id": "mod.creativecore",
           "name": "CreativeCore (dependencia AmbientSounds)",
           "type": "File",

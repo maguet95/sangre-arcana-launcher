@@ -552,6 +552,18 @@ async function dlAsync(login = true) {
         loggerLaunchSuite.warn('Error durante la reconciliación de mods (no fatal):', err)
     }
 
+    // Ajustes de rendimiento por defecto (una sola vez por instancia): el
+    // launcher deja a cada jugador con buen FPS sin que configure nada.
+    try {
+        const { applyPerformanceDefaults } = require('./assets/js/performancedefaults')
+        const perfResult = await applyPerformanceDefaults(serv, ConfigManager.getInstanceDirectory())
+        if(perfResult.applied){
+            loggerLaunchSuite.info('Ajustes de rendimiento por defecto aplicados (primera vez).')
+        }
+    } catch(err) {
+        loggerLaunchSuite.warn('Error aplicando ajustes de rendimiento (no fatal):', err)
+    }
+
     // Auto-activación de resource packs: el launcher activa los texture packs
     // de la distribución en options.txt para que el jugador no haga nada.
     try {
