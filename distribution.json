@@ -280,17 +280,6 @@
           }
         },
         {
-          "id": "mod.distant-horizons",
-          "name": "Distant Horizons — Vista amplia (LODs) sin perder FPS",
-          "type": "File",
-          "artifact": {
-            "size": 30169200,
-            "MD5": "f80501bf38b6f3358449ed684be0b816",
-            "path": "mods/DistantHorizons-3.1.2-b-26.1.2-fabric-neoforge.jar",
-            "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/SLJu35DT/DistantHorizons-3.1.2-b-26.1.2-fabric-neoforge.jar"
-          }
-        },
-        {
           "id": "mod.creativecore",
           "name": "CreativeCore (dependencia AmbientSounds)",
           "type": "File",
@@ -570,10 +559,10 @@
           "name": "Faithful 32x — texturas suaves (pack.mcmeta parcheado para 26.1.2)",
           "type": "File",
           "artifact": {
-            "size": 12013144,
-            "MD5": "3fdc682d64718cbd26ffa1a33e436ebc",
-            "path": "resourcepacks/Faithful-32x-26.1.2-fixed.zip",
-            "url": "https://github.com/maguet95/sangre-arcana-launcher/releases/download/v2.3.2/Faithful-32x-26.1.2-fixed.zip"
+            "size": 12013105,
+            "MD5": "5bcd40a8fe9eaebee34ed71b1055bfaf",
+            "path": "resourcepacks/Faithful-32x-26.1.2-fix2.zip",
+            "url": "https://github.com/maguet95/sangre-arcana-launcher/releases/download/v2.3.2/Faithful-32x-26.1.2-fix2.zip"
           }
         },
         {
