@@ -576,6 +576,18 @@ async function dlAsync(login = true) {
         loggerLaunchSuite.warn('Error activando resource packs (no fatal):', err)
     }
 
+    // Distant Horizons: forzar OPEN_GL (BLAZE_3D no es compatible con Iris).
+    // Evita el popup de error y que DH no renderice. Automático para todos.
+    try {
+        const { ensureDistantHorizonsOpenGL } = require('./assets/js/dhconfig')
+        const dhResult = await ensureDistantHorizonsOpenGL(serv, ConfigManager.getInstanceDirectory())
+        if(dhResult.applied){
+            loggerLaunchSuite.info('Distant Horizons: render forzado a OPEN_GL.')
+        }
+    } catch(err) {
+        loggerLaunchSuite.warn('Error ajustando Distant Horizons (no fatal):', err)
+    }
+
     setLaunchDetails(Lang.queryJS('landing.dlAsync.preparingToLaunch'))
 
     const mojangIndexProcessor = new MojangIndexProcessor(
