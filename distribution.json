@@ -567,13 +567,13 @@
         },
         {
           "id": "rp.faithful32x",
-          "name": "Faithful 32x — texturas suaves de alta resolución (no pixelado)",
+          "name": "Faithful 32x — texturas suaves (pack.mcmeta parcheado para 26.1.2)",
           "type": "File",
           "artifact": {
-            "size": 12013169,
-            "MD5": "b44a15a2be890f37e63b98b38f7f5af0",
-            "path": "resourcepacks/Faithful 32x - 26.1.zip",
-            "url": "https://cdn.modrinth.com/data/w0TnApzs/versions/Fj5GKJnf/Faithful%2032x%20-%2026.1.zip"
+            "size": 12013144,
+            "MD5": "3fdc682d64718cbd26ffa1a33e436ebc",
+            "path": "resourcepacks/Faithful-32x-26.1.2-fixed.zip",
+            "url": "https://github.com/maguet95/sangre-arcana-launcher/releases/download/v2.3.2/Faithful-32x-26.1.2-fixed.zip"
           }
         },
         {
