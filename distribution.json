@@ -17,6 +17,10 @@
                         "minecraftVersion":  "26.1.2",
                         "mainServer":  true,
                         "autoconnect":  true,
+                        "ram":  {
+                                    "recommended":  4096,
+                                    "minimum":  2048
+                                },
                         "modules":  [
                                         {
                                             "id":  "net.fabricmc:fabric-loader:0.19.3",
@@ -123,7 +127,7 @@
                                         },
                                         {
                                             "id":  "mod.journeymap",
-                                            "name":  "JourneyMap â€” Mapa y minimapa (abre con J)",
+                                            "name":  "JourneyMap — Mapa y minimapa (abre con J)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  4188959,
@@ -178,7 +182,7 @@
                                         },
                                         {
                                             "id":  "mod.rei",
-                                            "name":  "REI â€” Visor de recetas (lee recetas del servidor, funciona en Paper)",
+                                            "name":  "REI — Visor de recetas (lee recetas del servidor, funciona en Paper)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2406734,
@@ -189,7 +193,7 @@
                                         },
                                         {
                                             "id":  "mod.architectury",
-                                            "name":  "Architectury API â€” librerÃ­a (dep de REI)",
+                                            "name":  "Architectury API — librería (dep de REI)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  586725,
@@ -233,7 +237,7 @@
                                         },
                                         {
                                             "id":  "mod.entityculling",
-                                            "name":  "Entity Culling â€” no renderiza entidades ocultas (+FPS)",
+                                            "name":  "Entity Culling — no renderiza entidades ocultas (+FPS)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1581987,
@@ -244,7 +248,7 @@
                                         },
                                         {
                                             "id":  "mod.ferritecore",
-                                            "name":  "FerriteCore â€” reduce uso de RAM (clave para 8GB)",
+                                            "name":  "FerriteCore — reduce uso de RAM (clave para 8GB)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  72677,
@@ -255,7 +259,7 @@
                                         },
                                         {
                                             "id":  "mod.moreculling",
-                                            "name":  "MoreCulling â€” culling de caras ocultas (+FPS)",
+                                            "name":  "MoreCulling — culling de caras ocultas (+FPS)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  361481,
@@ -266,7 +270,7 @@
                                         },
                                         {
                                             "id":  "mod.badoptimizations",
-                                            "name":  "BadOptimizations â€” micro-optimizaciones (+FPS)",
+                                            "name":  "BadOptimizations — micro-optimizaciones (+FPS)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  61928,
@@ -288,7 +292,7 @@
                                         },
                                         {
                                             "id":  "mod.ambientsounds",
-                                            "name":  "AmbientSounds 6 â€” Sonido ambiente por bioma",
+                                            "name":  "AmbientSounds 6 — Sonido ambiente por bioma",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  84827805,
@@ -299,7 +303,7 @@
                                         },
                                         {
                                             "id":  "mod.soundphysics",
-                                            "name":  "Sound Physics Remastered â€” Eco y reverb 3D",
+                                            "name":  "Sound Physics Remastered — Eco y reverb 3D",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  201734,
@@ -310,7 +314,7 @@
                                         },
                                         {
                                             "id":  "mod.footsteps",
-                                            "name":  "Presence Footsteps â€” Pasos por material",
+                                            "name":  "Presence Footsteps — Pasos por material",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  5746324,
@@ -321,7 +325,7 @@
                                         },
                                         {
                                             "id":  "mod.emf",
-                                            "name":  "Entity Model Features â€” Modelos de entidades animados",
+                                            "name":  "Entity Model Features — Modelos de entidades animados",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  577617,
@@ -332,7 +336,7 @@
                                         },
                                         {
                                             "id":  "mod.visuality",
-                                            "name":  "Visuality â€” PartÃ­culas en acciones",
+                                            "name":  "Visuality — Partículas en acciones",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  82146,
@@ -343,7 +347,7 @@
                                         },
                                         {
                                             "id":  "mod.fallingleaves",
-                                            "name":  "Falling Leaves â€” Hojas cayendo en bosques",
+                                            "name":  "Falling Leaves — Hojas cayendo en bosques",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  182516,
@@ -354,7 +358,7 @@
                                         },
                                         {
                                             "id":  "mod.cavedust",
-                                            "name":  "Cave Dust â€” Polvo en cuevas",
+                                            "name":  "Cave Dust — Polvo en cuevas",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  285371,
@@ -365,7 +369,7 @@
                                         },
                                         {
                                             "id":  "mod.waveycapes",
-                                            "name":  "Wavey Capes â€” Capas animadas con fÃ­sica",
+                                            "name":  "Wavey Capes — Capas animadas con física",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1837933,
@@ -376,7 +380,7 @@
                                         },
                                         {
                                             "id":  "mod.jade",
-                                            "name":  "Jade â€” Info de bloques y mobs al mirar",
+                                            "name":  "Jade — Info de bloques y mobs al mirar",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1016084,
@@ -398,7 +402,7 @@
                                         },
                                         {
                                             "id":  "mod.waystones",
-                                            "name":  "Waystones â€” Piedras de viaje rÃ¡pido",
+                                            "name":  "Waystones — Piedras de viaje rápido",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  884352,
@@ -409,7 +413,7 @@
                                         },
                                         {
                                             "id":  "mod.lootr",
-                                            "name":  "Lootr â€” Cofres individuales por jugador",
+                                            "name":  "Lootr — Cofres individuales por jugador",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1413812,
@@ -420,7 +424,7 @@
                                         },
                                         {
                                             "id":  "mod.firstperson",
-                                            "name":  "First Person Model â€” Ver tu cuerpo en primera persona",
+                                            "name":  "First Person Model — Ver tu cuerpo en primera persona",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1599018,
@@ -431,7 +435,7 @@
                                         },
                                         {
                                             "id":  "mod.endrem",
-                                            "name":  "End Remastered â€” Los 16 Ojos Arcanos",
+                                            "name":  "End Remastered — Los 16 Ojos Arcanos",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  194407,
@@ -442,7 +446,7 @@
                                         },
                                         {
                                             "id":  "mod.continuity",
-                                            "name":  "Continuity â€” texturas conectadas (dep del pack Klautos)",
+                                            "name":  "Continuity — texturas conectadas (dep del pack Klautos)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1040001,
@@ -453,7 +457,7 @@
                                         },
                                         {
                                             "id":  "mod.not-enough-animations",
-                                            "name":  "Not Enough Animations â€” animaciones (dep de First Person Model)",
+                                            "name":  "Not Enough Animations — animaciones (dep de First Person Model)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1936117,
@@ -464,7 +468,7 @@
                                         },
                                         {
                                             "id":  "mod.placeholder-api",
-                                            "name":  "Text Placeholder API â€” librerÃ­a (dep de ModMenu)",
+                                            "name":  "Text Placeholder API — librería (dep de ModMenu)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  254376,
@@ -475,7 +479,7 @@
                                         },
                                         {
                                             "id":  "mod.cloth-config",
-                                            "name":  "Cloth Config â€” librerÃ­a de configuraciÃ³n (dep de Falling Leaves, Visuality)",
+                                            "name":  "Cloth Config — librería de configuración (dep de Falling Leaves, Visuality)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1135373,
@@ -486,7 +490,7 @@
                                         },
                                         {
                                             "id":  "mod.etf",
-                                            "name":  "Entity Texture Features â€” texturas de entidades (dep de EMF)",
+                                            "name":  "Entity Texture Features — texturas de entidades (dep de EMF)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  740706,
@@ -497,7 +501,7 @@
                                         },
                                         {
                                             "id":  "mod.shogi",
-                                            "name":  "Shogi â€” librerÃ­a (dep de Waystones)",
+                                            "name":  "Shogi — librería (dep de Waystones)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  389051,
@@ -508,7 +512,7 @@
                                         },
                                         {
                                             "id":  "mod.itemphysic",
-                                            "name":  "ItemPhysic â€” Items flotan, se recogen solo al presionar",
+                                            "name":  "ItemPhysic — Items flotan, se recogen solo al presionar",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  62683,
@@ -519,7 +523,7 @@
                                         },
                                         {
                                             "id":  "mod.clumps",
-                                            "name":  "Clumps â€” Items y XP orbes apilados (no vuelan uno a uno)",
+                                            "name":  "Clumps — Items y XP orbes apilados (no vuelan uno a uno)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  19956,
@@ -530,7 +534,7 @@
                                         },
                                         {
                                             "id":  "mod.natures-compass",
-                                            "name":  "Nature\u0027s Compass â€” Encontrar cualquier bioma",
+                                            "name":  "Nature\u0027s Compass — Encontrar cualquier bioma",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  232610,
@@ -541,7 +545,7 @@
                                         },
                                         {
                                             "id":  "mod.explorers-compass",
-                                            "name":  "Explorer\u0027s Compass â€” Encontrar cualquier estructura",
+                                            "name":  "Explorer\u0027s Compass — Encontrar cualquier estructura",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  176799,
@@ -552,18 +556,18 @@
                                         },
                                         {
                                             "id":  "rp.faithful32x",
-                                            "name":  "Faithful 32x â€” texturas suaves de alta resoluciÃ³n (no pixelado)",
+                                            "name":  "Faithful 32x — texturas suaves (pack.mcmeta parcheado para 26.1.2)",
                                             "type":  "File",
                                             "artifact":  {
-                                                             "size":  12013169,
-                                                             "MD5":  "b44a15a2be890f37e63b98b38f7f5af0",
-                                                             "path":  "resourcepacks/Faithful 32x - 26.1.zip",
-                                                             "url":  "https://cdn.modrinth.com/data/w0TnApzs/versions/Fj5GKJnf/Faithful%2032x%20-%2026.1.zip"
+                                                             "size":  12013102,
+                                                             "MD5":  "f30c53cd053281e4955fa3cdf17e1987",
+                                                             "path":  "resourcepacks/Faithful-32x-26.1.2-fix3.zip",
+                                                             "url":  "https://github.com/maguet95/sangre-arcana-launcher/releases/download/v2.3.2/Faithful-32x-26.1.2-fix3.zip"
                                                          }
                                         },
                                         {
                                             "id":  "rp.fresh-animations",
-                                            "name":  "Fresh Animations â€” animaciones de mobs vivas (estilo Perfection, usa ETF)",
+                                            "name":  "Fresh Animations — animaciones de mobs vivas (estilo Perfection, usa ETF)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  645816,
@@ -611,7 +615,7 @@
                         "id":  "SangreArcana-RPG-1.20.1",
                         "name":  "Sangre Arcana RPG",
                         "description":  "Servidor RPG moddeado â€” Perfection Personalizado con lore Sangre Arcana, lore propio, 16 Ojos Arcanos y mods signature.",
-                        "icon":  "",
+                        "icon":  "http://45.77.162.119/mods/rpg/sa-server-icon.png",
                         "version":  "1.0.0",
                         "address":  "207.246.77.216:25566",
                         "minecraftVersion":  "1.20.1",
