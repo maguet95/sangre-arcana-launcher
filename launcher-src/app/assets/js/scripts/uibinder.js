@@ -9,9 +9,11 @@ const { Type }      = require('helios-distribution-types')
 const AuthManager   = require('./assets/js/authmanager')
 const ConfigManager = require('./assets/js/configmanager')
 const { DistroAPI } = require('./assets/js/distromanager')
+const { checkGpuDriver } = require('./assets/js/driverchecker')
 
 let rscShouldLoad = false
 let fatalStartupError = false
+let driverWarningShown = false
 
 // Mapping of each view to their container IDs.
 const VIEWS = {
@@ -107,6 +109,43 @@ async function showMainUI(data){
     initNews().then(() => {
         $('#newsContainer *').attr('tabindex', '-1')
     })
+
+    // Aviso de driver de video desactualizado (causa #1 de FPS bajos en
+    // equipos Intel). Se muestra una sola vez, sin bloquear el arranque.
+    setTimeout(() => { maybeWarnOutdatedDriver() }, 4000)
+}
+
+/**
+ * Si la GPU tiene un driver viejo (Intel pre-2022), muestra un aviso amable
+ * con un botón directo para actualizarlo. Solo se muestra estando en la
+ * pantalla principal y nunca más de una vez por sesión.
+ */
+async function maybeWarnOutdatedDriver(){
+    if(driverWarningShown || currentView !== VIEWS.landing){
+        return
+    }
+    try {
+        const res = await checkGpuDriver()
+        if(res.outdated && currentView === VIEWS.landing){
+            driverWarningShown = true
+            setOverlayContent(
+                'Driver de video desactualizado',
+                `Tu tarjeta <strong>${res.name}</strong> usa un driver de video viejo (${res.date}) que provoca <strong>FPS muy bajos</strong> en el juego.<br><br>Actualizarlo es <strong>gratis, rápido y seguro</strong>, y puede multiplicar tu rendimiento varias veces. Se abre la página oficial, descargas el asistente, instalas y reinicias.`,
+                'Actualizar driver',
+                'Ahora no'
+            )
+            setOverlayHandler(() => {
+                shell.openExternal(res.url)
+                toggleOverlay(false)
+            })
+            setDismissHandler(() => {
+                toggleOverlay(false)
+            })
+            toggleOverlay(true, true)
+        }
+    } catch(err) {
+        // Nunca bloquear por esto.
+    }
 }
 
 function showFatalStartupError(){
