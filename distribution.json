@@ -3560,8 +3560,8 @@
         }
       ],
       "ram": {
-        "recommended": 6144,
-        "minimum": 4096
+        "recommended": 4096,
+        "minimum": 3072
       }
     }
   ]
