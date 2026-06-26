@@ -3698,13 +3698,13 @@
         }
       ],
       "javaOptions": {
-        "suggestedMajor": 17,
-        "supported": ">=17.0.0 <18.0.0",
-        "distribution": "JDK",
-        "ram": {
-          "recommended": 4096,
-          "minimum": 3072
-        }
+        "distribution": "TEMURIN",
+        "supported": ">=17.x <18.x",
+        "suggestedMajor": 17
+      },
+      "ram": {
+        "recommended": 4096,
+        "minimum": 3072
       }
     }
   ]
