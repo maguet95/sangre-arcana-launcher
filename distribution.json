@@ -3685,6 +3685,16 @@
             "MD5": "d47dd885b52d1d95a1761d976b99ff5e",
             "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/aquamirae-forge-1.20.1-6.4.0.jar"
           }
+        },
+        {
+          "id": "com.sk89q.worldedit:worldedit-mod:7.2.15@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5825402,
+            "MD5": "bd0e7cff7896348faab92e43300d0639",
+            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar"
+          }
         }
       ],
       "javaOptions": {
