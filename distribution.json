@@ -3695,6 +3695,17 @@
             "MD5": "bd0e7cff7896348faab92e43300d0639",
             "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar"
           }
+        },
+        {
+          "id": "rp.sangre-arcana-es",
+          "name": "Sangre Arcana ES — guías y mods en español",
+          "type": "File",
+          "artifact": {
+            "size": 273198,
+            "MD5": "1954131811a855087c8f388ab40535f9",
+            "path": "resourcepacks/sangre-arcana-es.zip",
+            "url": "https://github.com/maguet95/sangre-arcana-launcher/releases/download/rp-es-v1/sangre-arcana-es.zip"
+          }
         }
       ],
       "javaOptions": {
