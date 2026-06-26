@@ -3558,7 +3558,11 @@
             "url": "http://45.77.162.119/mods/rpg/xaeros_waystones_compability-1.0.jar"
           }
         }
-      ]
+      ],
+      "ram": {
+        "recommended": 6144,
+        "minimum": 4096
+      }
     }
   ]
 }
