@@ -3667,7 +3667,7 @@
           }
         },
         {
-          "id": "mod.obscure_api_18",
+          "id": "com.obscuria.obscureapi:obscure_api:18@jar",
           "name": "obscure_api-18",
           "type": "ForgeMod",
           "artifact": {
@@ -3677,7 +3677,7 @@
           }
         },
         {
-          "id": "mod.aquamirae_forge_1_20_1_6_4_0",
+          "id": "com.obscuria:aquamirae:6.4.0@jar",
           "name": "aquamirae-forge-1.20.1-6.4.0",
           "type": "ForgeMod",
           "artifact": {
