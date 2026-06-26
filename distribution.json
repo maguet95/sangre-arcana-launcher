@@ -617,7 +617,7 @@
       "description": "Servidor RPG moddeado — Perfection Personalizado, lore Sangre Arcana, 16 Ojos Arcanos.",
       "icon": "http://45.77.162.119/mods/rpg/sa-server-icon.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "207.246.77.216:25566",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
