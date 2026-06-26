@@ -3665,6 +3665,26 @@
             "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/Zeta-1.0-30.jar",
             "MD5": "9fa915bd7e2c64217223b6a98ab5dc47"
           }
+        },
+        {
+          "id": "mod.obscure_api_18",
+          "name": "obscure_api-18",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1128392,
+            "MD5": "2ebabd6dd8f9e8dad64b0c5cbc187f8d",
+            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/obscure_api-18.jar"
+          }
+        },
+        {
+          "id": "mod.aquamirae_forge_1_20_1_6_4_0",
+          "name": "aquamirae-forge-1.20.1-6.4.0",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19073985,
+            "MD5": "d47dd885b52d1d95a1761d976b99ff5e",
+            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/aquamirae-forge-1.20.1-6.4.0.jar"
+          }
         }
       ],
       "javaOptions": {
