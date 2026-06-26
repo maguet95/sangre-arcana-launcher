@@ -627,8 +627,8 @@
           "name": "Forge Loader",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 6022245,
-            "MD5": "b007e81d64b2ac19d5940f220a0e92b8",
+            "size": 6056587,
+            "MD5": "1f25e574d30ba5b336fb97cdf8335be4",
             "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar"
           }
         },
