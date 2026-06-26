@@ -614,7 +614,7 @@
                     {
                         "id":  "SangreArcana-RPG-1.20.1",
                         "name":  "Sangre Arcana RPG",
-                        "description":  "Servidor RPG moddeado â€” Perfection Personalizado con lore Sangre Arcana, lore propio, 16 Ojos Arcanos y mods signature.",
+                        "description":  "Servidor RPG moddeado â€” Perfection Personalizado, lore Sangre Arcana, 16 Ojos Arcanos.",
                         "icon":  "http://45.77.162.119/mods/rpg/sa-server-icon.png",
                         "version":  "1.0.0",
                         "address":  "207.246.77.216:25566",
@@ -623,18 +623,18 @@
                         "autoconnect":  false,
                         "modules":  [
                                         {
-                                            "id":  "net.minecraftforge:forge:1.20.1-47.3.10",
+                                            "id":  "net.minecraftforge:forge:1.20.1-47.4.0",
                                             "name":  "Forge Loader",
                                             "type":  "ForgeHosted",
                                             "artifact":  {
                                                              "size":  6022245,
                                                              "MD5":  "b007e81d64b2ac19d5940f220a0e92b8",
-                                                             "url":  "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.10/forge-1.20.1-47.3.10-installer.jar"
+                                                             "url":  "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-installer.jar"
                                                          }
                                         },
                                         {
                                             "id":  "mod.ai_improvements_1_20_0_5_2",
-                                            "name":  "AI Improvements 1.20 0.5.2",
+                                            "name":  "AI-Improvements-1.20-0.5.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  29553,
@@ -645,7 +645,7 @@
                                         },
                                         {
                                             "id":  "mod.advancementplaques_1_20_1_forge_1_6_9",
-                                            "name":  "AdvancementPlaques 1.20.1 forge 1.6.9",
+                                            "name":  "AdvancementPlaques-1.20.1-forge-1.6.9",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  208850,
@@ -656,7 +656,7 @@
                                         },
                                         {
                                             "id":  "mod.ambientsounds_forge_v6_1_11_mc1_20_1",
-                                            "name":  "AmbientSounds FORGE v6.1.11 mc1.20.1",
+                                            "name":  "AmbientSounds_FORGE_v6.1.11_mc1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  51722248,
@@ -667,7 +667,7 @@
                                         },
                                         {
                                             "id":  "mod.aquaculture_1_20_1_2_5_5",
-                                            "name":  "Aquaculture 1.20.1 2.5.5",
+                                            "name":  "Aquaculture-1.20.1-2.5.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  601173,
@@ -678,7 +678,7 @@
                                         },
                                         {
                                             "id":  "mod.attributefix_forge_1_20_1_21_0_4",
-                                            "name":  "AttributeFix Forge 1.20.1 21.0.4",
+                                            "name":  "AttributeFix-Forge-1.20.1-21.0.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  19471,
@@ -689,7 +689,7 @@
                                         },
                                         {
                                             "id":  "mod.bomd_forge_1_20_1_1_1_1",
-                                            "name":  "BOMD Forge 1.20.1 1.1.1",
+                                            "name":  "BOMD-Forge-1.20.1-1.1.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1751110,
@@ -700,7 +700,7 @@
                                         },
                                         {
                                             "id":  "mod.badmobs_1_20_1_19_0_4",
-                                            "name":  "BadMobs 1.20.1 19.0.4",
+                                            "name":  "BadMobs-1.20.1-19.0.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  10425,
@@ -711,7 +711,7 @@
                                         },
                                         {
                                             "id":  "mod.beggars_1_0_0_1_20_1_forge",
-                                            "name":  "Beggars 1.0.0 1.20.1 forge",
+                                            "name":  "Beggars-1.0.0-1.20.1-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  181391,
@@ -722,7 +722,7 @@
                                         },
                                         {
                                             "id":  "mod.betteradvancements_forge_1_20_1_0_4_2_10",
-                                            "name":  "BetterAdvancements Forge 1.20.1 0.4.2.10",
+                                            "name":  "BetterAdvancements-Forge-1.20.1-0.4.2.10",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  98123,
@@ -733,7 +733,7 @@
                                         },
                                         {
                                             "id":  "mod.betterquestpopup_1_20_1_forge_1_1_0",
-                                            "name":  "BetterQuestPopup 1.20.1(forge) 1.1.0",
+                                            "name":  "BetterQuestPopup-1.20.1(forge)-1.1.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  186316,
@@ -744,7 +744,7 @@
                                         },
                                         {
                                             "id":  "mod.bettertotemofundying_forge_1_20_1_1_2_0",
-                                            "name":  "BetterTotemOfUndying Forge 1.20.1 1.2.0",
+                                            "name":  "BetterTotemOfUndying-Forge-1.20.1-1.2.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  63453,
@@ -755,7 +755,7 @@
                                         },
                                         {
                                             "id":  "mod.biomesoplenty_1_20_1_18_0_0_592",
-                                            "name":  "BiomesOPlenty 1.20.1 18.0.0.592",
+                                            "name":  "BiomesOPlenty-1.20.1-18.0.0.592",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  21800460,
@@ -766,7 +766,7 @@
                                         },
                                         {
                                             "id":  "mod.bookshelf_forge_1_20_1_20_2_13",
-                                            "name":  "Bookshelf Forge 1.20.1 20.2.13",
+                                            "name":  "Bookshelf-Forge-1.20.1-20.2.13",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  343962,
@@ -788,7 +788,7 @@
                                         },
                                         {
                                             "id":  "mod.bountiful_6_0_4_1_20_1_forge",
-                                            "name":  "Bountiful 6.0.4+1.20.1 forge",
+                                            "name":  "Bountiful-6.0.4+1.20.1-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  502662,
@@ -821,7 +821,7 @@
                                         },
                                         {
                                             "id":  "mod.cardiac_forge_0_5_3_2_1_20_1",
-                                            "name":  "Cardiac FORGE 0.5.3.2+1.20.1",
+                                            "name":  "Cardiac-FORGE-0.5.3.2+1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  49405,
@@ -832,7 +832,7 @@
                                         },
                                         {
                                             "id":  "mod.cerbonsapi_forge_1_20_1_1_0_0",
-                                            "name":  "CerbonsApi Forge 1.20.1 1.0.0",
+                                            "name":  "CerbonsApi-Forge-1.20.1-1.0.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  134593,
@@ -843,7 +843,7 @@
                                         },
                                         {
                                             "id":  "mod.chatimpressiveanimation_forge_1_3_0_mc1_20_4",
-                                            "name":  "ChatImpressiveAnimation forge 1.3.0+mc1.20.4",
+                                            "name":  "ChatImpressiveAnimation-forge-1.3.0+mc1.20.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  253755,
@@ -854,7 +854,7 @@
                                         },
                                         {
                                             "id":  "mod.clumps_forge_1_20_1_12_0_0_4",
-                                            "name":  "Clumps forge 1.20.1 12.0.0.4",
+                                            "name":  "Clumps-forge-1.20.1-12.0.0.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  20299,
@@ -865,7 +865,7 @@
                                         },
                                         {
                                             "id":  "mod.controlling_forge_1_20_1_12_0_2",
-                                            "name":  "Controlling forge 1.20.1 12.0.2",
+                                            "name":  "Controlling-forge-1.20.1-12.0.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  115280,
@@ -876,7 +876,7 @@
                                         },
                                         {
                                             "id":  "mod.corgilib_forge_1_20_1_4_0_3_4",
-                                            "name":  "Corgilib Forge 1.20.1 4.0.3.4",
+                                            "name":  "Corgilib-Forge-1.20.1-4.0.3.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  360700,
@@ -887,7 +887,7 @@
                                         },
                                         {
                                             "id":  "mod.crafttweaker_forge_1_20_1_14_0_57",
-                                            "name":  "CraftTweaker forge 1.20.1 14.0.57",
+                                            "name":  "CraftTweaker-forge-1.20.1-14.0.57",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  3267904,
@@ -898,7 +898,7 @@
                                         },
                                         {
                                             "id":  "mod.creativecore_forge_v2_12_32_mc1_20_1",
-                                            "name":  "CreativeCore FORGE v2.12.32 mc1.20.1",
+                                            "name":  "CreativeCore_FORGE_v2.12.32_mc1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1158417,
@@ -909,7 +909,7 @@
                                         },
                                         {
                                             "id":  "mod.culllessleaves_reforged_1_20_1_1_0_5",
-                                            "name":  "CullLessLeaves Reforged 1.20.1 1.0.5",
+                                            "name":  "CullLessLeaves-Reforged-1.20.1-1.0.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  22474,
@@ -920,7 +920,7 @@
                                         },
                                         {
                                             "id":  "mod.elysiumapi_1_20_1_1_1_3",
-                                            "name":  "ElysiumAPI 1.20.1 1.1.3",
+                                            "name":  "ElysiumAPI-1.20.1-1.1.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  107624,
@@ -931,7 +931,7 @@
                                         },
                                         {
                                             "id":  "mod.enigmaticlegacy_2_30_1",
-                                            "name":  "EnigmaticLegacy 2.30.1",
+                                            "name":  "EnigmaticLegacy-2.30.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  7276807,
@@ -942,7 +942,7 @@
                                         },
                                         {
                                             "id":  "mod.euphoriapatcher_1_5_2_r5_4_forge",
-                                            "name":  "EuphoriaPatcher 1.5.2 r5.4 forge",
+                                            "name":  "EuphoriaPatcher-1.5.2-r5.4-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  727871,
@@ -953,7 +953,7 @@
                                         },
                                         {
                                             "id":  "mod.explorerscompass_1_20_1_1_3_3_forge",
-                                            "name":  "ExplorersCompass 1.20.1 1.3.3 forge",
+                                            "name":  "ExplorersCompass-1.20.1-1.3.3-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  155257,
@@ -964,7 +964,7 @@
                                         },
                                         {
                                             "id":  "mod.explorify_v1_6_2_f10_48",
-                                            "name":  "Explorify v1.6.2 f10 48",
+                                            "name":  "Explorify v1.6.2 f10-48",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  974818,
@@ -975,7 +975,7 @@
                                         },
                                         {
                                             "id":  "mod.extralib_1_7_3_1_20_1_forge",
-                                            "name":  "ExtraLib 1.7.3 1.20.1 Forge",
+                                            "name":  "ExtraLib-1.7.3-1.20.1-Forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  6963910,
@@ -986,7 +986,7 @@
                                         },
                                         {
                                             "id":  "mod.extrasoundsnext_forge_1_20_1_1_4",
-                                            "name":  "ExtraSoundsNext forge 1.20.1 1.4",
+                                            "name":  "ExtraSoundsNext-forge-1.20.1-1.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  220040,
@@ -997,7 +997,7 @@
                                         },
                                         {
                                             "id":  "mod.farmersdelight_1_20_1_1_2_7",
-                                            "name":  "FarmersDelight 1.20.1 1.2.7",
+                                            "name":  "FarmersDelight-1.20.1-1.2.7",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2954263,
@@ -1008,7 +1008,7 @@
                                         },
                                         {
                                             "id":  "mod.farmersstructures_1_0_3_1_20",
-                                            "name":  "FarmersStructures 1.0.3 1.20",
+                                            "name":  "FarmersStructures-1.0.3-1.20",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  372050,
@@ -1019,7 +1019,7 @@
                                         },
                                         {
                                             "id":  "mod.fastload_reforged_mc1_20_1_3_4_0",
-                                            "name":  "Fastload Reforged mc1.20.1 3.4.0",
+                                            "name":  "Fastload-Reforged-mc1.20.1-3.4.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  66989,
@@ -1030,7 +1030,7 @@
                                         },
                                         {
                                             "id":  "mod.fpsreducer2_forge_1_20_2_5",
-                                            "name":  "FpsReducer2 forge 1.20 2.5",
+                                            "name":  "FpsReducer2-forge-1.20-2.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  125347,
@@ -1052,7 +1052,7 @@
                                         },
                                         {
                                             "id":  "mod.hopobettermineshaft_1_20_1_1_20_4_1_2_2c",
-                                            "name":  "HopoBetterMineshaft [1.20.1 1.20.4] 1.2.2c",
+                                            "name":  "HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2c",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  3378764,
@@ -1063,7 +1063,7 @@
                                         },
                                         {
                                             "id":  "mod.hopobetterruinedportals_1_20_1_20_2_1_3_7b",
-                                            "name":  "HopoBetterRuinedPortals [1.20 1.20.2] 1.3.7b",
+                                            "name":  "HopoBetterRuinedPortals-[1.20-1.20.2]-1.3.7b",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  342952,
@@ -1074,7 +1074,7 @@
                                         },
                                         {
                                             "id":  "mod.hopobetterunderwaterruins_1_20_1_1_20_4_1_1_5b",
-                                            "name":  "HopoBetterUnderwaterRuins [1.20.1 1.20.4] 1.1.5b",
+                                            "name":  "HopoBetterUnderwaterRuins-[1.20.1-1.20.4]-1.1.5b",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  630641,
@@ -1085,7 +1085,7 @@
                                         },
                                         {
                                             "id":  "mod.iceberg_1_20_1_forge_1_1_25",
-                                            "name":  "Iceberg 1.20.1 forge 1.1.25",
+                                            "name":  "Iceberg-1.20.1-forge-1.1.25",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  134551,
@@ -1096,7 +1096,7 @@
                                         },
                                         {
                                             "id":  "mod.immediatelyfast_forge_1_5_0_1_20_4",
-                                            "name":  "ImmediatelyFast Forge 1.5.0+1.20.4",
+                                            "name":  "ImmediatelyFast-Forge-1.5.0+1.20.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  428350,
@@ -1107,7 +1107,7 @@
                                         },
                                         {
                                             "id":  "mod.immersiveui_forge_0_2_2",
-                                            "name":  "ImmersiveUI FORGE 0.2.2",
+                                            "name":  "ImmersiveUI-FORGE-0.2.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  199870,
@@ -1118,7 +1118,7 @@
                                         },
                                         {
                                             "id":  "mod.itemborders_1_20_1_forge_1_2_2",
-                                            "name":  "ItemBorders 1.20.1 forge 1.2.2",
+                                            "name":  "ItemBorders-1.20.1-forge-1.2.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  20832,
@@ -1129,7 +1129,7 @@
                                         },
                                         {
                                             "id":  "mod.itemphysic_forge_v1_8_7_mc1_20_1",
-                                            "name":  "ItemPhysic FORGE v1.8.7 mc1.20.1",
+                                            "name":  "ItemPhysic_FORGE_v1.8.7_mc1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  53417,
@@ -1140,7 +1140,7 @@
                                         },
                                         {
                                             "id":  "mod.itemproductionlib_1_20_1_1_0_2a_all",
-                                            "name":  "ItemProductionLib 1.20.1 1.0.2a all",
+                                            "name":  "ItemProductionLib-1.20.1-1.0.2a-all",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  171785,
@@ -1151,7 +1151,7 @@
                                         },
                                         {
                                             "id":  "mod.jade_1_20_1_forge_11_13_1",
-                                            "name":  "Jade 1.20.1 Forge 11.13.1",
+                                            "name":  "Jade-1.20.1-Forge-11.13.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  550551,
@@ -1162,7 +1162,7 @@
                                         },
                                         {
                                             "id":  "mod.jadens_nether_expansion_2_3_5",
-                                            "name":  "Jadens Nether Expansion 2.3.5",
+                                            "name":  "Jadens-Nether-Expansion-2.3.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  23488061,
@@ -1173,7 +1173,7 @@
                                         },
                                         {
                                             "id":  "mod.kambrik_6_1_1_1_20_1_forge",
-                                            "name":  "Kambrik 6.1.1+1.20.1 forge",
+                                            "name":  "Kambrik-6.1.1+1.20.1-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  325546,
@@ -1184,7 +1184,7 @@
                                         },
                                         {
                                             "id":  "mod.kiwi_1_20_1_forge_11_8_31",
-                                            "name":  "Kiwi 1.20.1 Forge 11.8.31",
+                                            "name":  "Kiwi-1.20.1-Forge-11.8.31",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1632951,
@@ -1195,7 +1195,7 @@
                                         },
                                         {
                                             "id":  "mod.kobolds_2_12_0",
-                                            "name":  "Kobolds 2.12.0",
+                                            "name":  "Kobolds-2.12.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2435938,
@@ -1206,7 +1206,7 @@
                                         },
                                         {
                                             "id":  "mod.l_enders_cataclysm_3_09",
-                                            "name":  "L Enders Cataclysm 3.09",
+                                            "name":  "L_Enders_Cataclysm-3.09",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  103301959,
@@ -1217,7 +1217,7 @@
                                         },
                                         {
                                             "id":  "mod.leavesbegone_v8_0_0_1_20_1_forge",
-                                            "name":  "LeavesBeGone v8.0.0 1.20.1 Forge",
+                                            "name":  "LeavesBeGone-v8.0.0-1.20.1-Forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  50042,
@@ -1228,7 +1228,7 @@
                                         },
                                         {
                                             "id":  "mod.lexicon_1_20_1_v_1_5_4",
-                                            "name":  "Lexicon 1.20.1 (v.1.5.4)",
+                                            "name":  "Lexicon-1.20.1-(v.1.5.4)",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  11578801,
@@ -1239,7 +1239,7 @@
                                         },
                                         {
                                             "id":  "mod.library_of_exile_1_20_1_2_1_1",
-                                            "name":  "Library of Exile 1.20.1 2.1.1",
+                                            "name":  "Library_of_Exile-1.20.1-2.1.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  624993,
@@ -1250,7 +1250,7 @@
                                         },
                                         {
                                             "id":  "mod.luminous_beasts_v1_2_51_forge_1_20_1",
-                                            "name":  "Luminous Beasts V1.2.51 Forge 1.20.1",
+                                            "name":  "Luminous Beasts V1.2.51 - Forge 1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  25975860,
@@ -1261,7 +1261,7 @@
                                         },
                                         {
                                             "id":  "mod.mousetweaks_forge_mc1_20_1_2_25_1",
-                                            "name":  "MouseTweaks forge mc1.20.1 2.25.1",
+                                            "name":  "MouseTweaks-forge-mc1.20.1-2.25.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  76237,
@@ -1272,7 +1272,7 @@
                                         },
                                         {
                                             "id":  "mod.naturescompass_1_20_1_1_11_2_forge",
-                                            "name":  "NaturesCompass 1.20.1 1.11.2 forge",
+                                            "name":  "NaturesCompass-1.20.1-1.11.2-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  215119,
@@ -1283,7 +1283,7 @@
                                         },
                                         {
                                             "id":  "mod.notablebubbletext_1_20_1_1_0_5",
-                                            "name":  "NotableBubbleText 1.20.1 1.0.5",
+                                            "name":  "NotableBubbleText-1.20.1-1.0.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  33075,
@@ -1294,7 +1294,7 @@
                                         },
                                         {
                                             "id":  "mod.obscure_tooltips_2_2",
-                                            "name":  "Obscure Tooltips 2.2",
+                                            "name":  "Obscure-Tooltips-2.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  91788,
@@ -1305,7 +1305,7 @@
                                         },
                                         {
                                             "id":  "mod.octolib_forge_0_5_0_1_1_20_1",
-                                            "name":  "OctoLib FORGE 0.5.0.1+1.20.1",
+                                            "name":  "OctoLib-FORGE-0.5.0.1+1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  424035,
@@ -1316,7 +1316,7 @@
                                         },
                                         {
                                             "id":  "mod.oh_the_biomes_weve_gone_forge_1_5_11",
-                                            "name":  "Oh The Biomes Weve Gone Forge 1.5.11",
+                                            "name":  "Oh-The-Biomes-Weve-Gone-Forge-1.5.11",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  34400785,
@@ -1327,7 +1327,7 @@
                                         },
                                         {
                                             "id":  "mod.oh_the_trees_youll_grow_forge_1_20_1_1_3_8",
-                                            "name":  "Oh The Trees Youll Grow forge 1.20.1 1.3.8",
+                                            "name":  "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.3.8",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  125395,
@@ -1338,7 +1338,7 @@
                                         },
                                         {
                                             "id":  "mod.openloader_forge_1_20_1_19_0_4",
-                                            "name":  "OpenLoader Forge 1.20.1 19.0.4",
+                                            "name":  "OpenLoader-Forge-1.20.1-19.0.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  23938,
@@ -1349,7 +1349,7 @@
                                         },
                                         {
                                             "id":  "mod.overflowingbars_v8_0_1_1_20_1_forge",
-                                            "name":  "OverflowingBars v8.0.1 1.20.1 Forge",
+                                            "name":  "OverflowingBars-v8.0.1-1.20.1-Forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  73689,
@@ -1360,7 +1360,7 @@
                                         },
                                         {
                                             "id":  "mod.paraglider_forge_20_1_3",
-                                            "name":  "Paraglider forge 20.1.3",
+                                            "name":  "Paraglider-forge-20.1.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  589055,
@@ -1371,7 +1371,7 @@
                                         },
                                         {
                                             "id":  "mod.patchouli_1_20_1_84_1_forge",
-                                            "name":  "Patchouli 1.20.1 84.1 FORGE",
+                                            "name":  "Patchouli-1.20.1-84.1-FORGE",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  642711,
@@ -1382,7 +1382,7 @@
                                         },
                                         {
                                             "id":  "mod.perception_forge_0_1_4_1_20_1",
-                                            "name":  "Perception FORGE 0.1.4+1.20.1",
+                                            "name":  "Perception-FORGE-0.1.4+1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  70069,
@@ -1393,7 +1393,7 @@
                                         },
                                         {
                                             "id":  "mod.ping_wheel_1_10_3_forge_1_20_1",
-                                            "name":  "Ping Wheel 1.10.3 forge 1.20.1",
+                                            "name":  "Ping-Wheel-1.10.3-forge-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  112746,
@@ -1404,7 +1404,7 @@
                                         },
                                         {
                                             "id":  "mod.presencefootsteps_1_20_1_1_9_1_beta_1",
-                                            "name":  "PresenceFootsteps 1.20.1 1.9.1 beta.1",
+                                            "name":  "PresenceFootsteps-1.20.1-1.9.1-beta.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  7080698,
@@ -1415,7 +1415,7 @@
                                         },
                                         {
                                             "id":  "mod.prism_1_20_1_forge_1_0_5",
-                                            "name":  "Prism 1.20.1 forge 1.0.5",
+                                            "name":  "Prism-1.20.1-forge-1.0.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  52205,
@@ -1426,7 +1426,7 @@
                                         },
                                         {
                                             "id":  "mod.puzzleslib_v8_1_32_1_20_1_forge",
-                                            "name":  "PuzzlesLib v8.1.32 1.20.1 Forge",
+                                            "name":  "PuzzlesLib-v8.1.32-1.20.1-Forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1342204,
@@ -1437,7 +1437,7 @@
                                         },
                                         {
                                             "id":  "mod.quark_4_0_462",
-                                            "name":  "Quark 4.0 462",
+                                            "name":  "Quark-4.0-462",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  14935230,
@@ -1448,7 +1448,7 @@
                                         },
                                         {
                                             "id":  "mod.regionsunexploredforge_0_5_6_1_20_1",
-                                            "name":  "RegionsUnexploredForge 0.5.6+1.20.1",
+                                            "name":  "RegionsUnexploredForge-0.5.6+1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  5726781,
@@ -1459,7 +1459,7 @@
                                         },
                                         {
                                             "id":  "mod.ribbits_1_20_1_forge_3_0_4",
-                                            "name":  "Ribbits 1.20.1 Forge 3.0.4",
+                                            "name":  "Ribbits-1.20.1-Forge-3.0.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2218573,
@@ -1470,7 +1470,7 @@
                                         },
                                         {
                                             "id":  "mod.searchables_forge_1_20_1_1_0_3",
-                                            "name":  "Searchables forge 1.20.1 1.0.3",
+                                            "name":  "Searchables-forge-1.20.1-1.0.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  77732,
@@ -1481,7 +1481,7 @@
                                         },
                                         {
                                             "id":  "mod.shouldersurfing_forge_1_20_1_4_14_0",
-                                            "name":  "ShoulderSurfing Forge 1.20.1 4.14.0",
+                                            "name":  "ShoulderSurfing-Forge-1.20.1-4.14.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  234218,
@@ -1492,7 +1492,7 @@
                                         },
                                         {
                                             "id":  "mod.skyvillages_1_0_4_1_19_2_1_20_1_forge_release",
-                                            "name":  "SkyVillages 1.0.4 1.19.2 1.20.1 forge release",
+                                            "name":  "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  246865,
@@ -1503,7 +1503,7 @@
                                         },
                                         {
                                             "id":  "mod.stellarity_v2_0e",
-                                            "name":  "Stellarity v2 0e",
+                                            "name":  "Stellarity-v2-0e",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  12562436,
@@ -1514,7 +1514,7 @@
                                         },
                                         {
                                             "id":  "mod.structory_1_20_x_v1_3_5",
-                                            "name":  "Structory 1.20.x v1.3.5",
+                                            "name":  "Structory_1.20.x_v1.3.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1286460,
@@ -1525,7 +1525,7 @@
                                         },
                                         {
                                             "id":  "mod.subtleeffects_forge_1_20_1_1_11_0",
-                                            "name":  "SubtleEffects forge 1.20.1 1.11.0",
+                                            "name":  "SubtleEffects-forge-1.20.1-1.11.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2000210,
@@ -1536,7 +1536,7 @@
                                         },
                                         {
                                             "id":  "mod.tes_forge_1_20_1_1_5_1",
-                                            "name":  "TES forge 1.20.1 1.5.1",
+                                            "name":  "TES-forge-1.20.1-1.5.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  131142,
@@ -1547,7 +1547,7 @@
                                         },
                                         {
                                             "id":  "mod.terrablender_forge_1_20_1_3_0_1_10",
-                                            "name":  "TerraBlender forge 1.20.1 3.0.1.10",
+                                            "name":  "TerraBlender-forge-1.20.1-3.0.1.10",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  107532,
@@ -1558,7 +1558,7 @@
                                         },
                                         {
                                             "id":  "mod.terralith_1_20_x_v2_5_4",
-                                            "name":  "Terralith 1.20.x v2.5.4",
+                                            "name":  "Terralith_1.20.x_v2.5.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  3156901,
@@ -1569,7 +1569,7 @@
                                         },
                                         {
                                             "id":  "mod.the_graveyard_3_1_forge_for_1_20_1",
-                                            "name":  "The Graveyard 3.1 (FORGE) for 1.20.1",
+                                            "name":  "The_Graveyard_3.1_(FORGE)_for_1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  10298153,
@@ -1580,7 +1580,7 @@
                                         },
                                         {
                                             "id":  "mod.trajectory_preview_6_0_3_1_20_1",
-                                            "name":  "Trajectory Preview 6.0.3 1.20.1",
+                                            "name":  "Trajectory Preview-6.0.3-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  28266,
@@ -1591,7 +1591,7 @@
                                         },
                                         {
                                             "id":  "mod.travelerstitles_1_20_forge_4_0_2",
-                                            "name":  "TravelersTitles 1.20 Forge 4.0.2",
+                                            "name":  "TravelersTitles-1.20-Forge-4.0.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  228191,
@@ -1602,7 +1602,7 @@
                                         },
                                         {
                                             "id":  "mod.visualworkbench_v8_0_0_1_20_1_forge",
-                                            "name":  "VisualWorkbench v8.0.0 1.20.1 Forge",
+                                            "name":  "VisualWorkbench-v8.0.0-1.20.1-Forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  82055,
@@ -1613,7 +1613,7 @@
                                         },
                                         {
                                             "id":  "mod.xaerosworldmap_1_39_12_forge_1_20",
-                                            "name":  "XaerosWorldMap 1.39.12 Forge 1.20",
+                                            "name":  "XaerosWorldMap_1.39.12_Forge_1.20",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  960799,
@@ -1624,7 +1624,7 @@
                                         },
                                         {
                                             "id":  "mod.xaeros_minimap_25_2_10_forge_1_20",
-                                            "name":  "Xaeros Minimap 25.2.10 Forge 1.20",
+                                            "name":  "Xaeros_Minimap_25.2.10_Forge_1.20",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1723029,
@@ -1635,7 +1635,7 @@
                                         },
                                         {
                                             "id":  "mod.youthief_1_20_1_1_1_0_forge",
-                                            "name":  "YouThief 1.20.1 1.1.0 FORGE",
+                                            "name":  "YouThief-1.20.1-1.1.0-FORGE",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1458255,
@@ -1646,7 +1646,7 @@
                                         },
                                         {
                                             "id":  "mod.yungsapi_1_20_forge_4_0_6",
-                                            "name":  "YungsApi 1.20 Forge 4.0.6",
+                                            "name":  "YungsApi-1.20-Forge-4.0.6",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  370524,
@@ -1657,7 +1657,7 @@
                                         },
                                         {
                                             "id":  "mod.yungsbetterdeserttemples_1_20_forge_3_0_3",
-                                            "name":  "YungsBetterDesertTemples 1.20 Forge 3.0.3",
+                                            "name":  "YungsBetterDesertTemples-1.20-Forge-3.0.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  918012,
@@ -1668,7 +1668,7 @@
                                         },
                                         {
                                             "id":  "mod.yungsbetterjungletemples_1_20_forge_2_0_5",
-                                            "name":  "YungsBetterJungleTemples 1.20 Forge 2.0.5",
+                                            "name":  "YungsBetterJungleTemples-1.20-Forge-2.0.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  806652,
@@ -1679,7 +1679,7 @@
                                         },
                                         {
                                             "id":  "mod.yungsbetternetherfortresses_1_20_forge_2_0_6",
-                                            "name":  "YungsBetterNetherFortresses 1.20 Forge 2.0.6",
+                                            "name":  "YungsBetterNetherFortresses-1.20-Forge-2.0.6",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  619255,
@@ -1690,7 +1690,7 @@
                                         },
                                         {
                                             "id":  "mod.yungsbetteroceanmonuments_1_20_forge_3_0_4",
-                                            "name":  "YungsBetterOceanMonuments 1.20 Forge 3.0.4",
+                                            "name":  "YungsBetterOceanMonuments-1.20-Forge-3.0.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1033262,
@@ -1701,7 +1701,7 @@
                                         },
                                         {
                                             "id":  "mod.yungsbridges_1_20_forge_4_0_3",
-                                            "name":  "YungsBridges 1.20 Forge 4.0.3",
+                                            "name":  "YungsBridges-1.20-Forge-4.0.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  136236,
@@ -1712,7 +1712,7 @@
                                         },
                                         {
                                             "id":  "mod.zeta_1_0_30",
-                                            "name":  "Zeta 1.0 30",
+                                            "name":  "Zeta-1.0-30",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1006574,
@@ -1723,7 +1723,7 @@
                                         },
                                         {
                                             "id":  "mod.a_good_place_1_20_1_2_7",
-                                            "name":  "a good place 1.20 1.2.7",
+                                            "name":  "a_good_place-1.20-1.2.7",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  260683,
@@ -1734,7 +1734,7 @@
                                         },
                                         {
                                             "id":  "mod.amendments_1_20_1_2_19",
-                                            "name":  "amendments 1.20 1.2.19",
+                                            "name":  "amendments-1.20-1.2.19",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1031095,
@@ -1745,7 +1745,7 @@
                                         },
                                         {
                                             "id":  "mod.aquamirae_6_api15",
-                                            "name":  "aquamirae 6.API15",
+                                            "name":  "aquamirae-6.API15",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  17317836,
@@ -1756,7 +1756,7 @@
                                         },
                                         {
                                             "id":  "mod.architectury_9_2_14_forge",
-                                            "name":  "architectury 9.2.14 forge",
+                                            "name":  "architectury-9.2.14-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  580602,
@@ -1767,7 +1767,7 @@
                                         },
                                         {
                                             "id":  "mod.astikorcarts_1_20_1_1_1_8",
-                                            "name":  "astikorcarts 1.20.1 1.1.8",
+                                            "name":  "astikorcarts-1.20.1-1.1.8",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  231706,
@@ -1778,7 +1778,7 @@
                                         },
                                         {
                                             "id":  "mod.azurelib_neo_1_20_1_3_0_9",
-                                            "name":  "azurelib neo 1.20.1 3.0.9",
+                                            "name":  "azurelib-neo-1.20.1-3.0.9",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1252958,
@@ -1789,7 +1789,7 @@
                                         },
                                         {
                                             "id":  "mod.balm_forge_1_20_1_7_3_25_all",
-                                            "name":  "balm forge 1.20.1 7.3.25 all",
+                                            "name":  "balm-forge-1.20.1-7.3.25-all",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  473917,
@@ -1800,7 +1800,7 @@
                                         },
                                         {
                                             "id":  "mod.beautify_2_0_2",
-                                            "name":  "beautify 2.0.2",
+                                            "name":  "beautify-2.0.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  838292,
@@ -1811,7 +1811,7 @@
                                         },
                                         {
                                             "id":  "mod.betterarcheology_1_2_1_1_20_1",
-                                            "name":  "betterarcheology 1.2.1 1.20.1",
+                                            "name":  "betterarcheology-1.2.1-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  982838,
@@ -1822,7 +1822,7 @@
                                         },
                                         {
                                             "id":  "mod.bettercombat_forge_1_8_6_1_20_1",
-                                            "name":  "bettercombat forge 1.8.6+1.20.1",
+                                            "name":  "bettercombat-forge-1.8.6+1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1050118,
@@ -1833,7 +1833,7 @@
                                         },
                                         {
                                             "id":  "mod.betterfog_2_3_1_20_1",
-                                            "name":  "betterfog 2.3 1.20.1",
+                                            "name":  "betterfog-2.3-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  77515,
@@ -1844,7 +1844,7 @@
                                         },
                                         {
                                             "id":  "mod.betterfpsdist_1_20_1_6_0",
-                                            "name":  "betterfpsdist 1.20.1 6.0",
+                                            "name":  "betterfpsdist-1.20.1-6.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  19917,
@@ -1855,7 +1855,7 @@
                                         },
                                         {
                                             "id":  "mod.betterlightning_1_1_0_1_20_1",
-                                            "name":  "betterlightning 1.1.0 1.20.1",
+                                            "name":  "betterlightning-1.1.0-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  816376,
@@ -1866,7 +1866,7 @@
                                         },
                                         {
                                             "id":  "mod.bettermobcombat_forge_1_20_1_1_3_0_all",
-                                            "name":  "bettermobcombat forge 1.20.1 1.3.0 all",
+                                            "name":  "bettermobcombat-forge-1.20.1-1.3.0-all",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  280262,
@@ -1877,7 +1877,7 @@
                                         },
                                         {
                                             "id":  "mod.bettervillage_forge_1_20_1_3_3_1_all",
-                                            "name":  "bettervillage forge 1.20.1 3.3.1 all",
+                                            "name":  "bettervillage-forge-1.20.1-3.3.1-all",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2612506,
@@ -1888,7 +1888,7 @@
                                         },
                                         {
                                             "id":  "mod.biomemusic_1_20_1_3_5",
-                                            "name":  "biomemusic 1.20.1 3.5",
+                                            "name":  "biomemusic-1.20.1-3.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  35324,
@@ -1899,7 +1899,7 @@
                                         },
                                         {
                                             "id":  "mod.blue_skies_1_20_1_1_3_31",
-                                            "name":  "blue skies 1.20.1 1.3.31",
+                                            "name":  "blue_skies-1.20.1-1.3.31",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  83564111,
@@ -1910,7 +1910,7 @@
                                         },
                                         {
                                             "id":  "mod.blur_forge_3_1_1",
-                                            "name":  "blur forge 3.1.1",
+                                            "name":  "blur-forge-3.1.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  177259,
@@ -1921,7 +1921,7 @@
                                         },
                                         {
                                             "id":  "mod.born_in_chaos_forge_1_20_1_1_6_3",
-                                            "name":  "born in chaos [Forge]1.20.1 1.6.3",
+                                            "name":  "born_in_chaos_[Forge]1.20.1_1.6.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  11461409,
@@ -1932,7 +1932,7 @@
                                         },
                                         {
                                             "id":  "mod.botarium_forge_1_20_1_2_3_4",
-                                            "name":  "botarium forge 1.20.1 2.3.4",
+                                            "name":  "botarium-forge-1.20.1-2.3.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  157633,
@@ -1943,7 +1943,7 @@
                                         },
                                         {
                                             "id":  "mod.burnt_basic_1_7_0_forge_1_20_1",
-                                            "name":  "burnt basic 1.7.0 forge 1.20.1",
+                                            "name":  "burnt-basic-1.7.0-forge-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  3773066,
@@ -1954,7 +1954,7 @@
                                         },
                                         {
                                             "id":  "mod.caelus_forge_3_2_0_1_20_1",
-                                            "name":  "caelus forge 3.2.0+1.20.1",
+                                            "name":  "caelus-forge-3.2.0+1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  40125,
@@ -1965,7 +1965,7 @@
                                         },
                                         {
                                             "id":  "mod.call_of_yucutan_1_0_13_forge_1_20_1",
-                                            "name":  "call of yucutan 1.0.13 forge 1.20.1",
+                                            "name":  "call_of_yucutan-1.0.13-forge-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  3614819,
@@ -1976,7 +1976,7 @@
                                         },
                                         {
                                             "id":  "mod.campfireresting_1_6_0_forge_1_20_1",
-                                            "name":  "campfireresting 1.6.0 forge 1.20.1",
+                                            "name":  "campfireresting-1.6.0-forge-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  73340,
@@ -1987,7 +1987,7 @@
                                         },
                                         {
                                             "id":  "mod.canary_mc1_20_1_0_3_3",
-                                            "name":  "canary mc1.20.1 0.3.3",
+                                            "name":  "canary-mc1.20.1-0.3.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  594191,
@@ -1998,7 +1998,7 @@
                                         },
                                         {
                                             "id":  "mod.cavedust_2_0_4_1_20_1_forge",
-                                            "name":  "cavedust 2.0.4 1.20.1 forge",
+                                            "name":  "cavedust-2.0.4-1.20.1-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  32512,
@@ -2009,7 +2009,7 @@
                                         },
                                         {
                                             "id":  "mod.celestisynth_1_20_1_1_3_1",
-                                            "name":  "celestisynth 1.20.1 1.3.1",
+                                            "name":  "celestisynth-1.20.1-1.3.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2176120,
@@ -2020,7 +2020,7 @@
                                         },
                                         {
                                             "id":  "mod.chisels_and_bits_forge_1_4_148",
-                                            "name":  "chisels and bits forge 1.4.148",
+                                            "name":  "chisels-and-bits-forge-1.4.148",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2105922,
@@ -2031,7 +2031,7 @@
                                         },
                                         {
                                             "id":  "mod.chococraft_1_20_1_forge_0_9_12",
-                                            "name":  "chococraft 1.20.1 forge 0.9.12",
+                                            "name":  "chococraft-1.20.1-forge-0.9.12",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  664416,
@@ -2042,7 +2042,7 @@
                                         },
                                         {
                                             "id":  "mod.cinematiczoom_1_0_0k",
-                                            "name":  "cinematiczoom 1.0.0k",
+                                            "name":  "cinematiczoom-1.0.0k",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  12450,
@@ -2053,7 +2053,7 @@
                                         },
                                         {
                                             "id":  "mod.citadel_2_6_2_1_20_1",
-                                            "name":  "citadel 2.6.2 1.20.1",
+                                            "name":  "citadel-2.6.2-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  3185379,
@@ -2064,7 +2064,7 @@
                                         },
                                         {
                                             "id":  "mod.cleanview_1_20_1_v1",
-                                            "name":  "cleanview 1.20.1 v1",
+                                            "name":  "cleanview-1.20.1-v1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  11011,
@@ -2075,7 +2075,7 @@
                                         },
                                         {
                                             "id":  "mod.clickadv_1_20_1_3_8",
-                                            "name":  "clickadv 1.20.1 3.8",
+                                            "name":  "clickadv-1.20.1-3.8",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  16295,
@@ -2086,7 +2086,7 @@
                                         },
                                         {
                                             "id":  "mod.cloth_config_11_1_136_forge",
-                                            "name":  "cloth config 11.1.136 forge",
+                                            "name":  "cloth-config-11.1.136-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1181413,
@@ -2097,7 +2097,7 @@
                                         },
                                         {
                                             "id":  "mod.collective_1_20_1_8_3",
-                                            "name":  "collective 1.20.1 8.3",
+                                            "name":  "collective-1.20.1-8.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  657310,
@@ -2108,7 +2108,7 @@
                                         },
                                         {
                                             "id":  "mod.controllable_forge_1_20_1_0_21_7",
-                                            "name":  "controllable forge 1.20.1 0.21.7",
+                                            "name":  "controllable-forge-1.20.1-0.21.7",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  7567057,
@@ -2119,7 +2119,7 @@
                                         },
                                         {
                                             "id":  "mod.coroutil_forge_1_20_1_1_3_7",
-                                            "name":  "coroutil forge 1.20.1 1.3.7",
+                                            "name":  "coroutil-forge-1.20.1-1.3.7",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  64187,
@@ -2130,7 +2130,7 @@
                                         },
                                         {
                                             "id":  "mod.crawlondemand_1_20_x_1_0_0",
-                                            "name":  "crawlondemand 1.20.x 1.0.0",
+                                            "name":  "crawlondemand-1.20.x-1.0.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  17443,
@@ -2141,7 +2141,7 @@
                                         },
                                         {
                                             "id":  "mod.create_1_20_1_0_5_1_i",
-                                            "name":  "create 1.20.1 0.5.1.i",
+                                            "name":  "create-1.20.1-0.5.1.i",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  15584088,
@@ -2152,7 +2152,7 @@
                                         },
                                         {
                                             "id":  "mod.cristellib_1_1_6_forge",
-                                            "name":  "cristellib 1.1.6 forge",
+                                            "name":  "cristellib-1.1.6-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  431318,
@@ -2163,7 +2163,7 @@
                                         },
                                         {
                                             "id":  "mod.cupboard_1_20_1_2_7",
-                                            "name":  "cupboard 1.20.1 2.7",
+                                            "name":  "cupboard-1.20.1-2.7",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  25983,
@@ -2174,7 +2174,7 @@
                                         },
                                         {
                                             "id":  "mod.curios_forge_5_14_1_1_20_1",
-                                            "name":  "curios forge 5.14.1+1.20.1",
+                                            "name":  "curios-forge-5.14.1+1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  398066,
@@ -2185,7 +2185,7 @@
                                         },
                                         {
                                             "id":  "mod.damageindicator_2_2_1_1_20_1",
-                                            "name":  "damageindicator 2.2.1 1.20.1",
+                                            "name":  "damageindicator-2.2.1-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  53180,
@@ -2196,7 +2196,7 @@
                                         },
                                         {
                                             "id":  "mod.despawn_tweaker_1_20_1_1_0_0",
-                                            "name":  "despawn tweaker 1.20.1 1.0.0",
+                                            "name":  "despawn_tweaker-1.20.1-1.0.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  11927,
@@ -2207,7 +2207,7 @@
                                         },
                                         {
                                             "id":  "mod.dragonmounts_1_20_1_1_2_3_beta",
-                                            "name":  "dragonmounts 1.20.1 1.2.3 beta",
+                                            "name":  "dragonmounts-1.20.1-1.2.3-beta",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  575353,
@@ -2218,7 +2218,7 @@
                                         },
                                         {
                                             "id":  "mod.duclib_1_20_1_1_4",
-                                            "name":  "duclib 1.20 1.1.4",
+                                            "name":  "duclib-1.20-1.1.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  157125,
@@ -2229,7 +2229,7 @@
                                         },
                                         {
                                             "id":  "mod.dummmmmmy_1_20_2_0_6",
-                                            "name":  "dummmmmmy 1.20 2.0.6",
+                                            "name":  "dummmmmmy-1.20-2.0.6",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  360645,
@@ -2240,7 +2240,7 @@
                                         },
                                         {
                                             "id":  "mod.dungeons_and_taverns_3_0_3_f_forge",
-                                            "name":  "dungeons and taverns 3.0.3.f[Forge]",
+                                            "name":  "dungeons-and-taverns-3.0.3.f[Forge]",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  13161907,
@@ -2251,7 +2251,7 @@
                                         },
                                         {
                                             "id":  "mod.easy_npc_forge_1_20_1_5_9_2",
-                                            "name":  "easy npc forge 1.20.1 5.9.2",
+                                            "name":  "easy_npc-forge-1.20.1-5.9.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1612523,
@@ -2262,7 +2262,7 @@
                                         },
                                         {
                                             "id":  "mod.eeeabsmobs_1_20_1_0_97_fix",
-                                            "name":  "eeeabsmobs 1.20.1 0.97 Fix",
+                                            "name":  "eeeabsmobs-1.20.1-0.97-Fix",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  28960284,
@@ -2273,7 +2273,7 @@
                                         },
                                         {
                                             "id":  "mod.elcamas_1_2_0",
-                                            "name":  "elcamas 1.2.0",
+                                            "name":  "elcamas-1.2.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  19851,
@@ -2284,7 +2284,7 @@
                                         },
                                         {
                                             "id":  "mod.elenaidodge2_1_1",
-                                            "name":  "elenaidodge2 1.1",
+                                            "name":  "elenaidodge2-1.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  302493,
@@ -2295,7 +2295,7 @@
                                         },
                                         {
                                             "id":  "mod.embeddium_0_3_31_mc1_20_1",
-                                            "name":  "embeddium 0.3.31+mc1.20.1",
+                                            "name":  "embeddium-0.3.31+mc1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1320675,
@@ -2306,7 +2306,7 @@
                                         },
                                         {
                                             "id":  "mod.endermanoverhaul_forge_1_20_1_1_0_4",
-                                            "name":  "endermanoverhaul forge 1.20.1 1.0.4",
+                                            "name":  "endermanoverhaul-forge-1.20.1-1.0.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1208062,
@@ -2317,7 +2317,7 @@
                                         },
                                         {
                                             "id":  "mod.endrem_forge_5_3_3_r_1_20_1",
-                                            "name":  "endrem forge 5.3.3 R 1.20.1",
+                                            "name":  "endrem_forge-5.3.3-R-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  889634,
@@ -2328,7 +2328,7 @@
                                         },
                                         {
                                             "id":  "mod.entity_model_features_forge_1_20_1_2_4_1",
-                                            "name":  "entity model features forge 1.20.1 2.4.1",
+                                            "name":  "entity_model_features_forge_1.20.1-2.4.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  445642,
@@ -2339,7 +2339,7 @@
                                         },
                                         {
                                             "id":  "mod.entity_texture_features_forge_1_20_1_6_2_9",
-                                            "name":  "entity texture features forge 1.20.1 6.2.9",
+                                            "name":  "entity_texture_features_forge_1.20.1-6.2.9",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  676887,
@@ -2350,7 +2350,7 @@
                                         },
                                         {
                                             "id":  "mod.entityculling_forge_1_8_2_mc1_20_1",
-                                            "name":  "entityculling forge 1.8.2 mc1.20.1",
+                                            "name":  "entityculling-forge-1.8.2-mc1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  478568,
@@ -2361,7 +2361,7 @@
                                         },
                                         {
                                             "id":  "mod.evenmoreinstruments_1_20_1_20_1_6_1_4",
-                                            "name":  "evenmoreinstruments 1.20 1.20.1 6.1.4",
+                                            "name":  "evenmoreinstruments-1.20-1.20.1-6.1.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  6669790,
@@ -2372,7 +2372,7 @@
                                         },
                                         {
                                             "id":  "mod.explosiveenhancement_1_1_0_1_20_1_client_and_server",
-                                            "name":  "explosiveenhancement 1.1.0 1.20.1 client and server",
+                                            "name":  "explosiveenhancement-1.1.0-1.20.1-client-and-server",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  83842,
@@ -2383,7 +2383,7 @@
                                         },
                                         {
                                             "id":  "mod.exposure_1_20_1_1_7_16_forge",
-                                            "name":  "exposure 1.20.1 1.7.16 forge",
+                                            "name":  "exposure-1.20.1-1.7.16-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1360685,
@@ -2394,7 +2394,7 @@
                                         },
                                         {
                                             "id":  "mod.fallingleaves_1_20_1_2_1_2",
-                                            "name":  "fallingleaves 1.20.1 2.1.2",
+                                            "name":  "fallingleaves-1.20.1-2.1.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  124212,
@@ -2405,7 +2405,7 @@
                                         },
                                         {
                                             "id":  "mod.fancymenu_forge_3_6_2_mc_1_20_1",
-                                            "name":  "fancymenu forge 3.6.2 MC 1.20.1",
+                                            "name":  "fancymenu_forge_3.6.2_MC_1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  3573435,
@@ -2416,7 +2416,7 @@
                                         },
                                         {
                                             "id":  "mod.feathers_1_1",
-                                            "name":  "feathers 1.1",
+                                            "name":  "feathers-1.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  124984,
@@ -2427,7 +2427,7 @@
                                         },
                                         {
                                             "id":  "mod.ferritecore_6_0_1_forge",
-                                            "name":  "ferritecore 6.0.1 forge",
+                                            "name":  "ferritecore-6.0.1-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  123034,
@@ -2438,7 +2438,7 @@
                                         },
                                         {
                                             "id":  "mod.framework_forge_1_20_1_0_7_15",
-                                            "name":  "framework forge 1.20.1 0.7.15",
+                                            "name":  "framework-forge-1.20.1-0.7.15",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  309560,
@@ -2449,7 +2449,7 @@
                                         },
                                         {
                                             "id":  "mod.ftb_chunks_forge_2001_3_8",
-                                            "name":  "ftb chunks forge 2001.3.8",
+                                            "name":  "ftb-chunks-forge-2001.3.8",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1159043,
@@ -2460,7 +2460,7 @@
                                         },
                                         {
                                             "id":  "mod.ftb_essentials_forge_2001_2_4",
-                                            "name":  "ftb essentials forge 2001.2.4",
+                                            "name":  "ftb-essentials-forge-2001.2.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  157732,
@@ -2471,7 +2471,7 @@
                                         },
                                         {
                                             "id":  "mod.ftb_library_forge_2001_2_9",
-                                            "name":  "ftb library forge 2001.2.9",
+                                            "name":  "ftb-library-forge-2001.2.9",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  791841,
@@ -2482,7 +2482,7 @@
                                         },
                                         {
                                             "id":  "mod.ftb_quests_forge_2001_4_13",
-                                            "name":  "ftb quests forge 2001.4.13",
+                                            "name":  "ftb-quests-forge-2001.4.13",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1215007,
@@ -2493,7 +2493,7 @@
                                         },
                                         {
                                             "id":  "mod.ftb_ranks_forge_2001_1_7",
-                                            "name":  "ftb ranks forge 2001.1.7",
+                                            "name":  "ftb-ranks-forge-2001.1.7",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  87362,
@@ -2504,7 +2504,7 @@
                                         },
                                         {
                                             "id":  "mod.ftb_teams_forge_2001_3_1",
-                                            "name":  "ftb teams forge 2001.3.1",
+                                            "name":  "ftb-teams-forge-2001.3.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  248592,
@@ -2515,7 +2515,7 @@
                                         },
                                         {
                                             "id":  "mod.fzzy_config_0_7_1_1_20_1_forge",
-                                            "name":  "fzzy config 0.7.1+1.20.1+forge",
+                                            "name":  "fzzy_config-0.7.1+1.20.1+forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2220131,
@@ -2526,7 +2526,7 @@
                                         },
                                         {
                                             "id":  "mod.geckolib_forge_1_20_1_4_7_3",
-                                            "name":  "geckolib forge 1.20.1 4.7.3",
+                                            "name":  "geckolib-forge-1.20.1-4.7.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1012611,
@@ -2537,7 +2537,7 @@
                                         },
                                         {
                                             "id":  "mod.genshinstrument_1_20_1_20_1_5_0",
-                                            "name":  "genshinstrument 1.20 1.20.1 5.0",
+                                            "name":  "genshinstrument-1.20-1.20.1-5.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  7062280,
@@ -2548,7 +2548,7 @@
                                         },
                                         {
                                             "id":  "mod.getittogetherdrops_forge_1_20_1_3",
-                                            "name":  "getittogetherdrops forge 1.20 1.3",
+                                            "name":  "getittogetherdrops-forge-1.20-1.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  7863,
@@ -2559,7 +2559,7 @@
                                         },
                                         {
                                             "id":  "mod.gnumus_settlement_forge_1_20_1_v1_0",
-                                            "name":  "gnumus settlement [Forge]1.20.1 v1.0",
+                                            "name":  "gnumus_settlement_[Forge]1.20.1_v1.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  891249,
@@ -2570,7 +2570,7 @@
                                         },
                                         {
                                             "id":  "mod.goblintraders_forge_1_20_1_1_9_3",
-                                            "name":  "goblintraders forge 1.20.1 1.9.3",
+                                            "name":  "goblintraders-forge-1.20.1-1.9.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  320235,
@@ -2581,7 +2581,7 @@
                                         },
                                         {
                                             "id":  "mod.gpumemleakfix_1_20_1_1_8",
-                                            "name":  "gpumemleakfix 1.20.1 1.8",
+                                            "name":  "gpumemleakfix-1.20.1-1.8",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  7997,
@@ -2592,7 +2592,7 @@
                                         },
                                         {
                                             "id":  "mod.guardvillagers_1_20_1_1_6_10",
-                                            "name":  "guardvillagers 1.20.1 1.6.10",
+                                            "name":  "guardvillagers-1.20.1-1.6.10",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  199803,
@@ -2603,7 +2603,7 @@
                                         },
                                         {
                                             "id":  "mod.healingcampfire_1_20_1_6_2",
-                                            "name":  "healingcampfire 1.20.1 6.2",
+                                            "name":  "healingcampfire-1.20.1-6.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  35644,
@@ -2614,7 +2614,7 @@
                                         },
                                         {
                                             "id":  "mod.hideuimod_1_0_4",
-                                            "name":  "hideuimod 1.0.4",
+                                            "name":  "hideuimod-1.0.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  7782,
@@ -2625,7 +2625,7 @@
                                         },
                                         {
                                             "id":  "mod.holdmyitems_1_20_1v2_1",
-                                            "name":  "holdmyitems 1.20.1v2.1",
+                                            "name":  "holdmyitems-1.20.1v2.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  330100,
@@ -2636,7 +2636,7 @@
                                         },
                                         {
                                             "id":  "mod.hourglass_1_20_1_2_1_1",
-                                            "name":  "hourglass 1.20 1.2.1.1",
+                                            "name":  "hourglass-1.20-1.2.1.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  235134,
@@ -2647,7 +2647,7 @@
                                         },
                                         {
                                             "id":  "mod.idas_forge_1_11_1_1_20_1",
-                                            "name":  "idas forge 1.11.1+1.20.1",
+                                            "name":  "idas_forge-1.11.1+1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  14074826,
@@ -2658,7 +2658,7 @@
                                         },
                                         {
                                             "id":  "mod.illager_additions_1_20_1_0_1_0_beta",
-                                            "name":  "illager additions 1.20.1 0.1.0 beta",
+                                            "name":  "illager_additions-1.20.1-0.1.0-beta",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1056265,
@@ -2669,7 +2669,7 @@
                                         },
                                         {
                                             "id":  "mod.illagerraidmusic_1_20_1_20_1_1_2",
-                                            "name":  "illagerraidmusic 1.20 1.20.1 1.2",
+                                            "name":  "illagerraidmusic-1.20-1.20.1-1.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  5492340,
@@ -2680,7 +2680,7 @@
                                         },
                                         {
                                             "id":  "mod.illagerrevolutionmod_1_4",
-                                            "name":  "illagerrevolutionmod 1.4",
+                                            "name":  "illagerrevolutionmod-1.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2042202,
@@ -2691,7 +2691,7 @@
                                         },
                                         {
                                             "id":  "mod.immortalgingerbread_1_20_1_1_0_0_0",
-                                            "name":  "immortalgingerbread 1.20.1 1.0.0.0",
+                                            "name":  "immortalgingerbread-1.20.1-1.0.0.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  965334,
@@ -2702,7 +2702,7 @@
                                         },
                                         {
                                             "id":  "mod.incontrol_1_20_9_2_11",
-                                            "name":  "incontrol 1.20 9.2.11",
+                                            "name":  "incontrol-1.20-9.2.11",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  320453,
@@ -2713,7 +2713,7 @@
                                         },
                                         {
                                             "id":  "mod.integrated_api_1_5_3_1_20_1_forge",
-                                            "name":  "integrated api 1.5.3+1.20.1 forge",
+                                            "name":  "integrated_api-1.5.3+1.20.1-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  689843,
@@ -2724,7 +2724,7 @@
                                         },
                                         {
                                             "id":  "mod.integrated_villages_1_2_0_1_20_1_forge",
-                                            "name":  "integrated villages 1.2.0+1.20.1 forge",
+                                            "name":  "integrated_villages-1.2.0+1.20.1-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  4456616,
@@ -2735,7 +2735,7 @@
                                         },
                                         {
                                             "id":  "mod.irons_spellbooks_1_20_1_3_4_0_9",
-                                            "name":  "irons spellbooks 1.20.1 3.4.0.9",
+                                            "name":  "irons_spellbooks-1.20.1-3.4.0.9",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  8838604,
@@ -2746,7 +2746,7 @@
                                         },
                                         {
                                             "id":  "mod.jei_1_20_1_forge_15_20_0_112",
-                                            "name":  "jei 1.20.1 forge 15.20.0.112",
+                                            "name":  "jei-1.20.1-forge-15.20.0.112",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1385600,
@@ -2757,7 +2757,7 @@
                                         },
                                         {
                                             "id":  "mod.konkrete_forge_1_8_0_mc_1_20_1_20_1",
-                                            "name":  "konkrete forge 1.8.0 MC 1.20 1.20.1",
+                                            "name":  "konkrete_forge_1.8.0_MC_1.20-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  625185,
@@ -2768,7 +2768,7 @@
                                         },
                                         {
                                             "id":  "mod.kotlinforforge_4_11_0_all",
-                                            "name":  "kotlinforforge 4.11.0 all",
+                                            "name":  "kotlinforforge-4.11.0-all",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  7193768,
@@ -2779,7 +2779,7 @@
                                         },
                                         {
                                             "id":  "mod.legendarymonsters_1_9_8_mc_1_20_1",
-                                            "name":  "legendarymonsters 1.9.8 MC 1.20.1",
+                                            "name":  "legendarymonsters-1.9.8 MC 1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  17573018,
@@ -2790,7 +2790,7 @@
                                         },
                                         {
                                             "id":  "mod.letsdo_api_forge_1_2_15_forge",
-                                            "name":  "letsdo API forge 1.2.15 forge",
+                                            "name":  "letsdo-API-forge-1.2.15-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1440591,
@@ -2801,7 +2801,7 @@
                                         },
                                         {
                                             "id":  "mod.letsdo_farm_and_charm_forge_1_0_4",
-                                            "name":  "letsdo farm and charm forge 1.0.4",
+                                            "name":  "letsdo-farm_and_charm-forge-1.0.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1838745,
@@ -2812,7 +2812,7 @@
                                         },
                                         {
                                             "id":  "mod.libraryferret_forge_1_20_1_4_0_0",
-                                            "name":  "libraryferret forge 1.20.1 4.0.0",
+                                            "name":  "libraryferret-forge-1.20.1-4.0.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  190536,
@@ -2823,7 +2823,7 @@
                                         },
                                         {
                                             "id":  "mod.lionfishapi_2_4_fix",
-                                            "name":  "lionfishapi 2.4 Fix",
+                                            "name":  "lionfishapi-2.4-Fix",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  162767,
@@ -2834,7 +2834,7 @@
                                         },
                                         {
                                             "id":  "mod.lithostitched_forge_1_20_1_1_4_4",
-                                            "name":  "lithostitched forge 1.20.1 1.4.4",
+                                            "name":  "lithostitched-forge-1.20.1-1.4.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  469486,
@@ -2845,7 +2845,7 @@
                                         },
                                         {
                                             "id":  "mod.loot_journal_forge_1_20_1_4_0_2",
-                                            "name":  "loot journal forge 1.20.1 4.0.2",
+                                            "name":  "loot_journal-forge-1.20.1-4.0.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  40298,
@@ -2856,7 +2856,7 @@
                                         },
                                         {
                                             "id":  "mod.lootbeams_1_20_1_1_2_6",
-                                            "name":  "lootbeams 1.20.1 1.2.6",
+                                            "name":  "lootbeams-1.20.1-1.2.6",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  163914,
@@ -2867,7 +2867,7 @@
                                         },
                                         {
                                             "id":  "mod.lucent_1_20_1_1_5_5",
-                                            "name":  "lucent 1.20.1 1.5.5",
+                                            "name":  "lucent-1.20.1-1.5.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  225245,
@@ -2878,7 +2878,7 @@
                                         },
                                         {
                                             "id":  "mod.majrusz_library_forge_1_20_1_7_0_8",
-                                            "name":  "majrusz library forge 1.20.1 7.0.8",
+                                            "name":  "majrusz-library-forge-1.20.1-7.0.8",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  437340,
@@ -2889,7 +2889,7 @@
                                         },
                                         {
                                             "id":  "mod.majruszs_difficulty_forge_1_20_1_1_9_10",
-                                            "name":  "majruszs difficulty forge 1.20.1 1.9.10",
+                                            "name":  "majruszs-difficulty-forge-1.20.1-1.9.10",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  777242,
@@ -2900,7 +2900,7 @@
                                         },
                                         {
                                             "id":  "mod.make_bubbles_pop_0_3_0_forge_mc1_19_4_1_20_4",
-                                            "name":  "make bubbles pop 0.3.0 forge mc1.19.4 1.20.4",
+                                            "name":  "make_bubbles_pop-0.3.0-forge-mc1.19.4-1.20.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  29475,
@@ -2911,7 +2911,7 @@
                                         },
                                         {
                                             "id":  "mod.melody_forge_1_0_3_mc_1_20_1_1_20_4",
-                                            "name":  "melody forge 1.0.3 MC 1.20.1 1.20.4",
+                                            "name":  "melody_forge_1.0.3_MC_1.20.1-1.20.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  37178,
@@ -2922,7 +2922,7 @@
                                         },
                                         {
                                             "id":  "mod.minecraft_comes_alive_7_6_10_1_20_1_universal",
-                                            "name":  "minecraft comes alive 7.6.10+1.20.1 universal",
+                                            "name":  "minecraft-comes-alive-7.6.10+1.20.1-universal",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  12805389,
@@ -2933,7 +2933,7 @@
                                         },
                                         {
                                             "id":  "mod.mobhealthbar_forge_1_20_x_2_3_0",
-                                            "name":  "mobhealthbar forge 1.20.x 2.3.0",
+                                            "name":  "mobhealthbar-forge-1.20.x-2.3.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  113521,
@@ -2944,7 +2944,7 @@
                                         },
                                         {
                                             "id":  "mod.mobplayeranimator_forge_1_20_1_1_3_3_all",
-                                            "name":  "mobplayeranimator forge 1.20.1 1.3.3 all",
+                                            "name":  "mobplayeranimator-forge-1.20.1-1.3.3-all",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  223397,
@@ -2955,7 +2955,7 @@
                                         },
                                         {
                                             "id":  "mod.mobtimizations_forge_1_20_1_1_0_0",
-                                            "name":  "mobtimizations forge 1.20.1 1.0.0",
+                                            "name":  "mobtimizations-forge-1.20.1-1.0.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  22739,
@@ -2966,7 +2966,7 @@
                                         },
                                         {
                                             "id":  "mod.modernfix_forge_5_24_3_mc1_20_1",
-                                            "name":  "modernfix forge 5.24.3+mc1.20.1",
+                                            "name":  "modernfix-forge-5.24.3+mc1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  879295,
@@ -2977,7 +2977,7 @@
                                         },
                                         {
                                             "id":  "mod.moonlight_1_20_2_14_13_forge",
-                                            "name":  "moonlight 1.20 2.14.13 forge",
+                                            "name":  "moonlight-1.20-2.14.13-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1272670,
@@ -2988,7 +2988,7 @@
                                         },
                                         {
                                             "id":  "mod.mowziesmobs_1_7_3",
-                                            "name":  "mowziesmobs 1.7.3",
+                                            "name":  "mowziesmobs-1.7.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  35239406,
@@ -2999,7 +2999,7 @@
                                         },
                                         {
                                             "id":  "mod.mvs_4_1_5_1_20",
-                                            "name":  "mvs 4.1.5 1.20",
+                                            "name":  "mvs-4.1.5-1.20",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1323411,
@@ -3010,7 +3010,7 @@
                                         },
                                         {
                                             "id":  "mod.naturalist_5_0pre2_forge_1_20_1",
-                                            "name":  "naturalist 5.0pre2+forge 1.20.1",
+                                            "name":  "naturalist-5.0pre2+forge-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  3793857,
@@ -3021,7 +3021,7 @@
                                         },
                                         {
                                             "id":  "mod.nocube_s_villagers_sell_animals_1_2_1_forge_1_20_1",
-                                            "name":  "nocube\u0027s villagers sell animals 1.2.1 forge 1.20.1",
+                                            "name":  "nocube\u0027s_villagers_sell_animals_1.2.1_forge_1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  105667,
@@ -3032,7 +3032,7 @@
                                         },
                                         {
                                             "id":  "mod.noisium_forge_2_3_0_mc1_20_1_20_1",
-                                            "name":  "noisium forge 2.3.0+mc1.20 1.20.1",
+                                            "name":  "noisium-forge-2.3.0+mc1.20-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  218152,
@@ -3043,7 +3043,7 @@
                                         },
                                         {
                                             "id":  "mod.obscure_api_15",
-                                            "name":  "obscure api 15",
+                                            "name":  "obscure_api-15",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  497136,
@@ -3054,7 +3054,7 @@
                                         },
                                         {
                                             "id":  "mod.oculus_mc1_20_1_1_8_0",
-                                            "name":  "oculus mc1.20.1 1.8.0",
+                                            "name":  "oculus-mc1.20.1-1.8.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2851119,
@@ -3065,7 +3065,7 @@
                                         },
                                         {
                                             "id":  "mod.particle_core_0_2_6_1_20_1_forge",
-                                            "name":  "particle core 0.2.6+1.20.1+forge",
+                                            "name":  "particle_core-0.2.6+1.20.1+forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  97943,
@@ -3076,7 +3076,7 @@
                                         },
                                         {
                                             "id":  "mod.particular_1_20_1_forge_1_2_4",
-                                            "name":  "particular 1.20.1 Forge 1.2.4",
+                                            "name":  "particular-1.20.1-Forge-1.2.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  421834,
@@ -3087,7 +3087,7 @@
                                         },
                                         {
                                             "id":  "mod.perfectionhud2_1_0_0",
-                                            "name":  "perfectionhud2 1.0.0",
+                                            "name":  "perfectionhud2-1.0.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  10124,
@@ -3098,7 +3098,7 @@
                                         },
                                         {
                                             "id":  "mod.player_animation_lib_forge_1_0_2_rc1_1_20",
-                                            "name":  "player animation lib forge 1.0.2 rc1+1.20",
+                                            "name":  "player-animation-lib-forge-1.0.2-rc1+1.20",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  181437,
@@ -3109,7 +3109,7 @@
                                         },
                                         {
                                             "id":  "mod.polymorph_forge_0_49_10_1_20_1",
-                                            "name":  "polymorph forge 0.49.10+1.20.1",
+                                            "name":  "polymorph-forge-0.49.10+1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  299601,
@@ -3120,7 +3120,7 @@
                                         },
                                         {
                                             "id":  "mod.projectvibrantjourneys_1_20_1_6_1_0",
-                                            "name":  "projectvibrantjourneys 1.20.1 6.1.0",
+                                            "name":  "projectvibrantjourneys-1.20.1-6.1.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  725954,
@@ -3131,7 +3131,7 @@
                                         },
                                         {
                                             "id":  "mod.radiantgear_forge_2_2_0_1_20_1",
-                                            "name":  "radiantgear forge 2.2.0+1.20.1",
+                                            "name":  "radiantgear-forge-2.2.0+1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  47170,
@@ -3142,7 +3142,7 @@
                                         },
                                         {
                                             "id":  "mod.realmrpg_seadwellers_2_9_9_forge_1_20_1",
-                                            "name":  "realmrpg seadwellers 2.9.9 forge 1.20.1",
+                                            "name":  "realmrpg_seadwellers_2.9.9_forge_1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  752943,
@@ -3153,7 +3153,7 @@
                                         },
                                         {
                                             "id":  "mod.realmrpg_skeletons_1_1_0_forge_1_20_1",
-                                            "name":  "realmrpg skeletons 1.1.0 forge 1.20.1",
+                                            "name":  "realmrpg_skeletons-1.1.0-forge-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  652022,
@@ -3164,7 +3164,7 @@
                                         },
                                         {
                                             "id":  "mod.recrafted_creatures_1_4_6_1_20_1",
-                                            "name":  "recrafted creatures 1.4.6 1.20.1",
+                                            "name":  "recrafted_creatures-1.4.6-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2165748,
@@ -3175,7 +3175,7 @@
                                         },
                                         {
                                             "id":  "mod.reskillable_3_3_2_1_20_1",
-                                            "name":  "reskillable 3.3.2 1.20.1",
+                                            "name":  "reskillable-3.3.2-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  157938,
@@ -3186,7 +3186,7 @@
                                         },
                                         {
                                             "id":  "mod.resourcefulconfig_forge_1_20_1_2_1_3",
-                                            "name":  "resourcefulconfig forge 1.20.1 2.1.3",
+                                            "name":  "resourcefulconfig-forge-1.20.1-2.1.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  136923,
@@ -3197,7 +3197,7 @@
                                         },
                                         {
                                             "id":  "mod.resourcefullib_forge_1_20_1_2_1_29",
-                                            "name":  "resourcefullib forge 1.20.1 2.1.29",
+                                            "name":  "resourcefullib-forge-1.20.1-2.1.29",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  432753,
@@ -3208,7 +3208,7 @@
                                         },
                                         {
                                             "id":  "mod.responsiveshields_2_3_mc1_18_19_20_x",
-                                            "name":  "responsiveshields 2.3 mc1.18 19 20.x",
+                                            "name":  "responsiveshields-2.3-mc1.18-19-20.x",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  63747,
@@ -3219,7 +3219,7 @@
                                         },
                                         {
                                             "id":  "mod.royal_variations_forge_1_20_1_1_0",
-                                            "name":  "royal variations [Forge] 1.20.1 1.0",
+                                            "name":  "royal_variations_[Forge]_1.20.1_1.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  211319,
@@ -3230,7 +3230,7 @@
                                         },
                                         {
                                             "id":  "mod.rustic_engineer_1_1_3_forge_1_20_1",
-                                            "name":  "rustic engineer 1.1.3 forge 1.20.1",
+                                            "name":  "rustic_engineer-1.1.3-forge-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1742410,
@@ -3241,7 +3241,7 @@
                                         },
                                         {
                                             "id":  "mod.samurai_dynasty_0_0_49_1_20_1_neo",
-                                            "name":  "samurai dynasty 0.0.49 1.20.1 neo",
+                                            "name":  "samurai_dynasty-0.0.49-1.20.1-neo",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2367177,
@@ -3252,7 +3252,7 @@
                                         },
                                         {
                                             "id":  "mod.skinlayers3d_forge_1_8_2_mc1_20_1",
-                                            "name":  "skinlayers3d forge 1.8.2 mc1.20.1",
+                                            "name":  "skinlayers3d-forge-1.8.2-mc1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  878668,
@@ -3263,7 +3263,7 @@
                                         },
                                         {
                                             "id":  "mod.sophisticatedbackpacks_1_20_1_3_23_23_1281",
-                                            "name":  "sophisticatedbackpacks 1.20.1 3.23.23.1281",
+                                            "name":  "sophisticatedbackpacks-1.20.1-3.23.23.1281",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  930346,
@@ -3274,7 +3274,7 @@
                                         },
                                         {
                                             "id":  "mod.sophisticatedcore_1_20_1_1_2_75_1033",
-                                            "name":  "sophisticatedcore 1.20.1 1.2.75.1033",
+                                            "name":  "sophisticatedcore-1.20.1-1.2.75.1033",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1333615,
@@ -3285,7 +3285,7 @@
                                         },
                                         {
                                             "id":  "mod.sound_physics_remastered_forge_1_20_1_1_4_10",
-                                            "name":  "sound physics remastered forge 1.20.1 1.4.10",
+                                            "name":  "sound-physics-remastered-forge-1.20.1-1.4.10",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  203819,
@@ -3296,7 +3296,7 @@
                                         },
                                         {
                                             "id":  "mod.spark_1_10_53_forge",
-                                            "name":  "spark 1.10.53 forge",
+                                            "name":  "spark-1.10.53-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  3114590,
@@ -3307,7 +3307,7 @@
                                         },
                                         {
                                             "id":  "mod.stardew_fishing_1_20_1_2_3",
-                                            "name":  "stardew fishing 1.20.1 2.3",
+                                            "name":  "stardew_fishing-1.20.1-2.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  567590,
@@ -3318,7 +3318,7 @@
                                         },
                                         {
                                             "id":  "mod.starlight_1_1_2_forge_1cda73c",
-                                            "name":  "starlight 1.1.2+forge.1cda73c",
+                                            "name":  "starlight-1.1.2+forge.1cda73c",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  110583,
@@ -3329,7 +3329,7 @@
                                         },
                                         {
                                             "id":  "mod.structure_gel_1_20_1_2_16_2",
-                                            "name":  "structure gel 1.20.1 2.16.2",
+                                            "name":  "structure_gel-1.20.1-2.16.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  966028,
@@ -3340,7 +3340,7 @@
                                         },
                                         {
                                             "id":  "mod.supermartijn642configlib_1_1_8_forge_mc1_20",
-                                            "name":  "supermartijn642configlib 1.1.8 forge mc1.20",
+                                            "name":  "supermartijn642configlib-1.1.8-forge-mc1.20",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  206584,
@@ -3351,7 +3351,7 @@
                                         },
                                         {
                                             "id":  "mod.supplementaries_1_20_3_1_13",
-                                            "name":  "supplementaries 1.20 3.1.13",
+                                            "name":  "supplementaries-1.20-3.1.13",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  18068455,
@@ -3362,7 +3362,7 @@
                                         },
                                         {
                                             "id":  "mod.tidal_towns_1_3_4",
-                                            "name":  "tidal towns 1.3.4",
+                                            "name":  "tidal-towns-1.3.4",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  110098,
@@ -3373,7 +3373,7 @@
                                         },
                                         {
                                             "id":  "mod.tmg_1_3",
-                                            "name":  "tmg 1.3",
+                                            "name":  "tmg-1.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  1359685,
@@ -3384,7 +3384,7 @@
                                         },
                                         {
                                             "id":  "mod.tombstone_1_20_1_9_1_0",
-                                            "name":  "tombstone 1.20.1 9.1.0",
+                                            "name":  "tombstone-1.20.1-9.1.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2365546,
@@ -3395,7 +3395,7 @@
                                         },
                                         {
                                             "id":  "mod.toms_storage_1_20_1_7_1",
-                                            "name":  "toms storage 1.20 1.7.1",
+                                            "name":  "toms_storage-1.20-1.7.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  520148,
@@ -3406,7 +3406,7 @@
                                         },
                                         {
                                             "id":  "mod.unusual_furniture_1_0_forge_1_20_1",
-                                            "name":  "unusual furniture 1.0 forge 1.20.1",
+                                            "name":  "unusual_furniture-1.0-forge-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2495591,
@@ -3417,7 +3417,7 @@
                                         },
                                         {
                                             "id":  "mod.valhelsia_core_forge_1_20_1_1_1_2",
-                                            "name":  "valhelsia core forge 1.20.1 1.1.2",
+                                            "name":  "valhelsia_core-forge-1.20.1-1.1.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  203313,
@@ -3428,7 +3428,7 @@
                                         },
                                         {
                                             "id":  "mod.valhelsia_furniture_forge_1_20_1_1_1_3",
-                                            "name":  "valhelsia furniture forge 1.20.1 1.1.3",
+                                            "name":  "valhelsia_furniture-forge-1.20.1-1.1.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  4518058,
@@ -3439,7 +3439,7 @@
                                         },
                                         {
                                             "id":  "mod.valhelsia_structures_forge_1_20_1_1_1_2",
-                                            "name":  "valhelsia structures forge 1.20.1 1.1.2",
+                                            "name":  "valhelsia_structures-forge-1.20.1-1.1.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  2569623,
@@ -3461,7 +3461,7 @@
                                         },
                                         {
                                             "id":  "mod.visuality_forge_2_0_2",
-                                            "name":  "visuality forge 2.0.2",
+                                            "name":  "visuality-forge-2.0.2",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  215750,
@@ -3472,7 +3472,7 @@
                                         },
                                         {
                                             "id":  "mod.wakes_1_20_1_forge_1_0_5",
-                                            "name":  "wakes 1.20.1 Forge 1.0.5",
+                                            "name":  "wakes-1.20.1-Forge-1.0.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  191632,
@@ -3483,7 +3483,7 @@
                                         },
                                         {
                                             "id":  "mod.wardrobe_1_0_3_1_forge_1_20_1",
-                                            "name":  "wardrobe 1.0.3.1 forge 1.20.1",
+                                            "name":  "wardrobe-1.0.3.1-forge-1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  873200,
@@ -3494,7 +3494,7 @@
                                         },
                                         {
                                             "id":  "mod.waveycapes_forge_1_6_1_1_mc1_20_1",
-                                            "name":  "waveycapes forge 1.6.1.1 mc1.20.1",
+                                            "name":  "waveycapes-forge-1.6.1.1-mc1.20.1",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  757023,
@@ -3505,7 +3505,7 @@
                                         },
                                         {
                                             "id":  "mod.waystones_forge_1_20_1_14_1_11",
-                                            "name":  "waystones forge 1.20.1 14.1.11",
+                                            "name":  "waystones-forge-1.20.1-14.1.11",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  487684,
@@ -3516,7 +3516,7 @@
                                         },
                                         {
                                             "id":  "mod.weaponmaster_ydm_forge_1_20_1_4_2_3",
-                                            "name":  "weaponmaster ydm forge 1.20.1 4.2.3",
+                                            "name":  "weaponmaster_ydm-forge-1.20.1-4.2.3",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  283977,
@@ -3527,7 +3527,7 @@
                                         },
                                         {
                                             "id":  "mod.whatareyouvotingfor2023_1_20_1_1_2_5",
-                                            "name":  "whatareyouvotingfor2023 1.20.1 1.2.5",
+                                            "name":  "whatareyouvotingfor2023-1.20.1-1.2.5",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  274781,
@@ -3538,7 +3538,7 @@
                                         },
                                         {
                                             "id":  "mod.wits_1_1_0_1_20_1_forge",
-                                            "name":  "wits 1.1.0+1.20.1 forge",
+                                            "name":  "wits-1.1.0+1.20.1-forge",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  13903,
@@ -3549,7 +3549,7 @@
                                         },
                                         {
                                             "id":  "mod.xaeros_waystones_compability_1_0",
-                                            "name":  "xaeros waystones compability 1.0",
+                                            "name":  "xaeros_waystones_compability-1.0",
                                             "type":  "File",
                                             "artifact":  {
                                                              "size":  325574,
