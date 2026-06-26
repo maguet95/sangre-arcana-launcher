@@ -1097,16 +1097,6 @@
           }
         },
         {
-          "id": "com.obscuria:aquamirae:6.API15@jar",
-          "name": "Aquamirae",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 17317836,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/aquamirae-6.API15.jar",
-            "MD5": "e8ed829ef58a231fd8f41003fa8f4e1b"
-          }
-        },
-        {
           "id": "dev.architectury:architectury:9.2.14@jar",
           "name": "Architectury",
           "type": "ForgeMod",
@@ -2837,16 +2827,6 @@
           }
         },
         {
-          "id": "com.obscuria.obscureapi:obscure_api:15@jar",
-          "name": "Obscure API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 497136,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/obscure_api-15.jar",
-            "MD5": "e9cfade6b7a9964fcadffc6e8d4fedff"
-          }
-        },
-        {
           "id": "com.obscuria.tooltips:obscure_tooltips:2.2@jar",
           "name": "Obscure Tooltips",
           "type": "ForgeMod",
@@ -3594,16 +3574,6 @@
             "size": 1723029,
             "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/Xaeros_Minimap_25.2.10_Forge_1.20.jar",
             "MD5": "2b2bfaf3a1872b83c57aaa51c73f10d9"
-          }
-        },
-        {
-          "id": "fr.shoqapik:w2w2:1.0@jar",
-          "name": "Xaero's Map - Waystones Compability",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 325574,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/xaeros_waystones_compability-1.0.jar",
-            "MD5": "79bff42d6b63942c8f8cb3d11aa4bcec"
           }
         },
         {
