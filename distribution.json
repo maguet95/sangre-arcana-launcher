@@ -3487,13 +3487,13 @@
           }
         },
         {
-          "id": "fuzs.visualworkbench:visualworkbench:8.0.0@jar",
+          "id": "fuzs.visualworkbench:visualworkbench:8.0.1@jar",
           "name": "Visual Workbench",
           "type": "ForgeMod",
           "artifact": {
-            "size": 82055,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
-            "MD5": "d741bc2d4d3a385116d094b874474a6b"
+            "size": 82557,
+            "url": "https://cdn.modrinth.com/data/kfqD1JRw/versions/qaWEHDC3/VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
+            "MD5": "d934aa0d32ebd83941099737faa5d99f"
           }
         },
         {
