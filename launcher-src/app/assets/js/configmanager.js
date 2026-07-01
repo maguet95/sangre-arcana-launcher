@@ -82,14 +82,39 @@ exports.getAbsoluteMaxRAM = function(_ram){
     return Math.floor((mem-(gT16 > 0 ? (Number.parseInt(gT16/8) + (16*1073741824)/4) : mem/4))/1073741824)
 }
 
+/**
+ * RAM por defecto ADAPTATIVA (TASK-95): en vez de un valor fijo, se calcula
+ * según cuánta RAM tiene el PC, para que en máquinas grandes el juego arranque
+ * con más memoria SIN que el usuario toque el slider. Se respeta:
+ *   - PISO: lo recomendado por la distribución (el modpack necesita al menos eso).
+ *   - TECHO: el máximo seguro que ya calcula getAbsoluteMaxRAM (no sobre-asignar).
+ * @returns {number} MB de RAM sugeridos según os.totalmem().
+ */
+function adaptiveDefaultRAM_MB() {
+    const memGB = os.totalmem() / 1073741824
+    if(memGB >= 30) return 8 * 1024   // 32GB+  -> 8G
+    if(memGB >= 15) return 6 * 1024   // 16GB   -> 6G
+    if(memGB >= 11) return 5 * 1024   // 12GB   -> 5G
+    if(memGB >= 7.5) return 4 * 1024  // 8GB    -> 4G
+    if(memGB >= 5.5) return 3 * 1024  // 6GB    -> 3G
+    return 2 * 1024                   // <6GB   -> 2G
+}
+
 function resolveSelectedRAM(ram) {
+    // Base adaptativa según el PC.
+    let mb = adaptiveDefaultRAM_MB()
+    // Piso: lo recomendado por la distribución, si lo declara (en MB).
     if(ram?.recommended != null) {
-        return `${ram.recommended}M`
-    } else {
-        // Legacy behavior
-        const mem = os.totalmem()
-        return mem >= (8*1073741824) ? '4G' : (mem >= (6*1073741824) ? '3G' : '2G')
+        mb = Math.max(mb, ram.recommended)
     }
+    // Techo: no pasar del máximo seguro para este PC.
+    const maxGB = exports.getAbsoluteMaxRAM(ram)
+    if(maxGB > 0) {
+        mb = Math.min(mb, maxGB * 1024)
+    }
+    // Nunca por debajo de 2G.
+    mb = Math.max(mb, 2 * 1024)
+    return `${mb}M`
 }
 
 /**

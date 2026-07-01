@@ -42,11 +42,65 @@ function onDistroLoad(data){
     ipcRenderer.send('distributionIndexDone', data != null)
 }
 
-// Ensure Distribution is downloaded and cached.
-DistroAPI.getDistribution()
-    .then(heliosDistro => {
-        logger.info('Loaded distribution index.')
+/**
+ * Carga el distribution con REINTENTOS (TASK-98): si GitHub raw parpadea
+ * (microcaída) y aún no hay cache válida, un solo intento fallaba con error
+ * fatal 'la aplicación no puede ejecutarse'. Reintentamos con backoff antes de
+ * rendirnos; helios-core ya cae a la cache local cuando ésta existe y es válida.
+ * @param {number} attempts Número máximo de intentos.
+ * @param {number} baseDelayMs Retardo base entre intentos (crece linealmente).
+ */
+async function getDistributionWithRetry(attempts, baseDelayMs){
+    let lastErr
+    for(let i = 1; i <= attempts; i++){
+        try {
+            return await DistroAPI.getDistribution()
+        } catch(err) {
+            lastErr = err
+            logger.warn(`Intento ${i}/${attempts} de cargar el distribution falló:`, err?.message || err)
+            if(i < attempts){
+                await new Promise(res => setTimeout(res, baseDelayMs * i))
+            }
+        }
+    }
+    throw lastErr
+}
 
+/**
+ * Carga resiliente del distribution: reintentos y, si aún falla, trata la cache
+ * local como posiblemente corrupta (la respalda como .corrupt y fuerza una
+ * descarga limpia). Devuelve null solo si todo se agota.
+ */
+async function loadDistributionResilient(){
+    try {
+        return await getDistributionWithRetry(3, 1500)
+    } catch(err) {
+        logger.warn('Reintentos agotados al cargar el distribution.', err?.message || err)
+    }
+    // Posible cache malformada: respaldarla y forzar una descarga limpia.
+    try {
+        const cachePath = path.join(ConfigManager.getLauncherDirectory(), 'distribution.json')
+        if(await fs.pathExists(cachePath)){
+            const backup = cachePath + '.corrupt'
+            await fs.move(cachePath, backup, { overwrite: true })
+            logger.warn(`Cache de distribution posiblemente corrupta; respaldada en ${backup}. Reintentando descarga limpia.`)
+            return await getDistributionWithRetry(2, 1500)
+        }
+    } catch(err2) {
+        logger.error('Falló la recuperación de la cache del distribution:', err2?.message || err2)
+    }
+    return null
+}
+
+// Ensure Distribution is downloaded and cached.
+loadDistributionResilient()
+    .then(heliosDistro => {
+        if(heliosDistro != null){
+            logger.info('Loaded distribution index.')
+        } else {
+            logger.info('No se pudo cargar el índice de distribución tras reintentos.')
+            logger.info('Application cannot run.')
+        }
         onDistroLoad(heliosDistro)
     })
     .catch(err => {
