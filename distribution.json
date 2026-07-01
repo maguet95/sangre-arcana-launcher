@@ -3701,10 +3701,10 @@
           "name": "Sangre Arcana ES — guías y mods en español",
           "type": "File",
           "artifact": {
-            "size": 303808,
-            "MD5": "0f0f99e34d4596004b4fda5f5d1600d0",
+            "size": 304063,
+            "MD5": "ef59087706f4e3ea6ba7e64b20068d7c",
             "path": "resourcepacks/sangre-arcana-es.zip",
-            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/resourcepack-dist/sangre-arcana-es-v2.zip"
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/resourcepack-dist/sangre-arcana-es-v3.zip"
           }
         }
       ],
