@@ -7,7 +7,30 @@ const logger = LoggerUtil.getLogger('ConfigManager')
 
 const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 
-const dataPath = path.join(sysRoot, '.helioslauncher')
+/**
+ * FIX Majrusz (issue #76 de MajruszLibrary): los mods "Majrusz Library" y
+ * "Majrusz's Progressive Difficulty" fallan con "ClassFinder did not find any
+ * classes" cuando la RUTA de instalación de los mods contiene caracteres
+ * no-ASCII (típico: nombre de usuario de Windows con tilde o ñ, ej. C:\Users\José).
+ * Para que el jugador no tenga que hacer NADA, si detectamos caracteres no-ASCII
+ * en la ruta de datos, la reubicamos a una ruta segura en la raíz del disco.
+ */
+function hasNonAscii(str){
+    for(let i = 0; i < str.length; i++){
+        if(str.charCodeAt(i) > 127) return true
+    }
+    return false
+}
+
+function toAsciiSafeDataPath(p){
+    if(!hasNonAscii(p)) return p
+    if(process.platform === 'win32'){
+        return path.join((process.env.SystemDrive || 'C:') + path.sep, 'SangreArcana')
+    }
+    return path.join(process.env.HOME || os.homedir(), '.sangrearcana')
+}
+
+const dataPath = toAsciiSafeDataPath(path.join(sysRoot, '.helioslauncher'))
 
 const launcherDir = require('@electron/remote').app.getPath('userData')
 
@@ -148,6 +171,13 @@ exports.load = function(){
         }
         if(doValidate){
             config = validateKeySet(DEFAULT_CONFIG, config)
+            // FIX Majrusz (issue #76): si una instalacion previa guardo una ruta de
+            // datos con caracteres no-ASCII (nombre de usuario con tilde/n), Majrusz
+            // no carga. La reubicamos automaticamente a la ruta segura ASCII.
+            if(hasNonAscii(config.settings.launcher.dataDirectory)){
+                logger.warn('dataDirectory con caracteres no-ASCII detectado; reubicando a ruta segura: ' + dataPath)
+                config.settings.launcher.dataDirectory = dataPath
+            }
             exports.save()
         }
     }

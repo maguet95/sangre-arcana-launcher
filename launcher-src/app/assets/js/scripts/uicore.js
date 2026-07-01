@@ -62,6 +62,14 @@ if(!isDev){
                     }
                 })
                 showUpdateUI(info)
+                // Auto-actualización total: instala solo, sin que el jugador haga nada.
+                // Se deja un breve margen para que alcance a ver el aviso del sello.
+                if(!isDev){
+                    loggerAutoUpdater.info('Instalando actualización automáticamente en 6s...')
+                    setTimeout(() => {
+                        ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
+                    }, 6000)
+                }
                 break
             case 'update-not-available':
                 loggerAutoUpdater.info('No new update found.')

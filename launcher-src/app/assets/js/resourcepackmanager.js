@@ -4,8 +4,10 @@
  * tenga que activarlos a mano (el launcher hace todo).
  *
  * - Mantiene las entradas no-archivo (vanilla, mod_resources, builtin/*).
- * - Quita los packs "file/" huérfanos (ej. un pack viejo que ya no se usa).
- * - Activa los packs de la distribución (los .zip en resourcepacks/), en orden.
+ * - PRESERVA los packs "file/" que el jugador ya tenía activos (texturas, GUIs,
+ *   etc. que él activó por su cuenta). NUNCA los borra.
+ * - Activa además los packs de la distribución (los .zip en resourcepacks/) al
+ *   final, con mayor prioridad, sin duplicarlos.
  * - Preserva el resto de options.txt (keybinds, video, etc.).
  */
 const fs   = require('fs-extra')
@@ -75,7 +77,16 @@ exports.applyResourcePacks = async function(server, instanceDirectory) {
 
     // Activar los packs de la distribución (en orden; el último tiene mayor prioridad en MC)
     const filePacks = expected.map(name => `file/${name}`)
-    const newList = [...keep, ...filePacks]
+
+    // PRESERVAR los packs "file/" que el jugador ya tenía activos y que NO son de la
+    // distribución (texturas, GUIs como Immersive Interfaces, FreshAnimations, etc.).
+    // NUNCA borrarlos: antes se descartaban y las interfaces quedaban en vanilla.
+    const userFilePacks = current.filter(e =>
+        typeof e === 'string' && e.startsWith('file/') && !filePacks.includes(e))
+
+    // Orden final: no-file -> packs del jugador -> packs de la distro (estos con mayor
+    // prioridad en MC, para que p.ej. la traducción quede por encima).
+    const newList = [...keep, ...userFilePacks, ...filePacks]
 
     const newLine = 'resourcePacks:' + JSON.stringify(newList)
 
