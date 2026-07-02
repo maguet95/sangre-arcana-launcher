@@ -1727,6 +1727,16 @@
           }
         },
         {
+          "id": "fuzs.connectivity:connectivity:1.20.1-7.2@jar",
+          "name": "Connectivity — evita timeouts al entrar (clientes con poca RAM)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 112268,
+            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/connectivity-1.20.1-7.2.jar",
+            "MD5": "b18f084c146f9725fe85f6a2fb869721"
+          }
+        },
+        {
           "id": "com.github.kay9:dragonmounts:1.2.3-beta@jar",
           "name": "Dragon Mounts: Legacy",
           "type": "ForgeMod",
