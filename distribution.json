@@ -2367,13 +2367,23 @@
           }
         },
         {
-          "id": "com.craisinlord:integrated_api:1.5.3+1.20.1-forge@jar",
+          "id": "com.craisinlord:integrated_api:1.7.2+1.20.1-forge@jar",
           "name": "Integrated API",
           "type": "ForgeMod",
           "artifact": {
-            "size": 689843,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/integrated_api-1.5.3+1.20.1-forge.jar",
-            "MD5": "aecb1890784e202322b1a863f34f9f30"
+            "size": 712753,
+            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/integrated_api-1.7.2+1.20.1-forge.jar",
+            "MD5": "97612e0c6935e70bc3c2d6471cdb923a"
+          }
+        },
+        {
+          "id": "com.craisinlord:integrated_dungeons_arise:2.1.1+1.20.1@jar",
+          "name": "Integrated Dungeons Arise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11897866,
+            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/IDA-v2.1.1-1.20.1.jar",
+            "MD5": "ae60fc8d56f2ec8866d1f550febe703e"
           }
         },
         {
