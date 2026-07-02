@@ -3707,6 +3707,16 @@
           }
         },
         {
+          "id": "com.seibel.distanthorizons:distanthorizons:3.1.2-b-1.20.1@jar",
+          "name": "Distant Horizons — LODs de terreno lejano (inmersión, cliente)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29494329,
+            "MD5": "bd7bac390f035cfef7681ae1f208b7be",
+            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/DistantHorizons-3.1.2-b-1.20.1-fabric-forge.jar"
+          }
+        },
+        {
           "id": "cfg.modernfix-dynamic-resources",
           "name": "ModernFix config — dynamic_resources (RAM 4GB)",
           "type": "File",
