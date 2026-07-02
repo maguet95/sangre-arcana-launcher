@@ -3728,28 +3728,6 @@
           }
         },
         {
-          "id": "shaderpack.potato-shaders",
-          "name": "Potato Shaders — pack liviano (opcional; shaders OFF por defecto)",
-          "type": "File",
-          "artifact": {
-            "size": 393109,
-            "MD5": "2925d73d563d8cb80ad49be16935049f",
-            "path": "shaderpacks/PotatoShaders_v1.0d.zip",
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/shaderpacks/PotatoShaders_v1.0d.zip"
-          }
-        },
-        {
-          "id": "cfg.potato-shaders-settings",
-          "name": "Potato Shaders — ajuste (motion blur OFF)",
-          "type": "File",
-          "artifact": {
-            "size": 23,
-            "MD5": "47aeaf7e6b2fbf60b401041df64887dc",
-            "path": "shaderpacks/PotatoShaders_v1.0d.zip.txt",
-            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/shaderpacks/PotatoShaders_v1.0d.zip.txt"
-          }
-        },
-        {
           "id": "rp.sangre-arcana-es",
           "name": "Sangre Arcana ES — guías y mods en español",
           "type": "File",
