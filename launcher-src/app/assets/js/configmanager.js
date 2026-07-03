@@ -147,7 +147,11 @@ const DEFAULT_CONFIG = {
     selectedAccount: null,
     authenticationDatabase: {},
     modConfigurations: [],
-    javaConfig: {}
+    javaConfig: {},
+    // Perfil de rendimiento elegido por servidor (id -> 'normal'|'rendimiento'|'ultra').
+    performanceProfiles: {},
+    // Timestamp (ms) hasta el cual NO volver a mostrar el aviso de driver viejo.
+    driverWarnSnoozeUntil: 0
 }
 
 let config = null
@@ -556,6 +560,50 @@ exports.setModConfiguration = function(serverid, configuration){
         }
     }
     cfgs.push(configuration)
+}
+
+// Performance Profile (por servidor)
+
+// Perfil por defecto si el jugador nunca eligió. 'rendimiento' = equilibrio
+// seguro (funciona bien en equipos medios sin castigar a los buenos).
+const DEFAULT_PERFORMANCE_PROFILE = 'rendimiento'
+
+/**
+ * Obtiene el perfil de rendimiento elegido para un servidor.
+ * @param {string} serverid El id del servidor.
+ * @returns {string} 'normal' | 'rendimiento' | 'ultra'
+ */
+exports.getPerformanceProfile = function(serverid){
+    if(config.performanceProfiles == null) config.performanceProfiles = {}
+    return config.performanceProfiles[serverid] || DEFAULT_PERFORMANCE_PROFILE
+}
+
+/**
+ * Guarda el perfil de rendimiento elegido para un servidor.
+ * @param {string} serverid El id del servidor.
+ * @param {string} profile 'normal' | 'rendimiento' | 'ultra'
+ */
+exports.setPerformanceProfile = function(serverid, profile){
+    if(config.performanceProfiles == null) config.performanceProfiles = {}
+    config.performanceProfiles[serverid] = profile
+}
+
+// Driver Warning Snooze (aviso de driver viejo: "no recordar por X tiempo")
+
+/**
+ * Timestamp (ms) hasta el cual NO se debe mostrar el aviso de driver viejo.
+ * @returns {number}
+ */
+exports.getDriverWarnSnoozeUntil = function(){
+    return config.driverWarnSnoozeUntil || 0
+}
+
+/**
+ * Guarda hasta cuándo silenciar el aviso de driver viejo.
+ * @param {number} timestamp Momento (ms desde epoch) hasta el cual callar el aviso.
+ */
+exports.setDriverWarnSnoozeUntil = function(timestamp){
+    config.driverWarnSnoozeUntil = timestamp
 }
 
 // User Configurable Settings

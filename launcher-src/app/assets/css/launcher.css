@@ -3469,6 +3469,43 @@ input:checked + .toggleSwitchSlider:before {
     text-shadow: 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7;
 }
 
+/* Selector de perfil de rendimiento (Normal / Rendimiento / Ultra). */
+#perf_profile_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#perf_profile_caption {
+    color: #949494;
+    font-size: 8px;
+    margin-bottom: 4px;
+}
+#perf_profile_select {
+    background: rgba(0, 0, 0, 0.45);
+    color: #ffffff;
+    border: 1px solid rgba(126, 126, 126, 0.55);
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 3px 6px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.25s ease;
+}
+#perf_profile_select:hover,
+#perf_profile_select:focus {
+    border-color: #ffffff;
+}
+#perf_profile_select:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+#perf_profile_select option {
+    background: #1a1a1a;
+    color: #ffffff;
+}
+
 /* Progress bar styles. */
 #launch_progress[value] {
     height: 3px;

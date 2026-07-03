@@ -124,6 +124,10 @@ async function maybeWarnOutdatedDriver(){
     if(driverWarningShown || currentView !== VIEWS.landing){
         return
     }
+    // Si el jugador pidió "no recordar por X tiempo" y aún no vence, no molestar.
+    if(Date.now() < ConfigManager.getDriverWarnSnoozeUntil()){
+        return
+    }
     try {
         const res = await checkGpuDriver()
         if(res.outdated && currentView === VIEWS.landing){
@@ -132,13 +136,17 @@ async function maybeWarnOutdatedDriver(){
                 'Driver de video desactualizado',
                 `Tu tarjeta <strong>${res.name}</strong> usa un driver de video viejo (${res.date}) que provoca <strong>FPS muy bajos</strong> en el juego.<br><br>Actualizarlo es <strong>gratis, rápido y seguro</strong>, y puede multiplicar tu rendimiento varias veces. Se abre la página oficial, descargas el asistente, instalas y reinicias.`,
                 'Actualizar driver',
-                'Ahora no'
+                'No recordar por 7 días'
             )
             setOverlayHandler(() => {
                 shell.openExternal(res.url)
                 toggleOverlay(false)
             })
             setDismissHandler(() => {
+                // Silenciar el aviso durante 7 días.
+                const sieteDias = 7 * 24 * 60 * 60 * 1000
+                ConfigManager.setDriverWarnSnoozeUntil(Date.now() + sieteDias)
+                ConfigManager.save()
                 toggleOverlay(false)
             })
             toggleOverlay(true, true)

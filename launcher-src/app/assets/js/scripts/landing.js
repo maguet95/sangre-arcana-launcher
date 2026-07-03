@@ -164,6 +164,7 @@ function updateSelectedServer(serv){
     ConfigManager.setSelectedServer(serv != null ? serv.rawServer.id : null)
     ConfigManager.save()
     server_selection_button.innerHTML = '&#8226; ' + (serv != null ? serv.rawServer.name : Lang.queryJS('landing.noSelection'))
+    refreshPerformanceProfileSelector(serv != null ? serv.rawServer.id : null)
     if(getCurrentView() === VIEWS.settings){
         animateSettingsTabRefresh()
     }
@@ -175,6 +176,46 @@ server_selection_button.onclick = async e => {
     e.target.blur()
     await toggleServerSelection(true)
 }
+
+// Selector de perfil de rendimiento (Normal / Rendimiento / Ultra).
+// El jugador elige acorde a su equipo; se guarda por servidor y se aplica
+// a options.txt en cada arranque (ver performanceprofiles.js).
+const perf_profile_select = document.getElementById('perf_profile_select')
+if(perf_profile_select != null){
+    const { getProfileList } = require('./assets/js/performanceprofiles')
+    // Poblar opciones una sola vez.
+    if(perf_profile_select.options.length === 0){
+        for(const p of getProfileList()){
+            const opt = document.createElement('option')
+            opt.value = p.id
+            opt.textContent = p.label
+            perf_profile_select.appendChild(opt)
+        }
+    }
+    // Guardar la elección del jugador para el servidor seleccionado.
+    perf_profile_select.addEventListener('change', () => {
+        const serverid = ConfigManager.getSelectedServer()
+        if(serverid != null){
+            ConfigManager.setPerformanceProfile(serverid, perf_profile_select.value)
+            ConfigManager.save()
+            loggerLanding.info(`Perfil de rendimiento seleccionado: ${perf_profile_select.value}`)
+        }
+        perf_profile_select.blur()
+    })
+}
+
+// Sincroniza el selector con el perfil guardado del servidor dado.
+function refreshPerformanceProfileSelector(serverid){
+    if(perf_profile_select == null) return
+    if(serverid == null){
+        perf_profile_select.disabled = true
+        return
+    }
+    perf_profile_select.disabled = false
+    perf_profile_select.value = ConfigManager.getPerformanceProfile(serverid)
+}
+// Estado inicial (se re-sincroniza al resolverse el servidor en updateSelectedServer).
+refreshPerformanceProfileSelector(ConfigManager.getSelectedServer())
 
 // Update Mojang Status Color
 const refreshMojangStatuses = async function(){
@@ -552,16 +593,18 @@ async function dlAsync(login = true) {
         loggerLaunchSuite.warn('Error durante la reconciliación de mods (no fatal):', err)
     }
 
-    // Ajustes de rendimiento por defecto (una sola vez por instancia): el
-    // launcher deja a cada jugador con buen FPS sin que configure nada.
+    // Perfil de rendimiento: en cada arranque se escriben en options.txt los
+    // ajustes de video del perfil que el jugador eligió (Normal/Rendimiento/
+    // Ultra), preservando el resto. Así cada quien juega acorde a su equipo.
     try {
-        const { applyPerformanceDefaults } = require('./assets/js/performancedefaults')
-        const perfResult = await applyPerformanceDefaults(serv, ConfigManager.getInstanceDirectory())
+        const { applyPerformanceProfile } = require('./assets/js/performanceprofiles')
+        const profileId = ConfigManager.getPerformanceProfile(serv.rawServer.id)
+        const perfResult = await applyPerformanceProfile(serv, ConfigManager.getInstanceDirectory(), profileId)
         if(perfResult.applied){
-            loggerLaunchSuite.info('Ajustes de rendimiento por defecto aplicados (primera vez).')
+            loggerLaunchSuite.info(`Perfil de rendimiento aplicado: ${perfResult.profile}`)
         }
     } catch(err) {
-        loggerLaunchSuite.warn('Error aplicando ajustes de rendimiento (no fatal):', err)
+        loggerLaunchSuite.warn('Error aplicando el perfil de rendimiento (no fatal):', err)
     }
 
     // Auto-activación de resource packs: el launcher activa los texture packs

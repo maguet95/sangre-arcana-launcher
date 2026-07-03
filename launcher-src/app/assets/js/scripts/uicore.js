@@ -62,13 +62,21 @@ if(!isDev){
                     }
                 })
                 showUpdateUI(info)
-                // Auto-actualización total: instala solo, sin que el jugador haga nada.
-                // Se deja un breve margen para que alcance a ver el aviso del sello.
+                // Aviso claro ANTES de reiniciar: el jugador (que no lee logs) ve
+                // qué pasa y por qué. Se instala solo aunque no toque nada.
                 if(!isDev){
-                    loggerAutoUpdater.info('Instalando actualización automáticamente en 6s...')
-                    setTimeout(() => {
-                        ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
-                    }, 6000)
+                    const doInstall = () => ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
+                    setOverlayContent(
+                        'Actualizando el launcher',
+                        `Se descargó una nueva versión (<strong>${info.version}</strong>) con mejoras. El launcher se cerrará y volverá a abrir <strong>solo</strong> para aplicarla.<br><br>No pierdes nada: tu juego, tu cuenta y tu progreso quedan intactos.`,
+                        'Actualizar ahora',
+                        'Entendido'
+                    )
+                    setOverlayHandler(() => { toggleOverlay(false); doInstall() })
+                    setDismissHandler(() => { toggleOverlay(false) })
+                    toggleOverlay(true, true)
+                    loggerAutoUpdater.info('Instalando actualización automáticamente en 10s...')
+                    setTimeout(doInstall, 10000)
                 }
                 break
             case 'update-not-available':
