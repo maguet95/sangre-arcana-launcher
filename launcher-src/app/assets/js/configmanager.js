@@ -150,6 +150,11 @@ const DEFAULT_CONFIG = {
     javaConfig: {},
     // Perfil de rendimiento elegido por servidor (id -> 'normal'|'rendimiento'|'ultra').
     performanceProfiles: {},
+    // Último perfil que el launcher YA escribió a la instancia, por servidor.
+    // Sirve para aplicar el perfil SOLO cuando el jugador lo cambia; así sus
+    // ajustes manuales dentro del juego (ej. subir la vista) se respetan y
+    // persisten entre arranques (experiencia estilo Prism/manual).
+    lastAppliedProfiles: {},
     // Timestamp (ms) hasta el cual NO volver a mostrar el aviso de driver viejo.
     driverWarnSnoozeUntil: 0
 }
@@ -587,6 +592,27 @@ exports.getPerformanceProfile = function(serverid){
 exports.setPerformanceProfile = function(serverid, profile){
     if(config.performanceProfiles == null) config.performanceProfiles = {}
     config.performanceProfiles[serverid] = profile
+}
+
+/**
+ * Último perfil que el launcher escribió a la instancia de ese servidor.
+ * null si nunca se aplicó (primer arranque de ese server).
+ * @param {string} serverid El id del servidor.
+ * @returns {string|null}
+ */
+exports.getLastAppliedProfile = function(serverid){
+    if(config.lastAppliedProfiles == null) config.lastAppliedProfiles = {}
+    return config.lastAppliedProfiles[serverid] || null
+}
+
+/**
+ * Registra el perfil recién aplicado a la instancia de ese servidor.
+ * @param {string} serverid El id del servidor.
+ * @param {string} profile El perfil aplicado.
+ */
+exports.setLastAppliedProfile = function(serverid, profile){
+    if(config.lastAppliedProfiles == null) config.lastAppliedProfiles = {}
+    config.lastAppliedProfiles[serverid] = profile
 }
 
 // Driver Warning Snooze (aviso de driver viejo: "no recordar por X tiempo")

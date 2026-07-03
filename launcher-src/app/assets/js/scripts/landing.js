@@ -598,15 +598,27 @@ async function dlAsync(login = true) {
         loggerLaunchSuite.warn('Error durante la reconciliación de mods (no fatal):', err)
     }
 
-    // Perfil de rendimiento: en cada arranque se escriben en options.txt los
-    // ajustes de video del perfil que el jugador eligió (Normal/Rendimiento/
-    // Ultra), preservando el resto. Así cada quien juega acorde a su equipo.
+    // Perfil de rendimiento: el perfil (Normal/Rendimiento/Ultra) se escribe a
+    // options.txt/Embeddium SOLO cuando el jugador lo CAMBIA (o la primera vez).
+    // Si no lo cambió desde el último arranque, NO se toca nada: así lo que el
+    // jugador ajuste a mano dentro del juego (ej. subir su vista hasta 16) se
+    // respeta y persiste entre arranques (experiencia estilo Prism/manual).
     try {
         const { applyPerformanceProfile } = require('./assets/js/performanceprofiles')
-        const profileId = ConfigManager.getPerformanceProfile(serv.rawServer.id)
-        const perfResult = await applyPerformanceProfile(serv, ConfigManager.getInstanceDirectory(), profileId)
-        if(perfResult.applied){
-            loggerLaunchSuite.info(`Perfil de rendimiento aplicado: ${perfResult.profile}`)
+        const serverid = serv.rawServer.id
+        const profileId = ConfigManager.getPerformanceProfile(serverid)
+        const lastApplied = ConfigManager.getLastAppliedProfile(serverid)
+        if(profileId !== lastApplied){
+            const perfResult = await applyPerformanceProfile(serv, ConfigManager.getInstanceDirectory(), profileId)
+            if(perfResult.applied){
+                ConfigManager.setLastAppliedProfile(serverid, perfResult.profile)
+                ConfigManager.save()
+                loggerLaunchSuite.info(`Perfil de rendimiento aplicado (cambio ${lastApplied} -> ${perfResult.profile})`)
+            } else if(perfResult.skipped){
+                // Server no gestionado: no hay perfil que aplicar, no interferir.
+            }
+        } else {
+            loggerLaunchSuite.info(`Perfil sin cambios (${profileId}); se respetan los ajustes manuales del jugador.`)
         }
     } catch(err) {
         loggerLaunchSuite.warn('Error aplicando el perfil de rendimiento (no fatal):', err)
