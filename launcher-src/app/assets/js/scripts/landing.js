@@ -181,37 +181,42 @@ server_selection_button.onclick = async e => {
 // El jugador elige acorde a su equipo; se guarda por servidor y se aplica
 // a options.txt en cada arranque (ver performanceprofiles.js).
 const perf_profile_select = document.getElementById('perf_profile_select')
+const perf_profile_content = document.getElementById('perf_profile_content')
+const perf_profile_divider = document.getElementById('perf_profile_divider')
 if(perf_profile_select != null){
-    const { getProfileList } = require('./assets/js/performanceprofiles')
-    // Poblar opciones una sola vez.
-    if(perf_profile_select.options.length === 0){
-        for(const p of getProfileList()){
-            const opt = document.createElement('option')
-            opt.value = p.id
-            opt.textContent = p.label
-            perf_profile_select.appendChild(opt)
-        }
-    }
     // Guardar la elección del jugador para el servidor seleccionado.
     perf_profile_select.addEventListener('change', () => {
         const serverid = ConfigManager.getSelectedServer()
         if(serverid != null){
             ConfigManager.setPerformanceProfile(serverid, perf_profile_select.value)
             ConfigManager.save()
-            loggerLanding.info(`Perfil de rendimiento seleccionado: ${perf_profile_select.value}`)
+            loggerLanding.info(`Perfil de rendimiento seleccionado: ${perf_profile_select.value} (${serverid})`)
         }
         perf_profile_select.blur()
     })
 }
 
-// Sincroniza el selector con el perfil guardado del servidor dado.
+// Muestra/oculta y repuebla el selector según el servidor. Solo aparece en
+// servers gestionados (con perfiles); en los demás se oculta y no interfiere.
 function refreshPerformanceProfileSelector(serverid){
     if(perf_profile_select == null) return
-    if(serverid == null){
-        perf_profile_select.disabled = true
+    const { getProfileList } = require('./assets/js/performanceprofiles')
+    const list = serverid != null ? getProfileList(serverid) : []
+    if(list.length === 0){
+        if(perf_profile_content != null) perf_profile_content.style.display = 'none'
+        if(perf_profile_divider != null) perf_profile_divider.style.display = 'none'
         return
     }
-    perf_profile_select.disabled = false
+    if(perf_profile_content != null) perf_profile_content.style.display = ''
+    if(perf_profile_divider != null) perf_profile_divider.style.display = ''
+    // Repoblar las opciones para ESTE server.
+    perf_profile_select.innerHTML = ''
+    for(const p of list){
+        const opt = document.createElement('option')
+        opt.value = p.id
+        opt.textContent = p.label
+        perf_profile_select.appendChild(opt)
+    }
     perf_profile_select.value = ConfigManager.getPerformanceProfile(serverid)
 }
 // Estado inicial (se re-sincroniza al resolverse el servidor en updateSelectedServer).
