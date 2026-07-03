@@ -564,9 +564,10 @@ exports.setModConfiguration = function(serverid, configuration){
 
 // Performance Profile (por servidor)
 
-// Perfil por defecto si el jugador nunca eligió. 'rendimiento' = equilibrio
-// seguro (funciona bien en equipos medios sin castigar a los buenos).
-const DEFAULT_PERFORMANCE_PROFILE = 'rendimiento'
+// Perfil por defecto si el jugador nunca eligió. 'normal' = experiencia
+// completa (acceso full a todo) para que cualquiera entre con la mejor calidad;
+// quien tenga equipo bajo puede bajar a Rendimiento/Ultra desde la fila de JUGAR.
+const DEFAULT_PERFORMANCE_PROFILE = 'normal'
 
 /**
  * Obtiene el perfil de rendimiento elegido para un servidor.

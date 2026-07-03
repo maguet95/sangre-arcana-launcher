@@ -3391,6 +3391,7 @@ input:checked + .toggleSwitchSlider:before {
     position: relative;
     top: 25px;
     display: inline-flex;
+    align-items: center;
 }
 
 /* The launch button. */
