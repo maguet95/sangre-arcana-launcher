@@ -2537,16 +2537,6 @@
           }
         },
         {
-          "id": "generated.forgemod:asynclogger:2.1.2+1.20.1-forge@jar",
-          "name": "Async Logger (logging asincrono, +rendimiento)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1234112,
-            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/asynclogger-2.1.2-1.20.1-forge.jar",
-            "MD5": "da8d47e67e5ba9e3c173711be92866c4"
-          }
-        },
-        {
           "id": "generated.forgemod:ali:1.12.0@jar",
           "name": "Advanced Loot Info (loot tables y trades en el visor)",
           "type": "ForgeMod",
