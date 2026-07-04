@@ -2467,13 +2467,83 @@
           }
         },
         {
-          "id": "mezz.jei:jei:15.20.0.112@jar",
-          "name": "Just Enough Items",
+          "id": "mezz.jei:jei:15.20.0.130-async-30@jar",
+          "name": "JEAsync (JEI optimizado, async)",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1385600,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.112.jar",
-            "MD5": "c899d5b549ace1e9fa46700c778c3809"
+            "size": 1465042,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/jei-1.20.1-forge-15.20.0.130-async-30.jar",
+            "MD5": "809582e5bc4a0f3fa5e9f40cacca0cdd"
+          }
+        },
+        {
+          "id": "generated.forgemod:gnetum:2.4.6@jar",
+          "name": "Gnetum (HUD multi-frame, +FPS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 727997,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/gnetum-2.4.6.jar",
+            "MD5": "b366acf24372dedfd9c9d4372d773adf"
+          }
+        },
+        {
+          "id": "generated.forgemod:ixeris:4.5.1+1.20.1-forge@jar",
+          "name": "Ixeris (input con buffer/threaded)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1477687,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/Ixeris-4.5.1-1.20.1-forge.jar",
+            "MD5": "d822dd18811711b701e884a0930c3bc9"
+          }
+        },
+        {
+          "id": "generated.forgemod:kerria:1.3.2+1.20.1-forge@jar",
+          "name": "Kerria (texturas animadas rapidas, +FPS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 811090,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/Kerria-1.3.2-1.20.1-forge.jar",
+            "MD5": "8b6a49202bb6c796ef27bce80f53f505"
+          }
+        },
+        {
+          "id": "generated.forgemod:flerovium:1.2.19@jar",
+          "name": "Flerovium (render items/particulas/entidades, +FPS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 254081,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/flerovium-forge-1.20.1-1.2.19-all.jar",
+            "MD5": "7324c9868c1d3516fb5b204e9291c9de"
+          }
+        },
+        {
+          "id": "generated.forgemod:badoptimizations:2.4.1@jar",
+          "name": "BadOptimizations (micro-optimizaciones no-render)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 460234,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/BadOptimizations-2.4.1-1.20.1.jar",
+            "MD5": "f8dd994ef309213c5dae5cbeef53123c"
+          }
+        },
+        {
+          "id": "generated.forgemod:bocchium:1.20.1-0.0.3@jar",
+          "name": "Bocchium (culling caras de bedrock, req. Embeddium)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10201,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/bocchium-1.20.1-0.0.3.jar",
+            "MD5": "afdc4b3bbc92d7b70a657696ace846d6"
+          }
+        },
+        {
+          "id": "generated.forgemod:asynclogger:2.1.2+1.20.1-forge@jar",
+          "name": "Async Logger (logging asincrono, +rendimiento)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1234112,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/asynclogger-2.1.2-1.20.1-forge.jar",
+            "MD5": "da8d47e67e5ba9e3c173711be92866c4"
           }
         },
         {
