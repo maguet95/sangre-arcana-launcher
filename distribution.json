@@ -3659,6 +3659,26 @@
           }
         },
         {
+          "id": "com.telepathicgrunt:wits:1.1.0+1.20.1-forge@jar",
+          "name": "WITS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13903,
+            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/wits-1.1.0+1.20.1-forge.jar",
+            "MD5": "d0636bc871d66a2cd8700f507b5ef572"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.7.35.94@jar",
+          "name": "Lootr (loot de cofres individual por jugador)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 463485,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/lootr-forge-1.20-0.7.35.94.jar",
+            "MD5": "56dd6966de4ba641cf00ef5b9ce8d2d7"
+          }
+        },
+        {
           "id": "xaero.minimap:xaerominimap:25.2.10@jar",
           "name": "Xaero's Minimap",
           "type": "ForgeMod",
