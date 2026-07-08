@@ -2919,13 +2919,23 @@
           }
         },
         {
-          "id": "com.obscuria.tooltips:obscure_tooltips:2.2@jar",
-          "name": "Obscure Tooltips",
+          "id": "com.obscuria.tooltips:obscure_tooltips:3.10.0@jar",
+          "name": "Obscure Tooltips (3.10.0, fix ghosting)",
           "type": "ForgeMod",
           "artifact": {
-            "size": 91788,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/Obscure-Tooltips-2.2.jar",
-            "MD5": "567783d60b4f4ba721ff0e93b6d4a694"
+            "size": 1137730,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/obscure_tooltips-forge-1.20.1-3.10.0.jar",
+            "MD5": "56f4fed0f411e4a95e72dc32fd88ff07"
+          }
+        },
+        {
+          "id": "com.obscuria.fragmentum:fragmentum:1.3.0@jar",
+          "name": "Fragmentum (API de Obscuria, req. de Obscure Tooltips 3.x)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2733846,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/fragmentum-forge-1.20.1-1.3.0.jar",
+            "MD5": "0c30cad87d3a41bb12e57e295ce1a55c"
           }
         },
         {
