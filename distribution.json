@@ -3813,8 +3813,8 @@
           "name": "ModernFix config — dynamic_resources (RAM 4GB)",
           "type": "File",
           "artifact": {
-            "size": 5941,
-            "MD5": "5d22c514aa61d08d8a5e761e31e8a955",
+            "size": 5942,
+            "MD5": "3b18c8e680acac022104a5c761753904",
             "path": "config/modernfix-mixins.properties",
             "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/modernfix-mixins.properties"
           }
