@@ -2477,16 +2477,6 @@
           }
         },
         {
-          "id": "generated.forgemod:gnetum:2.4.6@jar",
-          "name": "Gnetum (HUD multi-frame, +FPS)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 727997,
-            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/gnetum-2.4.6.jar",
-            "MD5": "b366acf24372dedfd9c9d4372d773adf"
-          }
-        },
-        {
           "id": "generated.forgemod:ixeris:4.5.1+1.20.1-forge@jar",
           "name": "Ixeris (input con buffer/threaded)",
           "type": "ForgeMod",
