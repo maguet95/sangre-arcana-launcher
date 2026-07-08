@@ -1307,16 +1307,6 @@
           }
         },
         {
-          "id": "com.tterrag:blur:3.1.1@jar",
-          "name": "Blur (Forge)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 177259,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/blur-forge-3.1.1.jar",
-            "MD5": "1eb8a13698f8d4204094b5ea189c31d3"
-          }
-        },
-        {
           "id": "com.cerbon:bosses_of_mass_destruction:1.1.1@jar",
           "name": "Bosses of Mass Destruction",
           "type": "ForgeMod",
