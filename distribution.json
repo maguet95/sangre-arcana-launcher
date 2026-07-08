@@ -3790,6 +3790,17 @@
           }
         },
         {
+          "id": "cfg.connectivity-timeouts",
+          "name": "Connectivity config — timeouts largos (login 600s)",
+          "type": "File",
+          "artifact": {
+            "size": 1428,
+            "MD5": "475f8b43684e603f10d4a508e15785c1",
+            "path": "config/connectivity.json",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/connectivity.json"
+          }
+        },
+        {
           "id": "rp.sangre-arcana-es",
           "name": "Sangre Arcana ES — guías y mods en español",
           "type": "File",
