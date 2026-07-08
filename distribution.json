@@ -2747,23 +2747,25 @@
           }
         },
         {
-          "id": "com.majruszlibrary:majruszlibrary:7.0.8@jar",
-          "name": "Majrusz Library",
-          "type": "ForgeMod",
+          "id": "file.majruszlibrary",
+          "name": "Majrusz Library (via mods/, fix ClassFinder)",
+          "type": "File",
           "artifact": {
             "size": 437340,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/majrusz-library-forge-1.20.1-7.0.8.jar",
-            "MD5": "f41b4aea81b1e3a1538a1beace7f6c7d"
+            "MD5": "f41b4aea81b1e3a1538a1beace7f6c7d",
+            "path": "mods/majrusz-library-forge-1.20.1-7.0.8.jar",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/majrusz-library-forge-1.20.1-7.0.8.jar"
           }
         },
         {
-          "id": "com.majruszsdifficulty:majruszsdifficulty:1.9.10@jar",
-          "name": "Majrusz's Progressive Difficulty",
-          "type": "ForgeMod",
+          "id": "file.majruszsdifficulty",
+          "name": "Majrusz's Progressive Difficulty (via mods/, fix ClassFinder)",
+          "type": "File",
           "artifact": {
             "size": 777242,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/majruszs-difficulty-forge-1.20.1-1.9.10.jar",
-            "MD5": "0c7904c13caf349c515270a66356fa09"
+            "MD5": "0c7904c13caf349c515270a66356fa09",
+            "path": "mods/majruszs-difficulty-forge-1.20.1-1.9.10.jar",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/majruszs-difficulty-forge-1.20.1-1.9.10.jar"
           }
         },
         {
