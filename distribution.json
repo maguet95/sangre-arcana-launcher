@@ -2919,26 +2919,6 @@
           }
         },
         {
-          "id": "com.obscuria.tooltips:obscure_tooltips:3.10.0@jar",
-          "name": "Obscure Tooltips (3.10.0, fix ghosting)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1137730,
-            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/obscure_tooltips-forge-1.20.1-3.10.0.jar",
-            "MD5": "56f4fed0f411e4a95e72dc32fd88ff07"
-          }
-        },
-        {
-          "id": "com.obscuria.fragmentum:fragmentum:1.3.0@jar",
-          "name": "Fragmentum (API de Obscuria, req. de Obscure Tooltips 3.x)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2733846,
-            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/fragmentum-forge-1.20.1-1.3.0.jar",
-            "MD5": "0c30cad87d3a41bb12e57e295ce1a55c"
-          }
-        },
-        {
           "id": "it.hurts.octostudios:octolib:0.5.0.1@jar",
           "name": "OctoLib",
           "type": "ForgeMod",
@@ -3824,10 +3804,10 @@
           "name": "Sangre Arcana ES — guías y mods en español",
           "type": "File",
           "artifact": {
-            "size": 342568,
-            "MD5": "e22e5ba83f2606c492848e70d9e43604",
+            "size": 342556,
+            "MD5": "08ddc887786dce645cbaa5f55cfff620",
             "path": "resourcepacks/sangre-arcana-es.zip",
-            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/resourcepack-dist/sangre-arcana-es-v6.zip"
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/resourcepack-dist/sangre-arcana-es-v7.zip"
           }
         }
       ],
