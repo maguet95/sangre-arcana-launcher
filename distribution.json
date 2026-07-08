@@ -2467,6 +2467,26 @@
           }
         },
         {
+          "id": "generated.forgemod:gnetum:2.4.6@jar",
+          "name": "Gnetum (HUD multi-frame, +FPS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 727997,
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/gnetum-2.4.6.jar",
+            "MD5": "b366acf24372dedfd9c9d4372d773adf"
+          }
+        },
+        {
+          "id": "com.tterrag:blur:3.1.1@jar",
+          "name": "Blur (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 177259,
+            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/blur-forge-3.1.1.jar",
+            "MD5": "1eb8a13698f8d4204094b5ea189c31d3"
+          }
+        },
+        {
           "id": "generated.forgemod:ixeris:4.5.1+1.20.1-forge@jar",
           "name": "Ixeris (input con buffer/threaded)",
           "type": "ForgeMod",
