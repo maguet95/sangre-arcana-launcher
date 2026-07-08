@@ -1417,16 +1417,6 @@
           }
         },
         {
-          "id": "net.mcreator:campfireresting:1.6.0@jar",
-          "name": "CampfireResting",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 73340,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/campfireresting-1.6.0-forge-1.20.1.jar",
-            "MD5": "a777b647bd16e427ff2df40f73a77555"
-          }
-        },
-        {
           "id": "com.abdelaziz:canary:0.3.3@jar",
           "name": "Canary",
           "type": "ForgeMod",
