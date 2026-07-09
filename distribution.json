@@ -3843,11 +3843,11 @@
         },
         {
           "id": "cfg.lootbeams-no-dup-tooltips",
-          "name": "LootBeams config — sin tooltip duplicado en mundo",
+          "name": "LootBeams config — referencia PERFECTION (carteles del creador)",
           "type": "File",
           "artifact": {
-            "size": 6890,
-            "MD5": "05393de0d1ebfb3f7091691ba3070b87",
+            "size": 7065,
+            "MD5": "aab43f590d6e2148861ff7c3e06fc028",
             "path": "config/lootbeams-client.toml",
             "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/lootbeams-client.toml"
           }

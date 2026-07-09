@@ -3,21 +3,21 @@
 ["Loot Beams"]
 	#If beams should be colored the same as the Items name (excludes name colors from rarity). This has priority over render_rarity_color.
 	render_name_color = true
-	#If the rarity should be rendered under the nametag.
-	render_rarity = true
 	#If beams should be colored the same as the Items rarity.
 	render_rarity_color = true
 	#How close the player has to be to see the beam. (note: in vanill ItemEntities stop rendering at 24 blocks.)
 	#Range: 0.0 ~ 1024.0
-	render_distance = 48.0
+	render_distance = 24.0
 	#Overrides an item's beam color with hex color. Must follow the specific format: (registryname=hexcolor) Or (#tagname=hexcolor). Example: "minecraft:stone=0xFFFFFF". This also accepts modids.
 	color_overrides = []
+	#If the rarity should be rendered under the nametag.
+	render_rarity = true
 
 	#Beam Configuration
 	["Loot Beams".Beam]
 		#The radius of the Loot Beam.
 		#Range: 0.0 ~ 5.0
-		beam_radius = 0.55
+		beam_radius = 0.95
 		#The height of the Loot Beam.
 		#Range: 0.0 ~ 10.0
 		beam_height = 1.5
@@ -31,7 +31,7 @@
 		beam_alpha = 0.75
 		#The distance from the player the beam should start fading.
 		#Range: 0.0 ~ 100.0
-		beam_fade_distance = 2.0
+		beam_fade_distance = 4.0
 		#If the Loot Beam should use a solid texture or the beacon style texture.
 		solid_beam = true
 		#If the Loot Beam should have a white center.
@@ -118,9 +118,9 @@
 	#Item nametags
 	["Loot Beams".Nametags]
 		#If vanilla tooltips should be rendered on items in world.
-		advanced_tooltips = false
+		advanced_tooltips = true
 		#If tooltips should be rendered in world.
-		worldspace_tooltips = false
+		worldspace_tooltips = true
 		#Render nametags as bordered. Set to false for flat nametag with background.
 		borders = true
 		#If Item nametags should be rendered.
@@ -145,7 +145,7 @@
 		#Range: -30.0 ~ 30.0
 		nametag_y_offset = 0.75
 		#If a smaller tag should be rendered under with DMCLoot rarities.
-		dmcloot_compat_rarity = true
+		dmcloot_compat_rarity = false
 		#Define what the smaller tag should render on. Example: "Exotic", "Ancient". The string supplied has to be the tooltip line below the name. This is really only used for modpacks.
 		custom_rarities = []
 		#If rarities should ignore color and render as white (This is really only used for modpacks)
@@ -155,7 +155,7 @@
 		#If the player should be crouching to see extended advanced tooltips.
 		screen_tooltips_require_crouch = true
 		#If the name and rarity should be combined into one tooltip.
-		combine_name_and_rarity = false
+		combine_name_and_rarity = true
 
 	#Sounds
 	["Loot Beams".Sounds]
