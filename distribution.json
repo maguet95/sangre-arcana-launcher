@@ -3862,6 +3862,16 @@
             "path": "shaderpacks/§cOutdated§r ComplementaryReimagined_r5.2.2 + EP_1.3.2.txt",
             "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/shaderpacks/%C2%A7cOutdated%C2%A7r%20ComplementaryReimagined_r5.2.2%20%2B%20EP_1.3.2.txt"
           }
+        },
+        {
+          "id": "generated.forgemod:sky_whale_ship:1.0.3@jar",
+          "name": "Sky Whale Ship (ballenas colosales del cielo con loot)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 724779,
+            "MD5": "4e7438c1358abc424337f66d9407332c",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/sky_whale_ship-1.20.1.jar"
+          }
         }
       ],
       "javaOptions": {
