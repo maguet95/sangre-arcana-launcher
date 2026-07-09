@@ -3846,8 +3846,8 @@
           "name": "LootBeams config — referencia PERFECTION (carteles del creador)",
           "type": "File",
           "artifact": {
-            "size": 7065,
-            "MD5": "aab43f590d6e2148861ff7c3e06fc028",
+            "size": 6888,
+            "MD5": "9605489b4f60d0949c3b22179a815f1c",
             "path": "config/lootbeams-client.toml",
             "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/lootbeams-client.toml"
           }
@@ -3857,8 +3857,8 @@
           "name": "Shader EP — config PERFECTION del creador por defecto",
           "type": "File",
           "artifact": {
-            "size": 854,
-            "MD5": "fabdbca40df388ade05453956d02050a",
+            "size": 815,
+            "MD5": "12dabc303dbcb1c394ca7378f85a1a41",
             "path": "shaderpacks/§cOutdated§r ComplementaryReimagined_r5.2.2 + EP_1.3.2.txt",
             "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/shaderpacks/%C2%A7cOutdated%C2%A7r%20ComplementaryReimagined_r5.2.2%20%2B%20EP_1.3.2.txt"
           }
