@@ -3851,6 +3851,17 @@
             "path": "config/lootbeams-client.toml",
             "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/lootbeams-client.toml"
           }
+        },
+        {
+          "id": "cfg.shader-perfection-default",
+          "name": "Shader EP — config PERFECTION del creador por defecto",
+          "type": "File",
+          "artifact": {
+            "size": 854,
+            "MD5": "fabdbca40df388ade05453956d02050a",
+            "path": "shaderpacks/§cOutdated§r ComplementaryReimagined_r5.2.2 + EP_1.3.2.txt",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/shaderpacks/%C2%A7cOutdated%C2%A7r%20ComplementaryReimagined_r5.2.2%20%2B%20EP_1.3.2.txt"
+          }
         }
       ],
       "javaOptions": {
