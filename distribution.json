@@ -3842,6 +3842,16 @@
           }
         },
         {
+          "id": "generated.forgemod:gtalike_teleport:1.20.1-forge-build300@jar",
+          "name": "Grand Teleport (GTP) — cámara estilo GTA en waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1157845,
+            "MD5": "7d250a384ac62fcb9054d94e8614e764",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/grand-teleport-forge-1.20.1-forge-build300.jar"
+          }
+        },
+        {
           "id": "cfg.fancymenu-sangre-layout",
           "name": "Menú Sangre Arcana — layout título (ENTRAR directo al server)",
           "type": "File",
