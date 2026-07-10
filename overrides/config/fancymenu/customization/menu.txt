@@ -108,7 +108,7 @@ element {
   fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
-  base_opacity = 1.0
+  base_opacity = 0.0
   auto_sizing = false
   auto_sizing_base_screen_width = 0
   auto_sizing_base_screen_height = 0
