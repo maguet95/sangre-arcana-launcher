@@ -3842,6 +3842,39 @@
           }
         },
         {
+          "id": "cfg.fancymenu-sangre-layout",
+          "name": "Menú Sangre Arcana — layout título (ENTRAR directo al server)",
+          "type": "File",
+          "artifact": {
+            "size": 51540,
+            "MD5": "75fe3b983e2ae34953b45aaa4df558e5",
+            "path": "config/fancymenu/customization/menu.txt",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/fancymenu/customization/menu.txt"
+          }
+        },
+        {
+          "id": "cfg.fancymenu-sangre-marco",
+          "name": "Menú Sangre Arcana — marco gótico (fondo)",
+          "type": "File",
+          "artifact": {
+            "size": 1083068,
+            "MD5": "5ac37063bccbb38f32d9eacb8b41634d",
+            "path": "config/fancymenu/assets/menu.png",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/fancymenu/assets/menu.png"
+          }
+        },
+        {
+          "id": "cfg.fancymenu-sangre-placa",
+          "name": "Menú Sangre Arcana — placa central wordmark",
+          "type": "File",
+          "artifact": {
+            "size": 2394633,
+            "MD5": "8b1dafa936c27e5325453023b97c77a6",
+            "path": "config/fancymenu/assets/agujero.png",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/fancymenu/assets/agujero.png"
+          }
+        },
+        {
           "id": "cfg.lootbeams-no-dup-tooltips",
           "name": "LootBeams config — referencia PERFECTION (carteles del creador)",
           "type": "File",
