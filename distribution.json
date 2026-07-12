@@ -3852,6 +3852,16 @@
           }
         },
         {
+          "id": "com.moepus:gbf:1.0.1@jar",
+          "name": "GeckolibBetterFPS — render de mobs animados ~25% más rápido (cliente)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16338,
+            "MD5": "4ac60975ee45dfb835eae8b8f5aa4ab6",
+            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/forgemods-dist/gbf-1.0.1.jar"
+          }
+        },
+        {
           "id": "cfg.fancymenu-sangre-layout",
           "name": "Menú Sangre Arcana — layout título (ENTRAR directo al server)",
           "type": "File",
