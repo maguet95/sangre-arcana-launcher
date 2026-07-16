@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>Sangre Arcana — Noticias</title>
+    <link>https://github.com/maguet95/sangre-arcana-launcher</link>
+    <description>Noticias oficiales del servidor Sangre Arcana</description>
+    <language>es</language>
+    <item>
+      <title>&#9881;&#65039; Servidor en mantenimiento — Migrando a un nuevo hogar</title>
+      <link>https://discord.gg/q8DdJmhPDW</link>
+      <pubDate>Wed, 16 Jul 2026 02:00:00 GMT</pubDate>
+      <dc:creator>Equipo Sangre Arcana</dc:creator>
+      <slash:comments>0</slash:comments>
+      <content:encoded><![CDATA[
+        <h1>&#9881;&#65039; SERVIDOR EN MANTENIMIENTO</h1>
+        <p><b>Estamos migrando el servidor a un nuevo hogar.</b> Durante la migraci&#243;n no ser&#225; posible conectarse.</p>
+        <p>No se pierde <b>nada</b>: mundos, progreso y rangos est&#225;n respaldados por completo.</p>
+        <p>Cuando el nuevo servidor est&#233; listo, el launcher se conectar&#225; solo &#8212; no tienes que hacer nada.</p>
+        <p>Novedades en el Discord. &#161;Volvemos pronto! &#9876;&#65039;</p>
+      ]]></content:encoded>
+    </item>
+  </channel>
+</rss>
