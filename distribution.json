@@ -10,7 +10,7 @@
     {
       "id": "SangreArcana-26.1.2",
       "name": "Sangre Arcana",
-      "description": "El Reino de Aincrad te espera.",
+      "description": "⚙️ EN MANTENIMIENTO — Migrando a un nuevo servidor. ¡Volvemos pronto! El Reino de Aincrad te espera.",
       "icon": "",
       "version": "1.0.3",
       "address": "45.77.162.119:25565",
@@ -614,7 +614,7 @@
     {
       "id": "SangreArcana-RPG-1.20.1",
       "name": "Sangre Arcana RPG",
-      "description": "Servidor RPG moddeado — Perfection Personalizado, lore Sangre Arcana, 16 Ojos Arcanos.",
+      "description": "⚙️ EN MANTENIMIENTO — Migrando a un nuevo servidor. ¡Volvemos pronto! (RPG moddeado — Perfection Personalizado, lore Sangre Arcana.)",
       "icon": "http://45.77.162.119/mods/rpg/sa-server-icon.png",
       "version": "1.0.0",
       "address": "207.246.77.216:25566",
@@ -3866,8 +3866,8 @@
           "name": "Menú Sangre Arcana — layout título (ENTRAR directo al server)",
           "type": "File",
           "artifact": {
-            "size": 51540,
-            "MD5": "75fe3b983e2ae34953b45aaa4df558e5",
+            "size": 53527,
+            "MD5": "40f2eaf146b509bbc136d76805f55774",
             "path": "config/fancymenu/customization/menu.txt",
             "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/fancymenu/customization/menu.txt"
           }
