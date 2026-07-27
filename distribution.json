@@ -623,16 +623,6 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "com.hazennstuff:hazennstuff:1.1.2@jar",
-          "name": "Hazen 'n Stuff",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1204816,
-            "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/mods/hazennstuff-watered-down-edition-1.1.2.jar",
-            "MD5": "51a0f26892de1e0fffdf24813091f6bc"
-          }
-        },
-        {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
