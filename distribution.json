@@ -3304,16 +3304,6 @@
           }
         },
         {
-          "id": "me.lucko:spark:1.10.53@jar",
-          "name": "Spark",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3114590,
-            "url": "http://45.77.162.119/servers/SangreArcana-RPG-1.20.1/forgemods/required/spark-1.10.53-forge.jar",
-            "MD5": "95dcd3b5400cc5eb5d0478a744e6ef98"
-          }
-        },
-        {
           "id": "com.bonker.stardewfishing:stardew_fishing:2.3@jar",
           "name": "Stardew Fishing",
           "type": "ForgeMod",
