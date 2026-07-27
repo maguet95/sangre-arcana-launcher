@@ -613,17 +613,12 @@
     },
     {
       "id": "SangreArcana-RPG-1.20.1",
-      "name": "⚙️ Sangre Arcana RPG (EN MANTENIMIENTO)",
-      "description": "⚙️ EN MANTENIMIENTO — Migrando a un nuevo servidor. ¡Volvemos pronto! (RPG moddeado — Perfection Personalizado, lore Sangre Arcana.)",
-      "icon": "http://45.77.162.119/mods/rpg/sa-server-icon.png",
-      "version": "1.0.0",
-      "address": "207.246.77.216:25566",
+      "name": "🗡️ Sangre Arcana RPG",
+      "description": "RPG moddeado — Perfection Personalizado, con el lore de Sangre Arcana. ¡El reino te espera!",
+      "icon": "",
+      "version": "1.0.1",
+      "address": "157.85.92.57:22940",
       "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
