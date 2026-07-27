@@ -83,7 +83,7 @@ const PROFILES_BY_SERVER = {
             options: {
                 renderDistance: '5',
                 simulationDistance: '5',
-                particles: '2',
+                particles: '1',
                 graphicsMode: '0',
                 renderClouds: '"false"',
                 biomeBlendRadius: '0',
