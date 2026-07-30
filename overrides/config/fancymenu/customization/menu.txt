@@ -1517,11 +1517,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  is_hidden = true
 }
 
 element {
   button_element_executable_block_identifier = 5a0e110c-ace0-4001-a001-000000000001-1752096000000
-  [executable_action_instance:5a0e110c-ace0-4001-a002-000000000002-1752096000000][action_type:joinserver] = 207.246.77.216:25566
+  [executable_action_instance:5a0e110c-ace0-4001-a002-000000000002-1752096000000][action_type:joinserver] = 135.148.252.202:23971
   [executable_block:5a0e110c-ace0-4001-a001-000000000001-1752096000000][type:generic] = [executables:5a0e110c-ace0-4001-a002-000000000002-1752096000000;]
   backgroundnormal = [source:local]/config/fancymenu/assets/boton.png
   backgroundhovered = [source:local]/config/fancymenu/assets/boton1.png

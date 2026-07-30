@@ -3861,8 +3861,8 @@
           "name": "Menú Sangre Arcana — layout título (ENTRAR directo al server)",
           "type": "File",
           "artifact": {
-            "size": 53527,
-            "MD5": "40f2eaf146b509bbc136d76805f55774",
+            "size": 53547,
+            "MD5": "ecc7b08e8d875202a76148ddf3a2167a",
             "path": "config/fancymenu/customization/menu.txt",
             "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/fancymenu/customization/menu.txt"
           }
@@ -3872,8 +3872,8 @@
           "name": "Pantalla desconexión — botones RECONECTAR y MENU PRINCIPAL (anti-limbo)",
           "type": "File",
           "artifact": {
-            "size": 4761,
-            "MD5": "12e64b3191060e1c86301ef6488342b3",
+            "size": 4762,
+            "MD5": "8fb54696a146f6c89f8cac2b2b6cec22",
             "path": "config/fancymenu/customization/desconexion.txt",
             "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/fancymenu/customization/desconexion.txt"
           }

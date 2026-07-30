@@ -17,7 +17,7 @@ layout_action_executable_blocks {
 
 element {
   button_element_executable_block_identifier = ac10de55-0001-4001-a001-100000000001-1783300000000
-  [executable_action_instance:ac10de55-0001-4001-a002-100000000002-1783300000000][action_type:joinserver] = 207.246.77.216:25566
+  [executable_action_instance:ac10de55-0001-4001-a002-100000000002-1783300000000][action_type:joinserver] = 135.148.252.202:23971
   [executable_block:ac10de55-0001-4001-a001-100000000001-1783300000000][type:generic] = [executables:ac10de55-0001-4001-a002-100000000002-1783300000000;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
