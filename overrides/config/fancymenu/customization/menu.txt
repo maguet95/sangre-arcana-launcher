@@ -1455,7 +1455,7 @@ vanilla_button {
 
 element {
   interactable = false
-  source = §6⚙ SERVIDOR EN MANTENIMIENTO ⚙%n%§eEstamos migrando a un nuevo hogar. ¡Volvemos pronto!
+  source = 
   source_mode = direct
   shadow = true
   scale = 1.0

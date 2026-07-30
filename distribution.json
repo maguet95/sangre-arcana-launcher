@@ -3861,8 +3861,8 @@
           "name": "Menú Sangre Arcana — layout título (ENTRAR directo al server)",
           "type": "File",
           "artifact": {
-            "size": 53547,
-            "MD5": "ecc7b08e8d875202a76148ddf3a2167a",
+            "size": 53452,
+            "MD5": "906375dc21ac9549755e665e84ef5782",
             "path": "config/fancymenu/customization/menu.txt",
             "url": "https://raw.githubusercontent.com/maguet95/sangre-arcana-launcher/source-recovered/overrides/config/fancymenu/customization/menu.txt"
           }
